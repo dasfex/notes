@@ -29,7 +29,7 @@ upper_ostream operator<<(std::ostream& os, upper_t) {
 
 std::ostream& operator<<(upper_ostream uos, string& s) {
   for (char c : s) {
-    uos.os << c;
+    uos.os << std::toupper(c);
   }
   return uos.os;
 }
