@@ -1,19 +1,19 @@
-# Как создать свой манипулятор?
+# How to create custom manipulator?
 
-Предположим, мы хотим делать что-то следующее:
+So, we want to do something like this:
 
 ```
 std::string s = "dasFEX";
 std::cout << upper << s << std::endl;
 ```
 
-И как результат получить
+And get as a result:
 
 ```
 DASFEX
 ```
 
-Это делается следующим способом:
+Solve:
 
 ```
 class upper_t {};
