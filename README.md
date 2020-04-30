@@ -6,4 +6,4 @@ Some notes from different programming fields.
 2. [Adding structured bindings to your class](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/structured_binding.md).
 
 ## General
-1. Protocols(rus).
+1. [Protocols(rus)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols.md).
