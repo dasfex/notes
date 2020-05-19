@@ -83,3 +83,17 @@ Config get_config();
 
 auto [name, id, data] = get_config();
 ```
+
+### Use note
+
+If you declare variables, you must specify auto(you can't specify type explicitly).
+
+If you want to use with declared variables you should use ```std::tie```:
+```
+std::pair<int, int> f() {
+    return {1, 2};
+}
+
+int a, b;
+std::tie(a, b) = f();
+```
