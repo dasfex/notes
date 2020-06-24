@@ -105,7 +105,7 @@ new(std::nothrow) T(x, y, z);
 // реализация примерно такая
 
 namespace std{
-struct nothrow_t {} nothrow;
+struct nothrow_t {} nothrow; // фиктивный тип
 }
 
 void* operator new(size_t n, std::nothrow_t nothrow) {
