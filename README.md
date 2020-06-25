@@ -15,4 +15,4 @@ Some notes from different programming fields.
 
 ## General
 
-1. [Protocols(rus)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols.md).
+1. [Protocols(rus)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols_rus.md).
