@@ -10,9 +10,10 @@ Some notes from different programming fields.
 
 #### miscellaneous
 
-1. [Custom ostream manipulator](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/custom_manipulator.md).
-2. [Adding structured bindings to your class](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/structured_binding.md).
+1. [custom ostream manipulator](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/custom_manipulator.md).
+2. [adding structured bindings to your class](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/structured_binding.md).
+3. 
 
 ## General
 
-1. [Protocols(rus)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols_rus.md).
+1. [protocols(udp/tcp, rus)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols_rus.md).
