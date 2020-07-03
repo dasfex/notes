@@ -61,3 +61,7 @@ for (auto x : range(0, 10)) {
 ```
 0 1 2 3 4 5 6 7 8 9 
 ```
+Кстати с C++20 появляется возможность использовать
+range based loop с инициализацией.
+
+[Документация](https://en.cppreference.com/w/cpp/language/range-for).
