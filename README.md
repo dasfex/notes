@@ -15,6 +15,10 @@ Some notes from different programming fields.
 3. [adding range based support for custom class](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/custom_range_based_rus.md).
 4. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous_rus.md).
 
+## Python3
+
+1. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/python3/miscellaneous.md).
+
 ## General
 
 1. [protocols(udp/tcp)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols_rus.md).
