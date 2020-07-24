@@ -23,4 +23,4 @@ Python3:
 [чтобы представлять, как юзать](https://stepik.org/course/512/syllabus).
 
 Математика:
-1. Замечательный [курс](https://stepik.org/course/79/syllabus) по линейно алгебре.
+1. Замечательный [курс](https://stepik.org/course/79/syllabus) по линейной алгебре.
