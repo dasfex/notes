@@ -4,10 +4,11 @@
 1. Адитья Бхаргава, "Грокаем алгоритмы". Очень хорошая книга для самого-самого начала.
 2. [e-maxx rus](http://e-maxx.ru/algo/).
 3. [e-maxx eng](https://cp-algorithms.com)(активно дополняется и исправляется, чем русская версия похвастаться не может).
+4. [algorithmica](https://algorithmica.org/ru/).
 _______________________________________
-4. [codeforces](https://codeforces.com).
-5. [acmp](https://acmp.ru/asp/do/index.asp?main=course&id_course=2).
-6. [informatics.mccme](https://informatics.mccme.ru).
+5. [codeforces](https://codeforces.com).
+6. [acmp](https://acmp.ru/asp/do/index.asp?main=course&id_course=2).
+7. [informatics.mccme](https://informatics.mccme.ru).
 
 C++:
 1. Видео на [youtube](youtube.com) про 
