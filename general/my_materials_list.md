@@ -29,3 +29,6 @@ Python3:
 
 Общее:
 1. Понятный [каталог](https://refactoring.guru/ru/design-patterns/catalog) паттернов проектирования.
+2. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
+3. Про [децентрализованные системы](https://vas3k.ru/blog/363/).
+4. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
