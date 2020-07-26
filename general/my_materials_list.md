@@ -26,3 +26,6 @@ Python3:
 
 Математика:
 1. Замечательный [курс](https://stepik.org/course/79/syllabus) по линейной алгебре.
+
+Общее:
+1. Понятный [каталог](https://refactoring.guru/ru/design-patterns/catalog) паттернов проектирования.
