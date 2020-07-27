@@ -24,6 +24,10 @@ Python3:
 чтобы представлять, [как юзать](https://stepik.org/course/512/syllabus),
 а ещё по [numpy](https://stepik.org/course/3356/syllabus).
 
+Go:
+1. [Официальный курс](https://go-tour-ru-ru.appspot.com/welcome/1) в язык.
+2. Довольно понятный [курс](https://stepik.org/course/54403/syllabus) на [stepik](https://stepik.org).
+
 Математика:
 1. Замечательный [курс](https://stepik.org/course/79/syllabus) по линейной алгебре.
 
