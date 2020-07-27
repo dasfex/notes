@@ -7,7 +7,7 @@ Some notes from different programming fields.
 
 1. [new, delete](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/new_delete_rus.md).
 2. [allocators](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/allocators_rus.md).
-3. [inheritance notes](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/inheritance.md).
+3. [inheritance, vtable, virtual inheritance](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/inheritance.md).
 
 #### miscellaneous
 
