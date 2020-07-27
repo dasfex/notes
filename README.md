@@ -66,6 +66,7 @@ Go:
 Общее:
 1. Понятный [каталог](https://refactoring.guru/ru/design-patterns/catalog) паттернов проектирования.
 2. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
-3. Про [децентрализованные системы](https://vas3k.ru/blog/363/).
+3. Про [децентрализованные](https://vas3k.ru/blog/363/) системы.
 4. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
-5. Про адекватные собеседования: [раз](https://vas3k.ru/inside/46/), [два](https://habr.com/ru/post/512160/).
+5. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
+6. Про адекватные собеседования: [раз](https://vas3k.ru/inside/46/), [два](https://habr.com/ru/post/512160/).
