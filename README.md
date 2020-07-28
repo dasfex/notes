@@ -19,7 +19,8 @@ Some notes from different programming fields.
 ## Python3
 
 1. [format](https://github.com/dasfex/ProgrammingNotes/blob/master/python3/format.md).
-2. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/python3/miscellaneous.md).
+2. [how Timsort works](https://youtu.be/Ye5pzBHB584?t=1260).
+3. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/python3/miscellaneous.md).
 
 ## General
 
