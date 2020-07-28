@@ -28,3 +28,12 @@ auto val = condition ? "yes" : 0;
 в многопоточном приложении проблем не создаст, но стоит понимать, 
 что сам объект, на который указывает ```std::shared_ptr```, никак от гонки за ресурсами
 не защищён.
+
+### using + template
+Можно писать вот так:
+```
+template <typename T>
+using mi = map<int, T>;
+...
+mi<string> map_from_int_to_string;
+```
