@@ -3,7 +3,7 @@ Some notes from different programming fields.
 
 ## C++
 
-#### Internal device
+#### Advance topics
 
 1. [new, delete](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/new_delete.md).
 2. [allocators](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/allocators.md).
