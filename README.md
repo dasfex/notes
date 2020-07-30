@@ -65,7 +65,10 @@ Go:
 Математика:
 1. Замечательный [курс](https://stepik.org/course/79/syllabus) по линейной алгебре.
 
-Общее:
+Gamedev:
+1. "Кровь, пот и пиксели. Обратная сторона индустрии видеоигр." Джейсон Шрейер.
+
+Uncategorized:
 1. Понятный [каталог](https://refactoring.guru/ru/design-patterns/catalog) паттернов проектирования.
 2. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
 3. Про [децентрализованные](https://vas3k.ru/blog/363/) системы.
@@ -73,4 +76,6 @@ Go:
 5. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
 6. Про git: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
 7. Вообще читайте [vas3k.ru](https://vas3k.ru).
-8. Про адекватные собеседования: [раз](https://vas3k.ru/inside/46/), [два](https://habr.com/ru/post/512160/).
+
+Other:
+1. Про адекватные собеседования: [раз](https://vas3k.ru/inside/46/), [два](https://habr.com/ru/post/512160/).
