@@ -51,6 +51,7 @@ _______________________________________
 для [алгоритмов кратчайших путей на графах](http://qiao.github.io/PathFinding.js/visual/).
 
 C++:
+
 0. Лучший [источник](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w) для начинающих.
 1. Видео на [youtube](youtube.com) про 
 [C++11](https://www.youtube.com/watch?v=ZOmZCj5ijck), 
