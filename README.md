@@ -51,12 +51,12 @@ _______________________________________
 для [алгоритмов кратчайших путей на графах](http://qiao.github.io/PathFinding.js/visual/).
 
 C++:
+0. Лучший [источник](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w) для начинающих.
 1. Видео на [youtube](youtube.com) про 
 [C++11](https://www.youtube.com/watch?v=ZOmZCj5ijck), 
 [C++14](https://www.youtube.com/watch?v=5TTS9zr9PGk), 
 [C++17](https://www.youtube.com/watch?v=rRMgJEZVY04) и 
 [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
-2. 
 
 Python3:
 1. Два курса на степике: 
