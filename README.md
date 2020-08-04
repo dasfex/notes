@@ -43,6 +43,11 @@ _______________________________________
 5. [codeforces](https://codeforces.com).
 6. [acmp](https://acmp.ru/asp/do/index.asp?main=course&id_course=2).
 7. [informatics.mccme](https://informatics.mccme.ru).
+8. Визуализаторы: 
+[1](https://www.cs.usfca.edu/~galles/visualization/Algorithms), 
+[2](https://visualgo.net/en), 
+[3](https://algorithm-visualizer.org) и
+для [алгоритмов кратчайших путей на графах](http://qiao.github.io/PathFinding.js/visual/).
 
 C++:
 1. Видео на [youtube](youtube.com) про 
