@@ -59,7 +59,7 @@ C++:
 [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
 
 Python3:
-1. Два курса на степике: 
+1. Курсы на степике: 
 [для начинающих](https://stepik.org/course/67/syllabus) и
 чтобы представлять, [как юзать](https://stepik.org/course/512/syllabus),
 а ещё по [numpy](https://stepik.org/course/3356/syllabus).
