@@ -37,3 +37,7 @@ using mi = map<int, T>;
 ...
 mi<string> map_from_int_to_string;
 ```
+
+### Генерация имён для временных файлов
+Для этих целей можно использовать [```std::tmpnam```](https://en.cppreference.com/w/cpp/io/c/tmpnam)
+(правда оно немного небезопасно).
