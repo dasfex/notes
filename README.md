@@ -75,6 +75,7 @@ Go:
 Gamedev:
 1. "Кровь, пот и пиксели. Обратная сторона индустрии видеоигр." Джейсон Шрейер.
 2. [Паттерны в контексте игр](https://github.com/jabocrack1/game-programming-patterns).
+3. "Level Up" Scott Rodgers.
 
 Uncategorized:
 
