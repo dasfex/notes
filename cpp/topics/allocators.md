@@ -213,11 +213,11 @@ std::allocator_traits<Alloc>::select_on_container_copy_construction(alloc);
 
 ```
 template <typename U>
-using rebind = allocator<U>;
+using rebind::other = allocator<U>;
 ```
 
 Это нужно для того, когда кто-то пользуется вашим аллокатором, мог попросить 
-```allocator::rebind<U>```. 
+```allocator::rebind<U>::other```. 
 Опять же можно не определять, и ```allocator_traits``` это доопределит.
 
 > И на последок как пример ещё одного нестандартного аллокатора можем привести такой(
