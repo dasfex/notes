@@ -373,6 +373,13 @@ T f() {
 Некоторые люди пишут ```return std::move(x)```, и тут они неправы, потому что если не писать
 ```std::move```, то будет copy elision, что оптимальнее(объект создастся прям на месте).
 
+Также не стоит использовать ```std::move``` из константных объектов:
+```
+const string s = MakeString();
+vector<string> strs;
+strs.push_back(std::move(s)); // бесполезно
+```
+
 Ещё упомянем такой термин как temporary materialization - это когда
 prvalue кастуется к xvalue.
 Например в случае, когда у prvalue вызывается метод:
