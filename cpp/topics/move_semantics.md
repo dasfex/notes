@@ -280,7 +280,7 @@ void push_back(T&&);
 > ```
 > И функция будет вызываться как для lvalue, так и для rvalue.
 > Но тогда в конце функции нужно будет писать 
-> ```construct(alloc, newarr + i, std::forward>U>(x))```.
+> ```construct(alloc, newarr + i, std::forward<U>(x))```.
 
 Таким образом мы решили все поставленные проблемы.
 
