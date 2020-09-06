@@ -273,14 +273,14 @@ void push_back(T&&);
 ```construct(alloc, newarr + i, x)```, 
 а во втором случае - ```construct(alloc, newarr + i, std::move(x))```.
 
->> Конечно можно реализовать с помощью универсальной ссылки:
->> ```
->> template <class U>
->> void push_back(U&&);
->> ```
->> И функция будет вызываться как для lvalue, так и для rvalue.
->> Но тогда в конце функции нужно будет писать 
->> ```construct(alloc, newarr + i, std::forward>U>(x))```.
+> Конечно можно реализовать с помощью универсальной ссылки:
+> ```
+> template <class U>
+> void push_back(U&&);
+> ```
+> И функция будет вызываться как для lvalue, так и для rvalue.
+> Но тогда в конце функции нужно будет писать 
+> ```construct(alloc, newarr + i, std::forward>U>(x))```.
 
 Таким образом мы решили все поставленные проблемы.
 
@@ -323,11 +323,11 @@ ret_type move_if_noexcept(T&& x) {
 ### Категории выражения
 
 На самом деле в C++11 существует не 2 категории выражений(lvalue, rvalue), а 5.
-
+```
       glvalue       rvalue
      /      \      /      \
 lvalue       xvalue       prvalue
-
+```
 glvalue = generalized lvalue.
 
 xvalue = expired value. Это либо static_cast<T&&>, либо возвращаемый тип функции,
