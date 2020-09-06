@@ -387,4 +387,5 @@ prvalue кастуется к xvalue.
 T().f();
 ```
 
-
+Ещё можно изучить
+[```std::make_move_iterator```](https://en.cppreference.com/w/cpp/iterator/make_move_iterator).
