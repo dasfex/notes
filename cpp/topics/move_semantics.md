@@ -312,8 +312,8 @@ construct(alloc, newarr + i, std::move(arr[i]));
 Реализован он вот так:
 ```
 using ret_type = std::conditional<noexcept(T(std::move(T()))), 
-		std::remove_reference_t<T>&,
-		std::remove_reference_t<T>&&>;
+		std::remove_reference_t<T>&&,
+		std::remove_reference_t<T>&>;
 template <class T>
 ret_type move_if_noexcept(T&& x) {
   return static_cast<ret_type>(x);
