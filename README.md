@@ -58,7 +58,8 @@ C++:
 1. Видео на [youtube](youtube.com) про 
 [C++11](https://www.youtube.com/watch?v=ZOmZCj5ijck), 
 [C++14](https://www.youtube.com/watch?v=5TTS9zr9PGk), 
-[C++17](https://www.youtube.com/watch?v=rRMgJEZVY04) и 
+[C++17](https://www.youtube.com/watch?v=rRMgJEZVY04)([+1](https://ps-group.github.io/cxx/cxx17#wow0))
+и 
 [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
 
 Python3:
