@@ -32,6 +32,12 @@ Some notes from different programming fields.
 2. [how to write data structure based on hash](https://github.com/dasfex/ProgrammingNotes/blob/master/general/hash_set.md).
 3. [lru-cache conception](https://github.com/dasfex/ProgrammingNotes/blob/master/general/lru_cache.md).
 
+## Stackoverflow interesting questions
+
+1. [branch prediciton](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array).
+2. [C++11 reverse range-based-for loop](https://stackoverflow.com/questions/8542591/c11-reverse-range-based-for-loop).
+3. [why does ```std::reduce``` need commutativity](https://stackoverflow.com/questions/60216261/why-does-stdreduce-need-commutativity).
+
 _______________________________________
 
 # Мой список материалов
