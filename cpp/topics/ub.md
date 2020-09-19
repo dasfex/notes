@@ -57,3 +57,7 @@ return [divisor = divisor](int n) {return n % divisor;};
 }
 ...
 ```
+
+### Ub при знаковом переполнении
+
+Можно почитать вот (тут)[https://codeforces.com/blog/entry/45144].
