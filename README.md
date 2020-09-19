@@ -62,6 +62,9 @@ C++:
 [C++17](https://www.youtube.com/watch?v=rRMgJEZVY04)([+1](https://ps-group.github.io/cxx/cxx17#wow0))
 и 
 [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
+2. Очень классный 
+(плейлист)[https://www.youtube.com/playlist?list=PL4_hYwCyhAvY2dY_tnTv3-TJThzcloCvM]
+про вкачанные плюсы.
 
 Python3:
 1. Курсы на степике: 
