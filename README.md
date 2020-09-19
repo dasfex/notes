@@ -63,9 +63,9 @@ C++:
 и 
 [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
 2. Очень классный 
-(плейлист)[https://www.youtube.com/playlist?list=PL4_hYwCyhAvY2dY_tnTv3-TJThzcloCvM]
+[плейлист](https://www.youtube.com/playlist?list=PL4_hYwCyhAvY2dY_tnTv3-TJThzcloCvM)
 про вкачанные плюсы.
-А (тут)[http://mesyarik.ru/17/cplusplus_course.html]
+А [тут](http://mesyarik.ru/17/cplusplus_course.html)
 список информации из него.
 
 Python3:
