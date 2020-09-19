@@ -65,6 +65,8 @@ C++:
 2. Очень классный 
 (плейлист)[https://www.youtube.com/playlist?list=PL4_hYwCyhAvY2dY_tnTv3-TJThzcloCvM]
 про вкачанные плюсы.
+А (тут)[http://mesyarik.ru/17/cplusplus_course.html]
+список информации из него.
 
 Python3:
 1. Курсы на степике: 
