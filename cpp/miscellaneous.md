@@ -83,3 +83,30 @@ for (const std::pair<MyType, other>& x : mp) {}
 что приведёт к лишнему копированию каждой пары.
 
 Потому лучше всё-таки писать ```auto``` :)
+
+### std::tie
+
+Это конечно довольно базовое знание, но кажется, лучше иногда напомнить.
+
+Имеется вот такая структура:
+```
+struct Student {
+  std::string name;
+  std::string surname;
+  int year;
+  int month;
+  int day;
+};
+```
+
+И мы хотим посортировать вектор таких чуваков в лексикографическом, заданном нами, порядке.
+
+Вместо того, чтобы городить некрасивые конструкции из ифов, удобно сделать вот так:
+```
+std::vector<Student> v;
+...
+std::sort(begin(v), end(v), [](auto l, auto r) {
+  return std::tie(l.surname, l.name, l.year, l.month, l.day) < 
+         std::tie(r.surname, r.name, r.year, r.month, r.day);
+});
+```
