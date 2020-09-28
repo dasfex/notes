@@ -59,7 +59,7 @@ _______________________________________
 [1](https://www.cs.usfca.edu/~galles/visualization/Algorithms), 
 [2](https://visualgo.net/en), 
 [3](https://algorithm-visualizer.org) и
-для [алгоритмов кратчайших путей на графах](http://qiao.github.io/PathFinding.js/visual/).
+для [алгоритмов кратчайших путей на графах на плоскости](http://qiao.github.io/PathFinding.js/visual/).
 10. [leetcode.com](https://leetcode.com) - норм сервис для подготовки к собесам.
 
 C++:
