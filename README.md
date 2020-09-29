@@ -100,6 +100,7 @@ Gamedev:
 
 1. Про адекватные собеседования: [раз](https://vas3k.ru/inside/46/), [два](https://habr.com/ru/post/512160/). 
 2. Зачем на них [ходить](https://habr.com/ru/company/ruvds/blog/521086/).
+3. Какая-то рандомная [история](https://habr.com/ru/post/521104/).
 
 Git:
 
