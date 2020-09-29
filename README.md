@@ -96,17 +96,25 @@ Gamedev:
 2. [Паттерны в контексте игр](https://github.com/jabocrack1/game-programming-patterns).
 3. "Level Up" Scott Rodgers.
 
+Про найм:
+
+1. Про адекватные собеседования: [раз](https://vas3k.ru/inside/46/), [два](https://habr.com/ru/post/512160/). 
+2. Зачем на них [ходить](https://habr.com/ru/company/ruvds/blog/521086/).
+
+Git:
+
+0. Как это работает: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
+
+Машинное обучение:
+
+0. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
+
 Uncategorized:
 
 0. [Викиконспекты](https://neerc.ifmo.ru/wiki/index.php?___BEби=#.D0.9D.D0.B5.D0.BF.D1.80.D0.BE.D0.B2.D0.B5.D1.80.D1.8F.D0.B5.D0.BC.D1.8B.D0.B5_.D0.BA.D0.BE.D0.BD.D1.81.D0.BF.D0.B5.D0.BA.D1.82.D1.8B)
 по всему.
 1. Понятный [каталог](https://refactoring.guru/ru/design-patterns/catalog) паттернов проектирования.
-2. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
-3. Про [децентрализованные](https://vas3k.ru/blog/363/) системы.
-4. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
-5. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
-6. Про git: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
-7. Вообще читайте [vas3k.ru](https://vas3k.ru).
-
-Other:
-1. Про адекватные собеседования: [раз](https://vas3k.ru/inside/46/), [два](https://habr.com/ru/post/512160/).
+2. Про [децентрализованные](https://vas3k.ru/blog/363/) системы.
+3. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
+4. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
+5. Вообще читайте [vas3k.ru](https://vas3k.ru).
