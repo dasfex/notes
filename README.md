@@ -119,3 +119,8 @@ Uncategorized:
 3. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
 4. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
 5. Вообще читайте [vas3k.ru](https://vas3k.ru).
+
+Всякие удобные онлайн-сервисы:
+
+0. Работа с [бинарными файлами](htpps://hexedit.it).
+1. [Тут](https://matworld.ru/calculator/perevod-chisel.php) норм числа в разных системах счисления гонять.
