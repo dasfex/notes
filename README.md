@@ -122,5 +122,5 @@ Uncategorized:
 
 Всякие удобные онлайн-сервисы:
 
-0. Работа с [бинарными файлами](htpps://hexedit.it).
+0. Работа с [бинарными файлами](htpps://hexed.it).
 1. [Тут](https://matworld.ru/calculator/perevod-chisel.php) норм числа в разных системах счисления гонять.
