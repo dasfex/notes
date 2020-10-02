@@ -2,7 +2,7 @@
 
 Simple classes like this can be decomposed with no additional code:
 
-```
+```с++
 struct A {
   int a;
   double b;
@@ -20,7 +20,7 @@ utilities.
 
 So, we want to decompose such class:
 
-```
+```с++
 class Config {
     std::string name;
     std::size_t id;
@@ -32,7 +32,7 @@ class Config {
 
 The simplest specialization is std::tuple_size. Since there are three elements, we’ll just return 3.
 
-```
+```с++
 namespace std {
     template<>
     struct tuple_size<Config>
@@ -42,7 +42,7 @@ namespace std {
 
 Next is get. We’ll use C++17’s if constexpr for brevity. I’ve just added this as a member function to avoid the headache of template friends, but you can also have it as a non-member function found through ADL.
 
-```
+```с++
 class Config {
     //...
 public:
@@ -57,7 +57,7 @@ public:
 
 Finally we need to specialize std::tuple_element. For this we just need to return the type corresponding to the index passed in, so std::string_view for 0, std::size_t for 1, and const std::vector<std::string>& for 2. We’ll cheat and get the compiler to work out the types for us using the get function we wrote above. This way, we don’t need to touch this specialization if we want to change the types we return later, or want to add more variables to the class.
 
-```
+```с++
 namespace std {
     template<std::size_t N>
     struct tuple_element<N, Config> {
@@ -68,7 +68,7 @@ namespace std {
 
 Or you could do this the long way if you aren’t comfortable with the decltype magic:
 
-```
+```с++
 namespace std {
     template<> struct tuple_element<0,Config> { using type = std::string_view; };
     template<> struct tuple_element<1,Config> { using type = std::size_t; };
@@ -78,7 +78,7 @@ namespace std {
 
 With all of that done, we can now decompose Config like so:
 
-```
+```с++
 Config get_config();
 
 auto [name, id, data] = get_config();
@@ -89,7 +89,7 @@ auto [name, id, data] = get_config();
 If you declare variables, you must specify auto(you can't specify type explicitly).
 
 If you want to use with declared variables you should use ```std::tie```:
-```
+```с++
 std::pair<int, int> f() {
     return {1, 2};
 }
