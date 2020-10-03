@@ -39,6 +39,7 @@ Some notes from different programming fields.
 3. [why does ```std::reduce``` need commutativity](https://stackoverflow.com/questions/60216261/why-does-stdreduce-need-commutativity).
 4. [about ```std::decay```](https://stackoverflow.com/questions/64092331/is-stddecay-redundant-in-stdis-convertible).
 5. [about ```std::set``` comparator](https://stackoverflow.com/questions/2620862/using-custom-stdset-comparator).
+6. [```auto``` with private type](https://stackoverflow.com/questions/13532784/why-can-i-use-auto-on-a-private-type).
 
 _______________________________________
 
