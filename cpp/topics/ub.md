@@ -61,3 +61,13 @@ return [divisor = divisor](int n) {return n % divisor;};
 ### Ub при знаковом переполнении
 
 Можно почитать вот [тут](https://codeforces.com/blog/entry/45144).
+
+### Dangling reference
+
+Возврат ссылки на несуществующй объект:
+```
+int& f(int x) {
+  int y = x + 1;
+  return y;
+}
+```
