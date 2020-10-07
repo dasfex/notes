@@ -125,3 +125,4 @@ Uncategorized:
 
 0. Работа с [бинарными файлами](https://hexed.it).
 1. [Тут](https://matworld.ru/calculator/perevod-chisel.php) норм числа в разных системах счисления гонять.
+2. [godbolt](https://godbolt.org).
