@@ -40,6 +40,7 @@ Some notes from different programming fields.
 4. [about ```std::decay```](https://stackoverflow.com/questions/64092331/is-stddecay-redundant-in-stdis-convertible).
 5. [about ```std::set``` comparator](https://stackoverflow.com/questions/2620862/using-custom-stdset-comparator).
 6. [```auto``` with private type](https://stackoverflow.com/questions/13532784/why-can-i-use-auto-on-a-private-type).
+7. [```sizeof(std::string)```](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
 
 _______________________________________
 
