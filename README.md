@@ -41,7 +41,7 @@ Some notes from different programming fields.
 5. [about ```std::set``` comparator](https://stackoverflow.com/questions/2620862/using-custom-stdset-comparator).
 6. [```auto``` with private type](https://stackoverflow.com/questions/13532784/why-can-i-use-auto-on-a-private-type).
 7. [```sizeof(std::string)```](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
-8. [<angle> and "quote" #include difference](https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename#:~:text=For%20%23include%20""%20a%20compiler,search%20the%20current%20file's%20folder.&text=When%20you%20use%20%23include%20<filename,%5CC%2B%2B%20header%20files%20(stdio.).
+8. [<> and "" #include difference](https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename#:~:text=For%20%23include%20""%20a%20compiler,search%20the%20current%20file's%20folder.&text=When%20you%20use%20%23include%20<filename,%5CC%2B%2B%20header%20files%20(stdio.).
 
 _______________________________________
 
