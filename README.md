@@ -129,3 +129,4 @@ Uncategorized:
 1. [Тут](https://matworld.ru/calculator/perevod-chisel.php) норм числа в разных системах счисления гонять.
 2. [godbolt](https://godbolt.org).
 3. [Инструмент](https://graphonline.ru) для рисования графов.
+4. [Определение](http://detexify.kirelabs.org/classify.html) нарисованного символа в Latex.
