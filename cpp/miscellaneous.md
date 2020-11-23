@@ -8,9 +8,8 @@
 7. Ключ в ```std::map``` и ```std::unordered_map```.
 8. ```std::tie```.
 9. Приоритет операторов.
-10. Как удобно писать оператор копирования/перемещения.
-11. ```static_cast```.
-12. Empty Base Class Optimization.
+10. ```static_cast```.
+11. Empty Base Class Optimization.
 
 
 ### ```__FILE__```, ```__LINE__```
@@ -172,49 +171,6 @@ if (val & 1 == 1) {
 if ((val & 1) == 1) {
 ...
 }
-```
-
-### Как удобно писать оператор копирования/перемещения
-
-Таким способом можно сократить это действие до нескольких строчек в случае любого класса.
-Правда, существуют рекомендации не вызывать явно деструктор(почему?), а также
-обсуждение вот 
-[тут](https://stackoverflow.com/questions/12015156/what-is-wrong-with-checking-for-self-assignment-and-what-does-it-mean), 
-где говорят, что правильно написанный оператор не должен
-явно проверять на самоприсваивание.
-```cpp
-class A {
- public:
-  A(const A& a) {...}
-  ~A() {...}
-  
-  A& operator=(const A& a) {
-    if (this == &a) {
-      return *this;
-    }
-    this->~A(); // если без this, то будет ругаться, что мы пытаемся инвертировать конструктор
-    new(this) A(a);
-    return *this;
-  }
-};
-```
-Можно конечно ещё проверить, не присваиваем ли мы объект самому себе.
-Аналогично с перемещением:
-```cpp
-class A {
- public:
-  A(A&& a) {...}
-  ~A() {...}
-  
-  A& operator=(A&& a) {
-    if (this == &a) {
-      return *this;
-    }
-    this->~A();     
-    new(this) A(std::move(a));
-    return *this;
-  }
-};
 ```
 
 ### ```static_cast```
