@@ -10,7 +10,7 @@
 ### Захват переменных в лямбда-функции
 
 Давайте представим вот такую ситуацию:
-```
+```cpp
 class Div {
   int divisor;
   
@@ -29,7 +29,7 @@ auto res = f(12);
 Получаем ub.
 Кажется, что тут очевидна проблема(захват переменных по ссылке).
 Давайте исправим:
-```
+```cpp
 ...
 auto get() {
   return [=](int n) {return n % divisor;};
@@ -50,7 +50,7 @@ auto get() {
 потому при вызове ```f(12)``` ```divisor``` скорее всего не существует, что и ведёт к ub.
 
 Поправить это можно вот так:
-```
+```cpp
 ...
 auto get() {
 return [divisor = divisor](int n) {return n % divisor;};
@@ -65,7 +65,7 @@ return [divisor = divisor](int n) {return n % divisor;};
 ### Dangling reference
 
 Возврат ссылки на несуществующй объект:
-```
+```cpp
 int& f(int x) {
   int y = x + 1;
   return y;
