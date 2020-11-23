@@ -9,7 +9,7 @@
 8. ```std::tie```.
 9. Приоритет операторов.
 10. ```static_cast```.
-11. Empty Base Class Optimization.
+11. Cpp optimizations.
 
 
 ### ```__FILE__```, ```__LINE__```
@@ -196,7 +196,9 @@ auto v = static_cast<std::vector<int>>(x);
 ```
 Причём стоит понимать, что при таком касте создаётся копия объекта типа, к которому кастуют.
 
-### EBCO
+### Cpp optimizations.
+
+1. EBCO.
 
 ```cpp
 struct base {};
@@ -210,3 +212,7 @@ struct der: base {
 Однако в таких случаях происходит *Empty Base Class Optimization*:
 если родитель является пустым, то его часть не создаётся в наследниках.
 Т.е. ```sizeof(der)``` равен 4.
+
+2. Return Value Optimization.
+
+3. [SSO](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
