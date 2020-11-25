@@ -43,12 +43,11 @@ Some notes from different programming fields.
 7. [```sizeof(std::string)```](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
 8. [about #include](https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename#:~:text=For%20%23include%20""%20a%20compiler,search%20the%20current%20file's%20folder).
 9. [recursive lambda with ```auto```](https://stackoverflow.com/questions/2067988/recursive-lambda-functions-in-c11).
+10. [using private member of derived class form base](https://stackoverflow.com/questions/65001923/can-i-forbid-calling-private-member-of-derived-class-from-base).
 
 _______________________________________
 
 # Мой список материалов
-
-> Всё является субъективным. Мне помогло/понравилось, вам не факт. Пользуйтесь!
 
 Алгоритмы:
 1. Адитья Бхаргава, "Грокаем алгоритмы". Очень хорошая книга для самого-самого начала.
