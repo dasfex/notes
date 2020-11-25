@@ -44,6 +44,7 @@ Some notes from different programming fields.
 8. [about #include](https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename#:~:text=For%20%23include%20""%20a%20compiler,search%20the%20current%20file's%20folder).
 9. [recursive lambda with ```auto```](https://stackoverflow.com/questions/2067988/recursive-lambda-functions-in-c11).
 10. [using private member of derived class form base](https://stackoverflow.com/questions/65001923/can-i-forbid-calling-private-member-of-derived-class-from-base).
+11. [about self-asignment operator](https://stackoverflow.com/questions/12015156/what-is-wrong-with-checking-for-self-assignment-and-what-does-it-mean).
 
 _______________________________________
 
