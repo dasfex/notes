@@ -131,3 +131,4 @@ Uncategorized:
 2. [godbolt](https://godbolt.org).
 3. [Инструмент](https://graphonline.ru) для рисования графов.
 4. [Определение](http://detexify.kirelabs.org/classify.html) нарисованного символа в Latex.
+5. [Матричный калькулятор](https://matrixcalc.org/).
