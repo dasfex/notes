@@ -18,7 +18,8 @@ Some notes from different programming fields.
 2. [adding structured bindings to your class(eng)](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/structured_binding_eng.md).
 3. [adding range based support for custom class](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/custom_range_based.md).
 4. [professional push_back](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/push_back_feature.md).
-5. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous.md).
+5. [advance compositions](https://github.com/dasfex/ProgrammingNotes/tree/master/cpp/advance_compositions.md).
+6. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous.md).
 
 ## Python3
 
