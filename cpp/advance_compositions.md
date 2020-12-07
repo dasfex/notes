@@ -3,13 +3,24 @@
 Тут я собираю нетривиальные композиции различных возможностей C++ 
 для прокачки навыка придумывать подобное самому.
 
-### Быстрый вывод
+### Ввод/вывод
 
+```cpp
+std::copy(std::istream_iterator<int>(cin), std::istream_iterator<int>(), std::back_inserter(a));
+```
+аналогично следующему коду
+```cpp
+for (int& x : result) {
+  std::cin >> x;
+}
+```
+
+Аналогично:
 ```cpp
 std::copy(results.begin(), results.end(),
     std::ostream_iterator<float>(std::cout, " "));
 ```
-аналогично следующему коду
+равно
 ```cpp
 for (int& x : result) {
   std::cout << x << ' ';
