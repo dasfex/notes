@@ -17,8 +17,7 @@ for (int& x : result) {
 
 Аналогично:
 ```cpp
-std::copy(results.begin(), results.end(),
-    std::ostream_iterator<float>(std::cout, " "));
+std::copy(results.begin(), results.end(), std::ostream_iterator<int>(std::cout, " "));
 ```
 равно
 ```cpp
