@@ -58,6 +58,10 @@ return [divisor = divisor](int n) {return n % divisor;};
 ...
 ```
 
+Ну и вообще вот 
+[тут](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f53-avoid-capturing-by-reference-in-lambdas-that-will-be-used-non-locally-including-returned-stored-on-the-heap-or-passed-to-another-thread) 
+можно почитать.
+
 ### Ub при знаковом переполнении
 
 Можно почитать вот [тут](https://codeforces.com/blog/entry/45144).
