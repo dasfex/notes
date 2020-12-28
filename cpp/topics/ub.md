@@ -155,3 +155,8 @@ class A {
 i = i++ + i++;
 ```
 Потому что тут и правда неопределён порядок выполнения операций.
+
+### Выход указателя за границы массива
+
+Можно почитать вот (тут)[https://stackoverflow.com/questions/10473573/why-is-out-of-bounds-pointer-arithmetic-undefined-behaviour].
+
