@@ -158,5 +158,4 @@ i = i++ + i++;
 
 ### Выход указателя за границы массива
 
-Можно почитать вот (тут)[https://stackoverflow.com/questions/10473573/why-is-out-of-bounds-pointer-arithmetic-undefined-behaviour].
-
+Можно почитать вот [тут](https://stackoverflow.com/questions/10473573/why-is-out-of-bounds-pointer-arithmetic-undefined-behaviour).
