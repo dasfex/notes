@@ -10,6 +10,7 @@
 9. Приоритет операторов.
 10. ```static_cast```.
 11. Cpp optimizations.
+12. Определение чисто виртуальной функции.
 
 
 ### ```__FILE__```, ```__LINE__```
@@ -216,3 +217,25 @@ struct der: base {
 2. Return Value Optimization.
 
 3. [SSO](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
+
+### Определение чисто виртуальной функции
+
+```cpp
+struct A {
+    virtual ~A() = 0;
+};
+
+A::~A() {} // доопределяем
+
+struct B : public A {
+  ~B() {}  
+};
+...
+A* b = new B();
+delete b;
+```
+При удалении ```b``` будет вызван сначала деструктор ```B```, а потом ```A```,
+но деструктор у ```A``` является pure virtual и мы получим ```undefined reference to A::~A()```,
+потому его нужно всё равно определить.
+
+Как по мне, очень необычно :)
