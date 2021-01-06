@@ -10,7 +10,7 @@
 9. Приоритет операторов.
 10. ```static_cast```.
 11. Cpp optimizations.
-12. Определение чисто виртуальной функции.
+12. Определение pure virtual function.
 
 
 ### ```__FILE__```, ```__LINE__```
@@ -218,7 +218,7 @@ struct der: base {
 
 3. [SSO](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
 
-### Определение чисто виртуальной функции
+### Определение pure virtual function
 
 ```cpp
 struct A {
