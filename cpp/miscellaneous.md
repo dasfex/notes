@@ -11,6 +11,7 @@
 10. ```static_cast```.
 11. Cpp optimizations.
 12. Определение pure virtual function.
+13. Проблема параметров по умолчанию при наследовании.
 
 
 ### ```__FILE__```, ```__LINE__```
