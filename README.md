@@ -11,6 +11,7 @@ Some notes from different programming fields.
 4. [type_traits](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/type_traits.md).
 5. [move-semantics](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/move_semantics.md).
 6. [undefined behaviour](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/ub.md).
+7. [templates](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/templates.md).
 
 #### miscellaneous
 
