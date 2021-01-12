@@ -101,7 +101,7 @@ template <typename T>
 using remove_reference_t = typename remove_reference<T>::type;
 ```
 Однако в C++17 также появились шаблонные переменные, 
-которые удобно использовать для некоторых ситуаций вроде ```std::is_same``:
+которые удобно использовать для некоторых ситуаций вроде ```std::is_same```:
 ```cpp
 template <typename T, typename U>
 const bool is_same_v = is_same<T, U>::value;
