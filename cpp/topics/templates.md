@@ -231,14 +231,14 @@ template struct S<int, -1>;
 ```
 Обычно мы получили бы ошибку только при инстанцировании структуры, но так этого можно не делать.
 
-### Variadic templates
+### Variadic templates(since C++11)
 
 Следующим логичным шагом было бы введение шаблонов с переменным количеством аргументов:
 ```cpp
 // отделяем первый аргумент от остальных
 template <typename Head, typename... Args>
 void print(const Head& head, const Args&... args) {
-  cout << head << ' ';
+  std::cout << head << ' ';
   print(args...);
 }
 // делаем перегрузку на случай пустого пакетв
@@ -249,7 +249,7 @@ void print() {}
 аргументы функции в ```const T1&, constT2&``` и т.д.
 А ещё мы можем давать ему имя(например ```args```).
 
-Напишем ещё один type_trait is_homogeneous(равны ли все типы):
+Напишем ещё один type_trait ```is_homogeneous```(равны ли все типы):
 ```cpp
 template <typename First, typename Second, typename... Tail>
 struct is_homogeneous {
@@ -261,3 +261,43 @@ struct is_homogeneous<T, U> {
   static const bool value = std::is_same_v<T, U>;
 };
 ```
+Что делаеть, если мы хотим узнать кол-во типов в пакете?
+Для этого существует специальный оператор:
+```cpp
+sizeof...(Args);
+sizeof...(args);
+```
+### Fold expressions(since C++17)
+
+Это возможность языка сделать что-то для всех элементов пакеты сразу
+(при этом не нужноне писать рекурсию).
+```cpp
+template <typename... Args>
+void print(const Args&... args) {
+  (std::cout << ... << args) << '\n';
+}
+```
+По факту мы можем писать вот так:
+```
+(... binary_operator args)
+```
+и это превратится в
+```
+(args1 binary_operator args2 binary_operator ...)
+```
+Существует 4 формы fold expressions:
+```
+(... op args) -> (((args1 op args2) op args3) ... )
+(args op ...) (args1 op (args2 op ... (argsn)...))
+(x op ... op args)
+(args op ... op x)
+```
+где ```x``` - некоторый аргумент. 
+
+Сейчас можем написать альтернативную версию ```is_homogeneous```:
+```cpp
+template <typename Head, typename... Tail>
+struct is_homogeneous {
+  static const bool value = (std::is_same_v<Head, Tail> && ...);
+};
+``` 
