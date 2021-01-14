@@ -230,3 +230,34 @@ struct S {
 template struct S<int, -1>;
 ```
 Обычно мы получили бы ошибку только при инстанцировании структуры, но так этого можно не делать.
+
+### Variadic templates
+
+Следующим логичным шагом было бы введение шаблонов с переменным количеством аргументов:
+```cpp
+// отделяем первый аргумент от остальных
+template <typename Head, typename... Args>
+void print(const Head& head, const Args&... args) {
+  cout << head << ' ';
+  print(args...);
+}
+// делаем перегрузку на случай пустого пакетв
+void print() {}
+```
+```Args``` - это некоторая абстрактная сущность, обозначащая список типов.
+Над ним можно делать распаковку с помощью троеточия, т.е. компилятор развернёт
+аргументы функции в ```const T1&, constT2&``` и т.д.
+А ещё мы можем давать ему имя(например ```args```).
+
+Напишем ещё один type_trait is_homogeneous(равны ли все типы):
+```cpp
+template <typename First, typename Second, typename... Tail>
+struct is_homogeneous {
+  static const bool value = std::is_same_v<First, Second> && is_homogeneous<Second, Tail...>::value;
+};
+
+template <typename T, typename U>
+struct is_homogeneous<T, U> {
+  static const bool value = std::is_same_v<T, U>;
+};
+```
