@@ -13,6 +13,7 @@
 12. Определение pure virtual function.
 13. Проблема параметров по умолчанию при наследовании.
 14. User-defined deduction guides(since C++17).
+15. Function-try block.
 
 
 ### ```__FILE__```, ```__LINE__```
@@ -290,4 +291,14 @@ S(const char*) -> S<std::string>;
 ```cpp
 template <typename T>
 S(const T&) -> S<T&>;
+```
+
+### Function-try block
+
+Можно писать вот так:
+```cpp
+void f() try {
+
+} catch (...) {
+}
 ```
