@@ -46,6 +46,7 @@ Some notes from different programming fields.
 9. [recursive lambda with ```auto```](https://stackoverflow.com/questions/2067988/recursive-lambda-functions-in-c11).
 10. [using private member of derived class form base](https://stackoverflow.com/questions/65001923/can-i-forbid-calling-private-member-of-derived-class-from-base).
 11. [about self-asignment operator](https://stackoverflow.com/questions/12015156/what-is-wrong-with-checking-for-self-assignment-and-what-does-it-mean).
+12. [member function partial specialization](https://stackoverflow.com/questions/5688355/partial-specialisation-of-member-function-with-non-type-parameter).
 
 _______________________________________
 
