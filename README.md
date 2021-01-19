@@ -47,6 +47,7 @@ Some notes from different programming fields.
 10. [using private member of derived class form base](https://stackoverflow.com/questions/65001923/can-i-forbid-calling-private-member-of-derived-class-from-base).
 11. [about self-asignment operator](https://stackoverflow.com/questions/12015156/what-is-wrong-with-checking-for-self-assignment-and-what-does-it-mean).
 12. [member function partial specialization](https://stackoverflow.com/questions/5688355/partial-specialisation-of-member-function-with-non-type-parameter).
+13. [hidden Python features](https://stackoverflow.com/questions/101268/hidden-features-of-python).
 
 _______________________________________
 
@@ -86,6 +87,9 @@ Python3:
 [для начинающих](https://stepik.org/course/67/syllabus) и
 чтобы представлять, [как юзать](https://stepik.org/course/512/syllabus),
 а ещё по [numpy](https://stepik.org/course/3356/syllabus).
+2. Какие-то малоизвестные библиотеки на питоне:
+[1](https://tproger.ru/translations/10-python-libraries-you-might-not-know/).
+3. Про [f-строки](https://shultais.education/blog/python-f-strings).
 
 Go:
 1. [Официальный курс](https://go-tour-ru-ru.appspot.com/welcome/1) в язык.
@@ -109,6 +113,8 @@ Gamedev:
 Git:
 
 0. Как это работает: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
+1. [ohshitgit](https://ohshitgit.com).
+
 
 Машинное обучение:
 
@@ -132,3 +138,5 @@ Uncategorized:
 3. [Инструмент](https://graphonline.ru) для рисования графов.
 4. [Определение](http://detexify.kirelabs.org/classify.html) нарисованного символа в Latex.
 5. [Матричный калькулятор](https://matrixcalc.org/).
+6. [Joe Schmoe](https://joeschmoe.io).
+7. [explainshell](https://explainshell.com).
