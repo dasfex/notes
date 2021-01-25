@@ -32,6 +32,8 @@ Some notes from different programming fields.
 1. [protocols(udp/tcp)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols.md).
 2. [how to write data structure based on hash](https://github.com/dasfex/ProgrammingNotes/blob/master/general/hash_set.md).
 3. [lru-cache conception](https://github.com/dasfex/ProgrammingNotes/blob/master/general/lru_cache.md).
+4. [encodings]
+(https://github.com/dasfex/ProgrammingNotes/blob/master/general/encodings.md).
 
 ## Stackoverflow interesting questions
 
