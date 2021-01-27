@@ -49,6 +49,7 @@ Some notes from different programming fields.
 11. [about self-asignment operator](https://stackoverflow.com/questions/12015156/what-is-wrong-with-checking-for-self-assignment-and-what-does-it-mean).
 12. [member function partial specialization](https://stackoverflow.com/questions/5688355/partial-specialisation-of-member-function-with-non-type-parameter).
 13. [hidden Python features](https://stackoverflow.com/questions/101268/hidden-features-of-python).
+14. [Type declaration - pointer asterisk position](https://stackoverflow.com/questions/2704167/type-declaration-pointer-asterisk-position).
 
 _______________________________________
 
