@@ -6,7 +6,7 @@
 ### Ввод/вывод
 
 ```cpp
-std::copy(std::istream_iterator<int>(cin), std::istream_iterator<int>(), std::back_inserter(a));
+std::copy(std::istream_iterator<int>(std::cin), std::istream_iterator<int>(), std::back_inserter(a));
 ```
 аналогично следующему коду
 ```cpp
