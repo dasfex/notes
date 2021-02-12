@@ -83,6 +83,7 @@ C++:
 2. Первая часть классного 
 [плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h)
 про advanced плюсы.
+И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
 
 Python3:
 1. Курсы на степике: 
