@@ -405,3 +405,30 @@ call(x, y);
 ```
 error: call of overloaded ‘call(A::S1&, B::S2&)’ is ambiguous
 ```
+Существуют также ситуации, когда ADL не работает:
+```cpp
+void foo();
+namespace N {
+  struct X {};
+  void foo(X) {};
+  void qux(X) {};
+}
+
+struct C {
+  void foo() {}
+  void bar () {
+    foo(N::X{}); // будет обнаружена C::foo, которая не принимает аргументы
+  }
+};
+
+void bar() {
+  extern void foo(); // redeclare ::foo
+  foo(N::X{}); // ::foo не требует аргументов
+}
+
+int qux;
+
+void baz() {
+  qux(N::X{}); // variable declaration disables ADL for "qux"
+}
+```
