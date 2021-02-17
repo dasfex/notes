@@ -16,7 +16,7 @@
 13. User-defined deduction guides(since C++17).
 14. Function-try block.
 15. Перегрузка ```operator<<```.
-16. Argument dependency looking(ADL).
+16. Argument dependent lookup(ADL).
 
 ### Cpp optimizations.
 
@@ -356,7 +356,7 @@ for (int x : a.a) {
 
 Так, например, сделан ```QStringList``` в Qt.
 
-### Argument dependency looking
+### Argument dependent lookup
 
 Рассмотрим следующий код:
 ```cpp
