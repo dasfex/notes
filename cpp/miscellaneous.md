@@ -1,4 +1,6 @@
 ## Содержание
+
+0. Cpp optimizations.
 1. Макросы ```__FILE__```, ```__LINE__```.
 2. Типы возвращаемых значений у тернарного оператора.
 3. Счётчик в ```std::shared_ptr```.
@@ -9,13 +11,33 @@
 8. ```std::tie```.
 9. Приоритет операторов.
 10. ```static_cast```.
-11. Cpp optimizations.
-12. Определение pure virtual function.
-13. Проблема параметров по умолчанию при наследовании.
-14. User-defined deduction guides(since C++17).
-15. Function-try block.
-16. Перегрузка ```operator<<```.
+11. Определение pure virtual function.
+12. Проблема параметров по умолчанию при наследовании.
+13. User-defined deduction guides(since C++17).
+14. Function-try block.
+15. Перегрузка ```operator<<```.
+16. Argument dependency looking(ADL).
 
+### Cpp optimizations.
+
+1. EBCO.
+
+```cpp
+struct base {};
+struct der: base {
+  int a;
+};
+```
+Чему будет равен ```sizeof(der)```? 
+Зная, как работает наследование, создание пустого типа и выравнивание,
+можно предположить, что 8 байт.
+Однако в таких случаях происходит *Empty Base Class Optimization*:
+если родитель является пустым, то его часть не создаётся в наследниках.
+Т.е. ```sizeof(der)``` равен 4.
+
+2. Return Value Optimization.
+
+3. [SSO](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
 
 ### ```__FILE__```, ```__LINE__```
 
@@ -23,8 +45,14 @@
 текущий файл(```__FILE__```) и текущую линию(```__LINE__```).
 Очень удобно использовать в каких-либо макросах для получения
 дополнительной информации. 
-Например, в GoogleTest.
-// добавить пример
+Например, в GoogleTest:
+```cpp
+#define TYPED_TEST_SUITE(CaseName, Types, ...)                          \
+  typedef ::testing::internal::GenerateTypeList<Types>::type            \
+      GTEST_TYPE_PARAMS_(CaseName);                                     \
+  typedef ::testing::internal::NameGeneratorSelector<__VA_ARGS__>::type \
+      GTEST_NAME_GENERATOR_(CaseName)
+```
 
 ### Типы у тернарного оператора
 
@@ -201,27 +229,6 @@ auto v = static_cast<std::vector<int>>(x);
 ```
 Причём стоит понимать, что при таком касте создаётся копия объекта типа, к которому кастуют.
 
-### Cpp optimizations.
-
-1. EBCO.
-
-```cpp
-struct base {};
-struct der: base {
-  int a;
-};
-```
-Чему будет равен ```sizeof(der)```? 
-Зная, как работает наследование, создание пустого типа и выравнивание,
-можно предположить, что 8 байт.
-Однако в таких случаях происходит *Empty Base Class Optimization*:
-если родитель является пустым, то его часть не создаётся в наследниках.
-Т.е. ```sizeof(der)``` равен 4.
-
-2. Return Value Optimization.
-
-3. [SSO](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
-
 ### Определение pure virtual function
 
 ```cpp
@@ -352,3 +359,53 @@ for (int x : a.a) {
 Как результат получим вывод ```1 2 3```.
 
 Так, например, сделан ```QStringList``` в Qt.
+
+### Argument dependency looking
+
+Рассмотрим следующий код:
+```cpp
+namespace A {
+  struct S {};
+  
+  void call(const S& x) {}
+}
+...
+A::S x;
+call(x);
+```
+Удивительно, но этот код скомпилируется, несмотря на то, что мы явно не указали
+namespace функции ```call```.
+Это называется ```argument dependency looking```.
+Компилятор смотрит на пространства имён аргументов и в них ищет функцию.
+
+Что же будет, если подходящих вариантов несколько?
+```cpp
+namespace A {
+    struct S1;
+}
+
+namespace B {
+    struct S2 {};
+    
+    void call(const A::S1& x, const S2& y) {
+        cout << "1";
+    }
+}
+
+namespace A {
+    struct S1 {};
+    
+    void call(const S1& x, const B::S2& y) {
+        cout << "2";
+    }
+}
+...
+A::S1 x;
+B::S2 y;
+call(x, y);
+```
+Как вариант, вызовется та версия, которая раньше будет найдена(какой аргумент раньше объявлен).
+Однако получим ошибку компиляции об неоднозначности вызова:
+```
+error: call of overloaded ‘call(A::S1&, B::S2&)’ is ambiguous
+```
