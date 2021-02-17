@@ -47,11 +47,7 @@ struct der: base {
 дополнительной информации. 
 Например, в GoogleTest:
 ```cpp
-#define TYPED_TEST_SUITE(CaseName, Types, ...)                          \
-  typedef ::testing::internal::GenerateTypeList<Types>::type            \
-      GTEST_TYPE_PARAMS_(CaseName);                                     \
-  typedef ::testing::internal::NameGeneratorSelector<__VA_ARGS__>::type \
-      GTEST_NAME_GENERATOR_(CaseName)
+example
 ```
 
 ### Типы у тернарного оператора
