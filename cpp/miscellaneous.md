@@ -45,9 +45,12 @@ struct der: base {
 текущий файл(```__FILE__```) и текущую линию(```__LINE__```).
 Очень удобно использовать в каких-либо макросах для получения
 дополнительной информации. 
-Например, в GoogleTest:
+Например, в ```assert```:
 ```cpp
-example
+#  define assert(expr)							\
+     (static_cast <bool> (expr)						\
+      ? void (0)							\
+      : __assert_fail (#expr, __FILE__, __LINE__, __ASSERT_FUNCTION))
 ```
 
 ### Типы у тернарного оператора
