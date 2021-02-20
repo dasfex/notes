@@ -121,6 +121,7 @@ Git:
 5. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
 6. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
 7. [vas3k.ru](https://vas3k.ru).
+8. [Implementing reader-writes lock](https://eli.thegreenplace.net/2019/implementing-reader-writer-locks/).
 
 Всякие удобные онлайн-сервисы:
 
