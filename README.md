@@ -99,14 +99,10 @@ Go:
 1. [Официальный курс](https://go-tour-ru-ru.appspot.com/welcome/1) в язык.
 2. Довольно понятный [курс](https://stepik.org/course/54403/syllabus) на [stepik](https://stepik.org).
 
-Математика:
-1. Замечательный [курс](https://stepik.org/course/79/syllabus) по линейной алгебре.
-2. "Комбинаторика". Виленкин Н.Я., Виленкин А.Н., Виленкин П.А.
+Git:
 
-Gamedev:
-1. "Кровь, пот и пиксели. Обратная сторона индустрии видеоигр." Джейсон Шрейер.
-2. [Паттерны в контексте игр](https://github.com/jabocrack1/game-programming-patterns).
-3. "Level Up" Scott Rodgers.
+0. Как это работает: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
+1. [ohshitgit](https://ohshitgit.com).
 
 Про найм:
 
@@ -114,25 +110,17 @@ Gamedev:
 2. Зачем на них [ходить](https://habr.com/ru/company/ruvds/blog/521086/).
 3. Какая-то рандомная [история](https://habr.com/ru/post/521104/).
 
-Git:
-
-0. Как это работает: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
-1. [ohshitgit](https://ohshitgit.com).
-
-
-Машинное обучение:
-
-0. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
-
-Uncategorized:
+Рандомные статьи:
 
 0. [Викиконспекты](https://neerc.ifmo.ru/wiki/index.php?___BEби=#.D0.9D.D0.B5.D0.BF.D1.80.D0.BE.D0.B2.D0.B5.D1.80.D1.8F.D0.B5.D0.BC.D1.8B.D0.B5_.D0.BA.D0.BE.D0.BD.D1.81.D0.BF.D0.B5.D0.BA.D1.82.D1.8B)
 по всему.
 1. Понятный [каталог](https://refactoring.guru/ru/design-patterns/catalog) паттернов проектирования.
-2. Про [децентрализованные](https://vas3k.ru/blog/363/) системы.
-3. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
-4. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
-5. Вообще читайте [vas3k.ru](https://vas3k.ru).
+2. [Паттерны в контексте игр](https://github.com/jabocrack1/game-programming-patterns).
+3. Про [децентрализованные](https://vas3k.ru/blog/363/) системы.
+4. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
+5. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
+6. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
+7. [vas3k.ru](https://vas3k.ru).
 
 Всякие удобные онлайн-сервисы:
 
