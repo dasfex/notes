@@ -24,3 +24,6 @@ k последних запрошенных элементов, причём
 а в начало вставляем текущий.
 Таким образом амортизированно за O(1) мы умеем делать все операции,
 достигнув требуемого результат.
+
+[C++](https://github.com/dasfex/ProgrammingPractice/blob/master/cpp/algos/lrucache.h),
+[Golang](https://github.com/dasfex/ProgrammingPractice/blob/master/golang/lrucache.go).
