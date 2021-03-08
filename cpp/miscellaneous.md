@@ -39,6 +39,8 @@ struct der: base {
 
 3. [SSO](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
 
+4. [Copy elision](https://en.m.wikipedia.org/wiki/Copy_elision).
+
 ### ```__FILE__```, ```__LINE__```
 
 Существует два макроса, с помощью которых можно узнавать
