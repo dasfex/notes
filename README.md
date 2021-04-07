@@ -98,6 +98,7 @@ Python3:
 Go:
 1. [Официальный курс](https://go-tour-ru-ru.appspot.com/welcome/1) в язык.
 2. Довольно понятный [курс](https://stepik.org/course/54403/syllabus) на [stepik](https://stepik.org).
+3. Какая-то [презентация](https://speakerdeck.com/majek04/golang-sucks) про приколы языка.
 
 Git:
 
