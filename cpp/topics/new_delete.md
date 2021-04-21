@@ -93,6 +93,7 @@ void* operator new(size_t n) {
 
 Или например перегрузка ```placement new```:
 ```
+template <typename T>
 T* operator new(size_t n, T* p) noexcept {
     return p; // именно так выглядит стандартная реализация такой формы
 }
