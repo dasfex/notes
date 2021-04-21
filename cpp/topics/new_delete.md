@@ -105,7 +105,7 @@ new(std::nothrow) T(x, y, z);
 
 // реализация примерно такая
 
-namespace std{
+namespace std {
 struct nothrow_t {} nothrow; // фиктивный тип
 }
 
