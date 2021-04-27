@@ -86,7 +86,7 @@ C++:
 про advanced плюсы.
 И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
 3. [finally](https://www.bfilipek.com/2017/04/finalact.html).
-4. [cppstories](https://www.cppstories.com).
+4. [Bartek's blog](https://www.bfilipek.com) и [cppstories](https://www.cppstories.com).
 
 Python3:
 1. Курсы на степике: 
