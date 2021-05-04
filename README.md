@@ -87,6 +87,8 @@ C++:
 И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
 3. [Bartek's blog](https://www.bfilipek.com) и [cppstories](https://www.cppstories.com): 
 [finally](https://www.bfilipek.com/2017/04/finalact.html).
+4. Какие-то интересные доклады:
+  4.1 [“The strange details of std::string at Facebook"](https://www.youtube.com/watch?v=kPR8h4-qZdk).
 
 Python3:
 1. Курсы на степике: 
