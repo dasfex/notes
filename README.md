@@ -137,3 +137,4 @@ Git:
 5. [Матричный калькулятор](https://matrixcalc.org/).
 6. [Joe Schmoe](https://joeschmoe.io).
 7. [explainshell](https://explainshell.com).
+8. [Разные генераторы](https://generator-online.com).
