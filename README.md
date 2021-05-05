@@ -89,6 +89,7 @@ C++:
 [finally](https://www.bfilipek.com/2017/04/finalact.html).
 4. Какие-то интересные доклады:
   [“The strange details of std::string at Facebook"](https://www.youtube.com/watch?v=kPR8h4-qZdk).
+5. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
 
 Python3:
 1. Курсы на степике: 
