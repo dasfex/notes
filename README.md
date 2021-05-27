@@ -51,6 +51,7 @@ Some notes from different programming fields.
 13. [hidden Python features](https://stackoverflow.com/questions/101268/hidden-features-of-python).
 14. [Type declaration - pointer asterisk position](https://stackoverflow.com/questions/2704167/type-declaration-pointer-asterisk-position).
 15. [std::forward_list::size](https://stackoverflow.com/questions/31822494/c-stl-why-stdforward-list-has-no-size-method#:~:text=A%20std%3A%3Aforward_list%20does,a%20handwritten%20singly%20linked%20list.)
+16. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11).
 
 _______________________________________
 
