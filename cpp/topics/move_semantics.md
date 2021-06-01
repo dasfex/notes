@@ -389,3 +389,24 @@ T().f();
 
 Ещё можно изучить
 [```std::make_move_iterator```](https://en.cppreference.com/w/cpp/iterator/make_move_iterator).
+	
+### reference_qualifiers
+	
+По аналогии с вызовом от (не)константных возможно мы хотим вызывать различные
+версии функции в зависимости от их типа value.
+Тут нам помогут reference_qualifiers.
+```cpp
+struct Data {
+    Data(const std::string& s) : data(s) {}
+	
+    std::string get() & {
+	return data;
+    }
+	
+    std::string get() && {
+	return std::move(data);
+    }
+};
+```
+При вызове ```x.get()``` будет осуществлён вызов первой версии, потому что это версия только для lvalue.
+При вызове чего-то вроде ```std::move(x).get()``` - второй(для rvalue).
