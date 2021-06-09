@@ -74,6 +74,10 @@ _______________________________________
 для [алгоритмов кратчайших путей на графах на плоскости](http://qiao.github.io/PathFinding.js/visual/).
 10. [leetcode.com](https://leetcode.com) - норм сервис для подготовки к собесам.
 
+# Best practice
+
+1. [Avoid bool parameters](https://mortoray.com/2015/06/15/get-rid-of-those-boolean-function-parameters/).
+
 C++:
 
 0. Лучший [источник](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w) для начинающих.
