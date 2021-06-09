@@ -78,6 +78,7 @@ _______________________________________
 Best practice
 
 1. [Avoid bool parameters](https://mortoray.com/2015/06/15/get-rid-of-those-boolean-function-parameters/).
+2. [cppbestpractices](https://github.com/lefticus/cppbestpractices).
 
 C++:
 
