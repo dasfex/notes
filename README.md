@@ -59,6 +59,7 @@ _______________________________________
 # Какие-то материалы
 
 Алгоритмы:
+
 1. Адитья Бхаргава, "Грокаем алгоритмы". Очень хорошая книга для самого-самого начала.
 2. [e-maxx rus](http://e-maxx.ru/algo/).
 3. [e-maxx eng](https://cp-algorithms.com)(активно дополняется и исправляется, чем русская версия похвастаться не может).
@@ -74,7 +75,7 @@ _______________________________________
 для [алгоритмов кратчайших путей на графах на плоскости](http://qiao.github.io/PathFinding.js/visual/).
 10. [leetcode.com](https://leetcode.com) - норм сервис для подготовки к собесам.
 
-# Best practice
+Best practice
 
 1. [Avoid bool parameters](https://mortoray.com/2015/06/15/get-rid-of-those-boolean-function-parameters/).
 
