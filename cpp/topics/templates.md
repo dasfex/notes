@@ -1,4 +1,4 @@
-# templates, type\_traits
+# templates, type\_traits, variadic templates
 
 ### Non-type template parameters
 
@@ -48,7 +48,9 @@ stack<bool, std::deque> s2;
 Обратим внимание, что до C++17 мы обязаны писать именно слово ```class```, а не ```typename```.
 После уже не принципиально.
 
-### Basic type traits
+### type traits
+
+##### Basics
 
 В C++11 появился заголовок \<type\_traits\> для работы
 с типами на этапе компиляции.
@@ -93,6 +95,23 @@ remove_extent```(последнее позволяет убрать одно и�
 
 Аналогично можно написать ```add_const, add_reference, add_pointer``` и т.д.
 
+##### std::common\_type
+```cpp
+namespace std {
+
+template <typename Head, typename... Tail>
+struct common_type {
+  using type = typename common_type<Head, typename common_type<Tail...>::type>::type;
+};
+
+template <typename T, typename U>
+struct common_type<T, U> {
+  using type = decltype(true ? T() : U());
+};
+
+} // std
+```
+
 ### Алиасы и шаблонные переменные
 
 Чтобы не писать каждый раз ```std::remove_reference<T>::type``` существуют подобные алиасы:
@@ -106,6 +125,7 @@ using remove_reference_t = typename remove_reference<T>::type;
 template <typename T, typename U>
 const bool is_same_v = is_same<T, U>::value;
 ```
+
 ### Dependent names
 
 Разберёмся, почему в примере выше с ```remove_reference_t``` мы использовали слово ```typename```.
