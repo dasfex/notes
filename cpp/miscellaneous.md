@@ -455,3 +455,11 @@ decltype(throw 1)* y = &x;
 ```
 Правильным ответом будет ```void*```, т.к. результат ```throw``` определён как ```void```.
 
+3. Есть также три правила, которые стоит учитывать при использовании ```decltype```:
+```cpp
+decltype(expr)
+if expr is lvalue of type T, then decltype returns T&
+if expr is prvalue of type T, then decltype returns T
+if expr is xvalue of type T, then decltype returns T&&
+```
+
