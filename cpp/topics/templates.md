@@ -59,7 +59,7 @@ stack<bool, std::deque> s2;
 
 Например давайте напишем ```is_same```(проверку во время компиляции
 равны ли два типа):
-```
+```cpp
 template <typename T, typename U>
 struct is_same {
   static constexpr bool value = false;
@@ -71,7 +71,7 @@ struct is_same<T, T> {
 };
 ```
 Ещё для примера напишем ```remove_reference```:
-```
+```cpp
 template <typename T>
 struct remove_reference {
   using type = T;
