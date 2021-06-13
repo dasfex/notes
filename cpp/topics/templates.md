@@ -116,6 +116,8 @@ struct common_type<T, U> {
 } // std
 ```
 
+https://stackoverflow.com/questions/67959239/what-is-complexity-of-stdcommon-type
+
 ### Алиасы и шаблонные переменные
 
 Чтобы не писать каждый раз ```std::remove_reference<T>::type``` существуют подобные алиасы:
