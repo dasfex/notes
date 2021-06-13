@@ -17,7 +17,8 @@
 14. Function-try block.
 15. Перегрузка ```operator<<```.
 16. Argument dependent lookup(ADL).
-17. Заметка о ```decltype``` и ```throw```.
+17. Заметки о ```decltype```.
+18. Возвращаемый тип ```throw```.
 
 ### Cpp optimizations.
 
@@ -439,7 +440,7 @@ void baz() {
 }
 ```
 
-### Заметка о ```decltype``` и ```throw```
+### Заметки о ```decltype```
 
 1. Стоит помнить, что ```decltype``` не вычисляет значение выражения, которое ему "подсунули":
 ```cpp
@@ -448,18 +449,47 @@ decltype(x++) y = x;
 cout << x << ' ' << y; // 0 0
 ```
 
-2. Какой тип будет иметь переменная ```y``` в следующем случае?
-```cpp
-int x = 0;
-decltype(throw 1)* y = &x;
-```
-Правильным ответом будет ```void*```, т.к. результат ```throw``` определён как ```void```.
-
-3. Есть также три правила, которые стоит учитывать при использовании ```decltype```:
+2. Есть также три правила, которые стоит учитывать при использовании ```decltype```:
 ```cpp
 decltype(expr)
 if expr is lvalue of type T, then decltype returns T&
 if expr is prvalue of type T, then decltype returns T
 if expr is xvalue of type T, then decltype returns T&&
 ```
+
+3. Есть такой трюк для того, чтобы узнать, какой тип вывел ```decltype```:
+```cpp
+template <typename t>
+class Check {
+  Check() = delete;
+};
+
+int x;
+Check<decltype(x)> check;
+```
+В ошибке компиляции мы явно увидим тип, который был выведен(в данном случае ```int```).
+
+Также мы наше выражение можем обернуть в скобки:
+```cpp
+Check<decltype((x))> check;
+```
+Тут уже тип будет ```int&```.
+
+Потому со скобками стоит бысть осторожными, т.к., например, в функциях с выводом возвращаемого типа,
+поставив скобки вокруг возвращаемого в ```return``` значения можно всё сломать(существует такая практика).
+```cpp
+template <typename Container>
+decltype(auto) get(Container& c, size_t i) {
+  return (c[i]); // всегда будем получать тип с & 
+}
+```
+
+### Возвращаемый тип ```throw```
+
+Какой тип будет иметь переменная ```y``` в следующем случае?
+```cpp
+int x = 0;
+decltype(throw 1)* y = &x;
+```
+Правильным ответом будет ```void*```, т.к. результат ```throw``` определён как ```void```.
 
