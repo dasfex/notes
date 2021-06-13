@@ -17,6 +17,7 @@
 14. Function-try block.
 15. Перегрузка ```operator<<```.
 16. Argument dependent lookup(ADL).
+17. Заметка о ```decltype``` и ```throw```.
 
 ### Cpp optimizations.
 
@@ -437,3 +438,20 @@ void baz() {
   qux(N::X{}); // variable declaration disables ADL for "qux"
 }
 ```
+
+### Заметка о ```decltype``` и ```throw```
+
+1. Стоит помнить, что ```decltype``` не вычисляет значение выражения, которое ему "подсунули":
+```cpp
+int x = 0;
+decltype(x++) y = x;
+cout << x << ' ' << y; // 0 0
+```
+
+2. Какой тип будет иметь переменная ```y``` в следующем случае?
+```cpp
+int x = 0;
+decltype(throw 1)* y = &x;
+```
+Правильным ответом будет ```void*```, т.к. результат ```throw``` определён как ```void```.
+
