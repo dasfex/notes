@@ -99,6 +99,10 @@ remove_extent```(последнее позволяет убрать одно и�
 ```cpp
 namespace std {
 
+// напомним про declval
+template <typename T>
+std::add_rvalue_reference_t<T> declval() noexcept;
+
 template <typename Head, typename... Tail>
 struct common_type {
   using type = typename common_type<Head, typename common_type<Tail...>::type>::type;
