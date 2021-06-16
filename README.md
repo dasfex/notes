@@ -120,6 +120,7 @@ Git:
 0. Как это работает: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
 1. [ohshitgit](https://ohshitgit.com).
 2. [--force](https://blog.developer.atlassian.com/force-with-lease/#:~:text=Git's%20push%20--force%20is,has%20pushed%20in%20the%20meantime.).
+3. [Удачная модель ветвления](https://habr.com/ru/post/106912/)
 
 Про найм:
 
