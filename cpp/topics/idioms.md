@@ -68,3 +68,5 @@ if constexpr (std::is_base_of_v<enable_shared_from_this<T>, T>) {
   ptr->wptr = /*...*/; // инициализация контрольным блоком, например
 }
 ```
+
+### [type erasure](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Type_Erasure)
