@@ -1,6 +1,6 @@
 ## CRTP
 
-CRTP - Curiously Recursive Template Pattern.
+CRTP - Curiously Recurring Template Pattern.
 
 ### enable_shared_from_this
 
