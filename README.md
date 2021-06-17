@@ -153,3 +153,4 @@ Git:
 6. [Joe Schmoe](https://joeschmoe.io).
 7. [explainshell](https://explainshell.com).
 8. [Разные генераторы](https://generator-online.com).
+9. [programming motherfucker](http://programming-motherfucker.com/become.html#C%20/%20C++).
