@@ -45,6 +45,14 @@ remove_extent```(последнее позволяет убрать одно и�
 
 Аналогично можно написать ```add_const, add_reference, add_pointer``` и т.д.
 
+Вспомнив variadic templates можно написать кастомный ```is_homogeneous```:
+```cpp
+template <typename Head, typename... Tail>
+struct is_homogeneous {
+  static const bool value = (std::is_same_v<Head, Tail> && ...);
+};
+``` 
+
 ### std::common\_type
 ```cpp
 namespace std {
