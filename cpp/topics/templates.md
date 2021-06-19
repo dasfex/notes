@@ -134,10 +134,3 @@ void print(const Args&... args) {
 ```
 где ```x``` - некоторый аргумент. 
 
-Сейчас можем написать альтернативную версию ```is_homogeneous```:
-```cpp
-template <typename Head, typename... Tail>
-struct is_homogeneous {
-  static const bool value = (std::is_same_v<Head, Tail> && ...);
-};
-``` 
