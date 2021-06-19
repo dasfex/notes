@@ -86,7 +86,9 @@ const bool is_same_v = is_same<T, U>::value;
 
 Разберёмся, почему в примере выше с ```remove_reference_t``` мы использовали слово ```typename```.
 
-Рассмотрим такой код:
+Рассмотрим несколько примеров.
+
+1.
 ```cpp
 template <typename T>
 struct S {
@@ -115,7 +117,7 @@ f<int>();
 typename S<T>::x* a;
 ```
 
-Рассмотрим ещё один пример:
+2.
 ```cpp
 template <typename T>
 struct S {
@@ -153,7 +155,7 @@ typename S<T>::A<10> a;
 typename S<T>::template A<10> a;
 ```
 
-И ещё один:
+3.
 ```cpp
 template <typename T>
 struct B {
