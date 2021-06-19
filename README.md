@@ -8,10 +8,11 @@ Some notes from different programming fields.
 1. [new, delete](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/new_delete.md).
 2. [allocators](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/allocators.md).
 3. [inheritance, vtable, virtual inheritance](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/inheritance.md).
-4. [templates, type_traits, variadic templates](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/templates.md).
-5. [move-semantics](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/move_semantics.md).
-6. [undefined behaviour](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/ub.md).
-7. [different idioms](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/idioms.md).
+4. [templates](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/templates.md).
+5. [type traits](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/type_traits.md)
+6. [move-semantics](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/move_semantics.md).
+7. [undefined behaviour](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/ub.md).
+8. [different idioms](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/idioms.md).
 
 #### miscellaneous
 
