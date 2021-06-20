@@ -311,7 +311,7 @@ construct(alloc, newarr + i, std::move(arr[i]));
 является ```noexcept```, иначе возвращает lvalue-ссылку.
 Реализован он вот так:
 ```
-using ret_type = std::conditional<noexcept(T(std::move(T()))), 
+using ret_type = std::conditional<std::is_nothrow_move_constructible_v<T>, 
 		std::remove_reference_t<T>&&,
 		std::remove_reference_t<T>&>;
 template <class T>
