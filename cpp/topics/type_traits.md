@@ -354,7 +354,7 @@ using enable_if_t = typename enable_if<B, T>::type;
 Не все type traits можно реализовать самому, т.к. иногда нужны знания о том,
 как компилятор представляет информацию(например ```std::is_union```).
 
-### is_constructible, is_assignable
+### is_constructible
 
 ```cpp
 template <typename T, typename... Args>
@@ -370,12 +370,49 @@ struct is_constructible {
  public:
   static const bool type = decltype(f<T, Args...>(0))::value;
 };
+
+template <typename T, typename... Args>
+bool is_constructible_v = is_constructible<T, Args...>::value;
 ```
 
+### is_copy_constructible
 
+```cpp
+template <typename T>
+struct is_copy_constructible {
+ private:
+  template <typename TT,
+        typename = decltype(TT(std::declval<const TT&>()))>
+  static true_type f(int);
+  
+  template <typename...>
+  static false_type f(...);
 
+ public:
+  static const bool type = decltype(f<T>(0))::value;
+};
 
+template <typename T>
+bool is_copy_constructible_v = is_copy_constructible<T>::value;
+```
 
+### is_nothrow_move_constructible
 
+```cpp
+template <typename T>
+struct is_nothrow_move_constructible {
+ private:
+  template <typename TT,
+        typename = std::enable_if_t<noexcept(TT(std::declval<TT>()))>>
+  static true_type f(int);
+  
+  template <typename...>
+  static false_type f(...);
 
+ public:
+  static const bool type = decltype(f<T>(0))::value;
+};
 
+template <typename T>
+bool is_nothrow_move_constructible_v = is_nothrow_move_constructible<T>::value;
+```
