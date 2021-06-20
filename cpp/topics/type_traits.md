@@ -271,3 +271,37 @@ std::cout << has_f_v<T, int, int> << std::endl;
 во время инстанцирования класса, а не функции.
 3. ```std::declval``` используем для случая, 
 если у типа не окажется конструктора по умолчанию.
+
+Однако текущая форма не совсем является корректным примером метапрограммирования,
+т.к. метапрограммирование происходит над типами.
+Модернизируем:
+```cpp
+template <typename T, T value_>
+struct integral_constant {
+  static const T value = value_;
+};
+
+struct true_type : public integral_constant<bool, true> {};
+struct false_type : public integral_constant<bool, false> {};
+
+template <typename T, typename... Args>
+struct has_f {
+ private:
+  template <typename TT, typename... Aargs,
+        typename = decltype(std::declval<TT>().f(std::declval<Aargs>()...))>
+  static true_type f(int);
+  
+  template <typename...>
+  static false_type f(...);
+
+ public:
+  using type = decltype(f<T, Args...>(0));
+};
+
+template <typename T, typename... Args>
+bool has_f_v = std::is_same<typename has_f<T, Args...>::type, true_type>::value;
+```
+Тут мы сделали несколько улучшений: 
+все вычисления производятся над типами(более чистое метапрограммирование);
+переход к значению происходит в самом конце; 
+тела функций не нужны, т.к. всё решается только с помощью сигнатур.
