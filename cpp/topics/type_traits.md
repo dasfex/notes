@@ -299,9 +299,83 @@ struct has_f {
 };
 
 template <typename T, typename... Args>
-bool has_f_v = std::is_same<typename has_f<T, Args...>::type, true_type>::value;
+bool has_f_v = std::is_same_v<typename has_f<T, Args...>::type, true_type>;
 ```
 Тут мы сделали несколько улучшений: 
 все вычисления производятся над типами(более чистое метапрограммирование);
 переход к значению происходит в самом конце; 
 тела функций не нужны, т.к. всё решается только с помощью сигнатур.
+
+### ```std::enable_if```
+
+Предположим, у нас есть две функции:
+```cpp
+template <typename T>
+void f(const T&) {
+  std::cout << 1;
+}
+
+void f(...) {
+  std::cout << 2;
+}
+```
+И мы хотим, чтобы в первую, например, мы попадали только тогда, когда тип ```T```
+является классом или, например, он может быть сконструирован от некоторых аргументов.
+Т.е. для случаев, когда тип удовлетворяет некоторому метапредикату.
+```cpp
+template <typename T, typename = std::enable_if_t<std::is_class_v<T>>>
+void f(const T&) {
+  std::cout << 1;
+}
+```
+Т.е. если некоторое метаусловие не выполняется, то мы хотим убрать функцию
+из кандидатов при выборе перегрузки.
+
+Реализуем его:
+```cpp
+template <bool B, typename T>
+struct enable_if {};
+
+template <typename T>
+struct enable_f<true, T> {
+  using type = T;
+};
+
+template <bool B, typename T = void>
+using enable_if_t = typename enable_if<B, T>::type;
+```
+Т.е. в случае ```true``` мы попадём в специализацаю, в которой есть ```type```, 
+а иначе его не будет и произойдёт неудачная шаблонная подстановка.
+
+Второй шаблонный аргумент ```T``` иногда бывает нужен(пока хз зачем:( ).
+
+## Ещё немного type trait'ов
+
+Не все type traits можно реализовать самому, т.к. иногда нужны знания о том,
+как компилятор представляет информацию(например ```std::is_union```).
+
+### is_constructible, is_assignable
+
+```cpp
+template <typename T, typename... Args>
+struct is_constructible {
+ private:
+  template <typename TT, typename... Aargs,
+        typename = decltype(TT(std::declval<Aargs>()...))>
+  static true_type f(int);
+  
+  template <typename...>
+  static false_type f(...);
+
+ public:
+  static const bool type = decltype(f<T, Args...>(0))::value;
+};
+```
+
+
+
+
+
+
+
+
