@@ -99,6 +99,7 @@ C++:
 3. [Bartek's blog](https://www.bfilipek.com) и [cppstories](https://www.cppstories.com): 
 [finally](https://www.bfilipek.com/2017/04/finalact.html).
 4. Какие-то интересные доклады и статьи:
+  [Andrei Alexandrescu ```std::allocator```](https://www.youtube.com/watch?v=LIb3L4vKZ7U),
   [“The strange details of std::string at Facebook"](https://www.youtube.com/watch?v=kPR8h4-qZdk),
   [lambda story](https://www.cppstories.com/2021/lambda-story-print/),
   [objects, their lifetime and pointers](https://blog.panicsoftware.com/objects-their-lifetimes-and-pointers/).
