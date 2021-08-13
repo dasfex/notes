@@ -69,6 +69,8 @@ if constexpr (std::is_base_of_v<enable_shared_from_this<T>, T>) {
 }
 ```
 
+Ещё один пример использования это [boost::operators](https://www.boost.org/doc/libs/1_67_0/libs/utility/operators.htm).
+
 ## [type erasure](https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Type_Erasure)
 
 ## ADL
