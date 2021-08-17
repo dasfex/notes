@@ -60,4 +60,4 @@ std::generate(v2.begin(), v2.end(), std::bind(dis, std::ref(mt)));
 ```
 
 ### Применение стандартной библиотеки для всем известных алгоритмов
-(www.cppstories.com/2014/12/top-5-beautiful-c-std-algorithms/)[https://www.cppstories.com/2014/12/top-5-beautiful-c-std-algorithms/]
+[www.cppstories.com/2014/12/top-5-beautiful-c-std-algorithms/](https://www.cppstories.com/2014/12/top-5-beautiful-c-std-algorithms/)
