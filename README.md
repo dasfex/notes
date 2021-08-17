@@ -38,7 +38,7 @@ Some notes from different programming fields.
 
 ## Stackoverflow interesting questions
 
-1. [branch prediciton](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array).
+1. [branch prediction](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array).
 2. [C++11 reverse range-based-for loop](https://stackoverflow.com/questions/8542591/c11-reverse-range-based-for-loop).
 3. [why does ```std::reduce``` need commutativity](https://stackoverflow.com/questions/60216261/why-does-stdreduce-need-commutativity).
 4. [about ```std::decay```](https://stackoverflow.com/questions/64092331/is-stddecay-redundant-in-stdis-convertible).
