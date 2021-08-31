@@ -38,6 +38,8 @@ struct der: base {
 если родитель является пустым, то его часть не создаётся в наследниках.
 Т.е. ```sizeof(der)``` равен 4.
 
+Или например можно использовать вот так: [cppstories.com/2021/no-unique-address/](https://www.cppstories.com/2021/no-unique-address/).
+
 2. Return Value Optimization.
 
 3. [SSO](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
