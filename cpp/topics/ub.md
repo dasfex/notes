@@ -168,4 +168,5 @@ i = i++ + i++;
 printf("%d%, double(5));
 ```
 Результат такого выражения не определён и зависит от платформы.
+
 Объяснение: [belaycpp.com/2021/08/31/yet-another-reason-to-not-use-printf-or-write-c-code-in-general/](https://belaycpp.com/2021/08/31/yet-another-reason-to-not-use-printf-or-write-c-code-in-general/).
