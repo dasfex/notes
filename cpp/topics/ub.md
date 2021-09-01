@@ -161,3 +161,11 @@ i = i++ + i++;
 ### Выход указателя за границы массива
 
 Можно почитать вот [тут](https://stackoverflow.com/questions/10473573/why-is-out-of-bounds-pointer-arithmetic-undefined-behaviour).
+
+### Incorrect printf use
+
+```cpp
+printf("%d%, double(5));
+```
+Результат такого выражения не определён и зависит от платформы.
+Объяснение: [belaycpp.com/2021/08/31/yet-another-reason-to-not-use-printf-or-write-c-code-in-general/](https://belaycpp.com/2021/08/31/yet-another-reason-to-not-use-printf-or-write-c-code-in-general/).
