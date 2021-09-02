@@ -98,14 +98,11 @@ C++:
 [плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h)
 про advanced плюсы.
 И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
-3. [Bartek's blog](https://www.bfilipek.com) и [cppstories](https://www.cppstories.com): 
+3. Два интересных сервиса:[cppinsights.io](cppinsights.io)(показывает, во что разворачивается ваш код),
+[build-bench.com](build-bench.com)(можно померять время компиляции).
+3. [Blogs](https://www.bfilipek.com) и [cppstories](https://www.cppstories.com): 
 [finally](https://www.bfilipek.com/2017/04/finalact.html).
-4. Какие-то интересные доклады и статьи:
-  [Andrei Alexandrescu ```std::allocator```](https://www.youtube.com/watch?v=LIb3L4vKZ7U),
-  [“The strange details of std::string at Facebook"](https://www.youtube.com/watch?v=kPR8h4-qZdk),
-  [lambda story](https://www.cppstories.com/2021/lambda-story-print/),
-  [objects, their lifetime and pointers](https://blog.panicsoftware.com/objects-their-lifetimes-and-pointers/).
-5. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
+4. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
 
 Python3:
 1. Курсы на степике: 
