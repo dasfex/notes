@@ -100,8 +100,8 @@ C++:
 И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
 3. Два интересных сервиса:[cppinsights.io](cppinsights.io)(показывает, во что разворачивается ваш код),
 [build-bench.com](build-bench.com)(можно померять время компиляции).
-3. [Blogs](https://www.bfilipek.com) и [cppstories](https://www.cppstories.com): 
-[finally](https://www.bfilipek.com/2017/04/finalact.html).
+3. Blogs: [cppstories](https://www.cppstories.com), [fluentcpp](fluentcpp.com/posts/),
+[simplifyc++](arne-mertz.de), [belaycpp](https://belaycpp.com).
 4. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
 
 Python3:
