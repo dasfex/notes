@@ -80,11 +80,6 @@ _______________________________________
 для [алгоритмов кратчайших путей на графах на плоскости](http://qiao.github.io/PathFinding.js/visual/).
 10. [leetcode.com](https://leetcode.com) - норм сервис для подготовки к собесам.
 
-Best practice
-
-1. [Avoid bool parameters](https://mortoray.com/2015/06/15/get-rid-of-those-boolean-function-parameters/).
-2. [cppbestpractices](https://github.com/lefticus/cppbestpractices).
-
 C++:
 
 0. Лучший [источник](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w) для начинающих.
@@ -98,7 +93,8 @@ C++:
 [плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h)
 про advanced плюсы.
 И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
-3. Два интересных сервиса:[cppinsights.io](cppinsights.io)(показывает, во что разворачивается ваш код),
+3. Три интересных сервиса:[godbolt.org](https://godbolt.org)(disassemble your code),
+[cppinsights.io](cppinsights.io)(показывает, во что разворачивается ваш код),
 [build-bench.com](build-bench.com)(можно померять время компиляции).
 3. Blogs: [cppstories](https://www.cppstories.com), [fluentcpp](fluentcpp.com/posts/),
 [simplifyc++](arne-mertz.de), [belaycpp](https://belaycpp.com).
