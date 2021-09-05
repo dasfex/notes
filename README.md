@@ -144,11 +144,10 @@ Git:
 
 0. Работа с [бинарными файлами](https://hexed.it).
 1. [Тут](https://matworld.ru/calculator/perevod-chisel.php) норм числа в разных системах счисления гонять.
-2. [godbolt](https://godbolt.org).
-3. [Инструмент](https://graphonline.ru) для рисования графов.
-4. [Определение](http://detexify.kirelabs.org/classify.html) нарисованного символа в Latex.
-5. [Матричный калькулятор](https://matrixcalc.org/).
-6. [Joe Schmoe](https://joeschmoe.io).
-7. [explainshell](https://explainshell.com).
-8. [Разные генераторы](https://generator-online.com).
-9. [programming motherfucker](http://programming-motherfucker.com/become.html#C%20/%20C++).
+2. [Инструмент](https://graphonline.ru) для рисования графов.
+3. [Определение](http://detexify.kirelabs.org/classify.html) нарисованного символа в Latex.
+4. [Матричный калькулятор](https://matrixcalc.org/).
+5. [Joe Schmoe](https://joeschmoe.io).
+6. [explainshell](https://explainshell.com).
+7. [Разные генераторы](https://generator-online.com).
+8. [programming motherfucker](http://programming-motherfucker.com/become.html#C%20/%20C++).
