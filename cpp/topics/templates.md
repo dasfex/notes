@@ -109,7 +109,7 @@ sizeof...(args);
 ```
 ### Fold expressions(since C++17)
 
->> Как это делаллось до C++17: [link](https://articles.emptycrate.com/2016/05/14/folds_in_cpp11_ish.html).
+> Как это делаллось до C++17: [link](https://articles.emptycrate.com/2016/05/14/folds_in_cpp11_ish.html).
 
 Это возможность языка сделать что-то для всех элементов пакета сразу
 (при этом не нужно писать рекурсию).
