@@ -37,13 +37,13 @@ Stack<std::vector> stack;
 ```
 Но вообще ```std::stack``` реализован примерно вот так:
 ```cpp
-template <typename T, template <typename> class Container = std::vector>
+template <typename T, template <typename> class Container = std::deque>
 struct stack {
   Container<T> cont;
 };
 ...
 stack<int> s1;
-stack<bool, std::deque> s2;
+stack<bool, std::vector> s2;
 ```
 Обратим внимание, что до C++17 мы обязаны писать именно слово ```class```, а не ```typename```.
 После уже не принципиально.
