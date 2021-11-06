@@ -7,7 +7,7 @@
 4. ```using``` + ```template```.
 5. Генерация имён для временных файлов.
 6. Ускорение ```std::stack```.
-7. Ключ в ```std::map``` и ```std::unordered_map```.
+7. Заметки про ```std::map``` и ```std::unordered_map```.
 8. ```std::tie```.
 9. Приоритет операторов.
 10. ```static_cast```.
@@ -109,9 +109,9 @@ mi<string> map_from_int_to_string;
 std::stack<int, std::vector<int>> st;
 ```
 
-### Ключ в ```std::map``` и ```std::unordered_map```
+### Заметки про ```std::map``` и ```std::unordered_map```
 
-Ключ в ```std::map``` и ```std::unordered_map``` помечен как ```const```.
+1. Ключ в ```std::map``` и ```std::unordered_map``` помечен как ```const```.
 Вроде как это является интуитивным, потому что лично у меня никогда не возникало желания
 изменять ключ в данных контейнерах, но есть и другая проблема, которая может возникнуть
 из-за этого ограничения.
@@ -139,6 +139,54 @@ for (const std::pair<MyType, other>& x : mp) {}
 что приведёт к лишнему копированию каждой пары.
 
 Потому лучше всё-таки писать ```auto``` :)
+
+2. Рассмотрим такую ситуацию:
+```cpp
+void f(int iters) {
+  std::unordered_map<string, int> mp;
+  const char key[] = "asdasdasdasd";
+  while (--iters) mp.find(key);
+}
+```
+Каждый раз, когда мы пытаемся найти ```key``` в ```mp```, 
+в силу несовпадения типов создаётся объект типа ```string```.
+Т.е. имеем одно лишнее копирование при каждом поиске. 
+В случае ```std::map``` можно было бы использовать
+гетерогенный поиск(heterogenious lookup), но у хеш-таблиц
+стандартной библиотеки его нет, потому остаётся только поменять тип
+искомого значения. 
+
+3. 
+```cpp
+void f(int iters) {
+  std::unordered_map<string, int> mp;
+  std::pair<const string, int> p = {};
+  while (--iters) mp.insert(key);
+}
+```
+Тут при каждой вставке мы так же будем копировать
+переданный объект, т.к. у ```insert``` есть всего 
+2 перегрузки(для ```const value_type& value``` и ```value_type&& value```). 
+Для исправления нужно сделать весь ```pair``` константым. 
+
+
+```cpp
+void f(int iters) {
+  std::unordered_map<string, int> mp;
+  const string key = "";
+  while (--iters) mp.emplace(key, 0);
+}
+```
+При вставке впервые всё пройдёт хорошо, но при последующих
+на куче будет создана нода, контейнер попытается её вставить, у него не получится и 
+он освободит место под ноду на куче. И это каждый раз. Исправить можно вот так:
+```cpp
+void f(int iters) {
+  std::unordered_map<string, int> mp;
+  const std::pair<const string, int> p = {};
+  while (--iters) mp.insert(p);
+}
+```
 
 ### ```std::tie```
 
