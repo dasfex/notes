@@ -20,8 +20,8 @@ MyClass <const int, values> myClass;
 static char magic = '*';
 MyClass <char, &magic> myClass2;
 ```
-Немного больше информации можно посмотреть вот 
-[тут](https://stackoverflow.com/questions/65680367/using-pointer-as-a-template-parameter/65680874#comment116128380_65680874).
+Это может быть полезно, если вам нужно дать имя своему классу. 
+Можно так же передать указатель на функцию. 
 
 ### Template template parameters
 
