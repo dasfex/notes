@@ -8,7 +8,7 @@
 
 Но малоизвестен тот факт, что также можно использовать указатели:
 ```cpp
-template <typename T, T& Ptr>
+template <typename T, T* Ptr>
 class MyClass {};
 ```
 Может возникнуть вопрос, где же взять указатель кроме ```nullptr``` в compile time.
