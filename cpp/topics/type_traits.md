@@ -78,6 +78,20 @@ struct conditional : type_is<T> {};
 template <class T, class F>
 struct conditional<false, T, F> : type_is<F> {};
 ```
+
+### ```std::conditional```
+
+```std::conditional<condition, T, S>``` - выбирает тип ```T```,
+если ```condition``` - ```true```, и ```S``` иначе.
+
+```cpp
+template <bool, class T, class>
+struct conditional : type_is<T> {};
+
+template <class T, class S>
+struct conditional<false, T, S> : type_is<F> {};
+```
+
 ### std::common\_type
 ```cpp
 namespace std {
@@ -287,6 +301,3 @@ struct is_nothrow_move_constructible {
 template <typename T>
 bool is_nothrow_move_constructible_v = is_nothrow_move_constructible<T>::value;
 ```
-
-```std::conditional<condition, T, S>``` - выбирает тип ```T```,
-если ```condition``` - ```true```, и ```S``` иначе.
