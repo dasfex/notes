@@ -5,9 +5,9 @@
 В C++11 появился заголовок ```<type_traits>``` для работы
 с типами на этапе компиляции.
 Некоторые функции пишутся с помощью хитрых трюков и фич, но некоторые
-можно написать и сейчас.
+можно написать и самому.
 
-Например давайте напишем ```is_same```(проверку во время компиляции
+Например, давайте напишем ```is_same```(проверку во время компиляции
 равны ли два типа):
 ```cpp
 template <typename T, typename U>
@@ -32,7 +32,7 @@ struct remove_reference<T&> {
   using type = T;
 };
 ```
-При понимании механизмов выведения типов у шаблонов понять,
+Зная, как выводятся типы шаблонов, понять,
 как работает такая конструкция, несложно.
 
 Аналогично пишутся ```remove_pointer, remove_const,
@@ -53,6 +53,31 @@ struct is_homogeneous {
 };
 ``` 
 
+Также для реализации type_trait'ов выше можно использовать
+вот такой трюк.
+Рассмотрим type_trait ```type_is```:
+```cpp
+template <class T>
+struct type_is { using type = T; }
+```
+Чем может быть полезен такая тривиальная метафункция?
+Она упрощает реализацию других type_trait'ов:
+```cpp
+template <class T>
+struct remove_volatile : type_is<T> {};
+
+template <class T>
+struct remove_volatile<T volatile> : type_is<T> {};
+```
+
+Или для реализации ```std::conditional```:
+```cpp
+template <bool, class T, class>
+struct conditional : type_is<T> {};
+
+template <class T, class F>
+struct conditional<false, T, F> : type_is<F> {};
+```
 ### std::common\_type
 ```cpp
 namespace std {
@@ -129,7 +154,7 @@ typename S<T>::x* a;
 ```cpp
 template <typename T>
 struct S {
-  template <size_t N>
+  template <int N>
   struct A {};
 };
 
@@ -194,161 +219,6 @@ this->x = 1;
 ```
 При этом, если ```x``` нигде нет, то мы получим ошибку компиляции на этапе инстанцирования.
 
-## SFINAE
-
-Иногда требуется делать что-то в зависимости от того, есть ли у класса некоторый метод(
-например ```allocator_traits``` пытается понять про методы ```construct``` и ```destruct```).
-
-### Идея и простейший пример
-
-```cpp
-template <typename T>
-auto f(const T& x) -> decltype(T().size()) {
-  std::cout << 1;
-  return 1;
-}
-
-size_t f(...) {
-  std::cout << 2;
-  return 2;
-}
-...
-std::vector<int> v{1, 2, 3};
-f(v);
-f(1);
-```
-Что будет при выполнении такой программы?
-Выводом будет ```12```.
-
-Давайте разберём по пунктам мною написанное.
-
-При вызове ```f(1)``` компилятор очевидно предпочтёт первую версию, т.к. она более частная,
-но споткнётся на выводе типа, ведь у ```int``` нет метода ```size()```.
-Почему же просто не выкинуть compile error?
-Логика следующая: если не получается инстанцировать функцию(не тело, а именно сигнатуру),
-компилятор не выдаст ошибку, а просто выкинет её из кандидатов и будет искать заново.
-
-### Проверка наличия метода в классе
-
-Стоит понимать, что название не удастся реализовать метафункцию, которая будет принимать
-название метода как параметр.
-```cpp
-template <typename T, typename... Args>
-struct has_f {
- private:
-  template <typename TT, typename... Aargs>
-  constexpr static auto f(int) -> decltype(std::declval<TT>().f(std::declval<Aargs>()...), int()) {
-    return 1;
-  }
-  
-  template <typename...>
-  constexpr static char f(...) {
-    return 0;
-  }
-
- public:
-  static const bool value = f<T, Args...>(0);
-};
-
-template <typename T, typename... Args>
-bool has_f_v = has_f<T, Args...>::value;
-...
-struct T {
-  void f(int);
-};
-
-std::cout << has_f_v<T, int> << std::endl;
-std::cout << has_f_v<T, int, int> << std::endl;
-```
-
-Обратим внимание на несколько вещей:
-1. Мы пишем ```decltype```, после чего через запятую указываем тип.
-Это делается для того, чтобы был выведен нужный нам тип, но и требуемое выражение
-было проверено.
-Такой способ называется comma trick.
-2. Если не указать отдельные шаблоныне аргументы для ```f```, то в случаях,
-когда метода нет, мы получим ошибку компиляции, т.к. инстанцирование произойдёт
-во время инстанцирования класса, а не функции.
-3. ```std::declval``` используем для случая, 
-если у типа не окажется конструктора по умолчанию.
-
-Однако текущая форма не совсем является корректным примером метапрограммирования,
-т.к. метапрограммирование происходит над типами.
-Модернизируем:
-```cpp
-template <typename T, T value_>
-struct integral_constant {
-  static const T value = value_;
-};
-
-struct true_type : public integral_constant<bool, true> {};
-struct false_type : public integral_constant<bool, false> {};
-
-template <typename T, typename... Args>
-struct has_f {
- private:
-  template <typename TT, typename... Aargs,
-        typename = decltype(std::declval<TT>().f(std::declval<Aargs>()...))>
-  static true_type f(int);
-  
-  template <typename...>
-  static false_type f(...);
-
- public:
-  using type = decltype(f<T, Args...>(0));
-};
-
-template <typename T, typename... Args>
-bool has_f_v = std::is_same_v<typename has_f<T, Args...>::type, true_type>;
-```
-Тут мы сделали несколько улучшений: 
-все вычисления производятся над типами(более чистое метапрограммирование);
-переход к значению происходит в самом конце; 
-тела функций не нужны, т.к. всё решается только с помощью сигнатур.
-
-### ```std::enable_if```
-
-Предположим, у нас есть две функции:
-```cpp
-template <typename T>
-void f(const T&) {
-  std::cout << 1;
-}
-
-void f(...) {
-  std::cout << 2;
-}
-```
-И мы хотим, чтобы в первую, например, мы попадали только тогда, когда тип ```T```
-является классом или, например, он может быть сконструирован от некоторых аргументов.
-Т.е. для случаев, когда тип удовлетворяет некоторому метапредикату.
-```cpp
-template <typename T, typename = std::enable_if_t<std::is_class_v<T>>>
-void f(const T&) {
-  std::cout << 1;
-}
-```
-Т.е. если некоторое метаусловие не выполняется, то мы хотим убрать функцию
-из кандидатов при выборе перегрузки.
-
-Реализуем его:
-```cpp
-template <bool B, typename T>
-struct enable_if {};
-
-template <typename T>
-struct enable_f<true, T> {
-  using type = T;
-};
-
-template <bool B, typename T = void>
-using enable_if_t = typename enable_if<B, T>::type;
-```
-Т.е. в случае ```true``` мы попадём в специализацаю, в которой есть ```type```, 
-а иначе его не будет и произойдёт неудачная шаблонная подстановка.
-
-Второй шаблонный аргумент ```T``` иногда бывает нужен(пока хз зачем:( ).
-
 ## Ещё немного type trait'ов
 
 Не все type traits можно реализовать самому, т.к. иногда нужны знания о том,
@@ -356,6 +226,7 @@ using enable_if_t = typename enable_if<B, T>::type;
 
 ### is_constructible
 
+Следующие type_traits основываются на технике SFINAE.
 ```cpp
 template <typename T, typename... Args>
 struct is_constructible {
@@ -416,3 +287,6 @@ struct is_nothrow_move_constructible {
 template <typename T>
 bool is_nothrow_move_constructible_v = is_nothrow_move_constructible<T>::value;
 ```
+
+```std::conditional<condition, T, S>``` - выбирает тип ```T```,
+если ```condition``` - ```true```, и ```S``` иначе.
