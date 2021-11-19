@@ -173,6 +173,17 @@ using enable_if_t = typename enable_if<B, T>::type;
 Т.е. в случае ```true``` мы попадём в специализацаю, в которой есть ```type```, 
 а иначе его не будет и произойдёт неудачная шаблонная подстановка.
 
+Зачем может быть нужен тип в ```enable_if```?
+Иногда мы хотим получить различные типы в зависимости от выполнения
+некоторых условий:
+```cpp
+template <class T>
+std::enable_if_t<std::is_integral_v<T>, long long int> f(T val) {...}
+
+template <class T>
+std::enable_if_t<std::is_floating_point_v<T>, long long int> f(T val) {}
+```
+
 ### Заметки о том, как это было раньше
 
 Во времена, когда не существовало ключевого слова ```constexpr```,
