@@ -24,6 +24,7 @@
 21. Удобная форма написания операторов копирования/перемещения.
 22. Простой способ написать итератор на вектор.
 23. Point of Declaration(PoD). 
+24. Анонимные переменные. 
 
 ### Cpp optimizations.
 
@@ -627,3 +628,22 @@ struct Node /* PoD */ {
   Node* next;
 };
 ```
+
+### Анонимные переменные
+
+Создание анонимной переменной может быть полезно при создании буферного объекта. 
+Например с ```gsl::finally```:
+```cpp
+#define CONCATENATE_IMPL(s1, s2) s1##s2
+#define CONCATENATE(s1, s2) CONCATENATE_IMPL(s1, s2)
+
+#ifdef __COUNTER__
+#define ANONYMOUS_VARIABLE(str) CONCATENATE(str, __COUNTER__)
+#else
+#define ANONYMOUS_VARIABLE(str) CONCATENATE(str, __LINE__)
+#endif
+
+auto ANONYMOUS_VARIABLE(var) = gsl::finally([] {});
+```
+Это не анонимная в полном смысле этого слова переменная, т.к. её можно использовать, зная имя, но
+теперь не нужно думать, какие имена использовать для нескольких переменных. 
