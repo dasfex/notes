@@ -21,7 +21,19 @@ static char magic = '*';
 MyClass <char, &magic> myClass2;
 ```
 Это может быть полезно, если вам нужно дать имя своему классу. 
-Можно так же передать указатель на функцию. 
+
+Можно так же передать указатель на функцию:
+```cpp
+template <void (*callback_)()>
+struct CBack {
+  void use() {
+    callback_();
+  }
+};
+
+CBack<&foo> c;
+c.use();
+```
 
 ### Template template parameters
 
@@ -47,6 +59,15 @@ stack<bool, std::vector> s2;
 ```
 Обратим внимание, что до C++17 мы обязаны писать именно слово ```class```, а не ```typename```.
 После уже не принципиально.
+
+Понятно, что растить такие шаблоны можно как в ширину:
+```cpp
+template <template <typename, typename> class T>
+```
+так и в глубину:
+```cpp
+template <template <template <typename> class S> class T>
+```
 
 ### Explicit instantiation
 
