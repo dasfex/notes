@@ -41,7 +41,7 @@ remove_extent```(последнее позволяет убрать одно и�
 ```T[]```)).
 
 Также есть структура ```std::decay<T>```, торая позволяет снять с 
-типа ```T``` все "навешенные штуки".
+типа ```T``` все квалификаторы.
 
 Аналогично можно написать ```add_const, add_reference, add_pointer``` и т.д.
 
@@ -70,15 +70,6 @@ template <class T>
 struct remove_volatile<T volatile> : type_is<T> {};
 ```
 
-Или для реализации ```std::conditional```:
-```cpp
-template <bool, class T, class>
-struct conditional : type_is<T> {};
-
-template <class T, class F>
-struct conditional<false, T, F> : type_is<F> {};
-```
-
 ### ```std::conditional```
 
 ```std::conditional<condition, T, S>``` - выбирает тип ```T```,
@@ -90,6 +81,15 @@ struct conditional : type_is<T> {};
 
 template <class T, class S>
 struct conditional<false, T, S> : type_is<F> {};
+```
+
+С помощью ```type_is```:
+```cpp
+template <bool, class T, class>
+struct conditional : type_is<T> {};
+
+template <class T, class F>
+struct conditional<false, T, F> : type_is<F> {};
 ```
 
 ### std::common\_type

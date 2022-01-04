@@ -80,7 +80,7 @@ template <template <template <typename> class S> class T>
 Существует способ осуществить явную подстановку типа, чтобы проверить, компилируются ли все
 компоненты класса(поля, методы) без их явного вызова.
 ```cpp
-template <typename T, size_T N>
+template <typename T, size_t N>
 struct S {
   void f() {
     T a[N];
@@ -94,7 +94,7 @@ template struct S<int, -1>;
 
 ### Variadic templates(since C++11)
 
-Следующим логичным шагом было бы введение шаблонов с переменным количеством аргументов:
+Важным шагом было введение шаблонов с переменным количеством аргументов:
 ```cpp
 // отделяем первый аргумент от остальных
 template <typename Head, typename... Args>
@@ -102,7 +102,7 @@ void print(const Head& head, const Args&... args) {
   std::cout << head << ' ';
   print(args...);
 }
-// делаем перегрузку на случай пустого пакетв
+// делаем перегрузку на случай пустого пакета
 void print() {}
 ```
 ```Args``` - это некоторая абстрактная сущность, обозначащая список типов.
@@ -114,7 +114,8 @@ void print() {}
 ```cpp
 template <typename First, typename Second, typename... Tail>
 struct is_homogeneous {
-  static const bool value = std::is_same_v<First, Second> && is_homogeneous<Second, Tail...>::value;
+  static const bool value = std::is_same_v<First, Second> && 
+          is_homogeneous<Second, Tail...>::value;
 };
 
 template <typename T, typename U>
@@ -122,7 +123,7 @@ struct is_homogeneous<T, U> {
   static const bool value = std::is_same_v<T, U>;
 };
 ```
-Что делаеть, если мы хотим узнать кол-во типов в пакете?
+Что делать, если мы хотим узнать кол-во типов в пакете?
 Для этого существует специальный оператор:
 ```cpp
 sizeof...(Args);
@@ -130,7 +131,7 @@ sizeof...(args);
 ```
 ### Fold expressions(since C++17)
 
-> Как это делаллось до C++17: [link](https://articles.emptycrate.com/2016/05/14/folds_in_cpp11_ish.html).
+> До C++17: [link](https://articles.emptycrate.com/2016/05/14/folds_in_cpp11_ish.html).
 
 Это возможность языка сделать что-то для всех элементов пакета сразу
 (при этом не нужно писать рекурсию).
@@ -197,7 +198,8 @@ template <> My<int> {}; // compile error
 ```cpp
 template <class T> void f(T);
 template <class T> void f(T*);
-template <> void f(int*); // компилятор имеет достаточно информации, чтобы правильно вывести тип шаблона
+template <> void f(int*); // компилятор имеет достаточно информации, 
+                          // чтобы правильно вывести тип шаблона
 
 int x;
 f(&x);

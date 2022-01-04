@@ -128,7 +128,7 @@ i = i++ + i++;
 ### Incorrect printf use
 
 ```cpp
-printf("%d%, double(5));
+printf("%d%", double(5));
 ```
 Результат такого выражения не определён и зависит от платформы.
 

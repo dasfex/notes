@@ -5,23 +5,17 @@ Some notes from different programming fields.
 
 #### Advance topics
 
-1. [new, delete](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/new_delete.md).
-2. [allocators](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/allocators.md).
-3. [inheritance, vtable, virtual inheritance](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/inheritance.md).
-4. [templates](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/templates.md).
-5. [type traits](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/type_traits.md).
-6. [move-semantics](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/move_semantics.md).
-7. [undefined behaviour](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/ub.md).
-8. [different idioms](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/topics/idioms.md).
-
-#### miscellaneous
-
-1. [custom ostream manipulator(eng)](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/custom_manipulator_eng.md).
-2. [adding structured bindings to your class(eng)](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/structured_binding_eng.md).
-3. [adding range based support for custom class](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/custom_range_based.md).
-4. [professional push_back](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/push_back_feature.md).
-5. [advance compositions](https://github.com/dasfex/ProgrammingNotes/tree/master/cpp/advance_compositions.md).
-6. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous.md).
+1. [new, delete](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/new_delete.md).
+2. [allocators](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/allocators.md).
+3. [inheritance, vtable, virtual inheritance](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/inheritance.md).
+4. [templates](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/templates.md).
+5. [type traits](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/type_traits.md).
+6. [sfinae](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/sfinae.md).
+7. [move-semantics](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/move_semantics.md).
+8. [undefined behaviour](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/ub.md).
+9. [some idioms](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/idioms.md).
+10. [advance compositions](https://github.com/dasfex/ProgrammingNotes/tree/master/cpp/advance_compositions.md).
+11. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous.md).
 
 ## Python3
 
@@ -106,9 +100,7 @@ Python3:
 [для начинающих](https://stepik.org/course/67/syllabus) и
 чтобы представлять, [как юзать](https://stepik.org/course/512/syllabus),
 а ещё по [numpy](https://stepik.org/course/3356/syllabus).
-2. Какие-то малоизвестные библиотеки на питоне:
-[1](https://tproger.ru/translations/10-python-libraries-you-might-not-know/).
-3. Про [f-строки](https://shultais.education/blog/python-f-strings).
+2. Про [f-строки](https://shultais.education/blog/python-f-strings).
 
 Go:
 1. [Официальный курс](https://go-tour-ru-ru.appspot.com/welcome/1) в язык.
@@ -120,7 +112,7 @@ Git:
 0. Как это работает: [1](https://vas3k.ru/blog/319/), [2](https://vas3k.ru/blog/320/).
 1. [ohshitgit](https://ohshitgit.com).
 2. [--force](https://blog.developer.atlassian.com/force-with-lease/#:~:text=Git's%20push%20--force%20is,has%20pushed%20in%20the%20meantime.).
-3. [Удачная модель ветвления](https://habr.com/ru/post/106912/)
+3. [Удачная модель ветвления](https://habr.com/ru/post/106912/).
 
 Про найм:
 

@@ -92,29 +92,27 @@ call(x);
 ```
 Удивительно, но этот код скомпилируется, несмотря на то, что мы явно не указали
 namespace функции ```call```.
-Это называется ```argument dependency looking```.
+Это называется ```argument dependency lookup```.
 Компилятор смотрит на пространства имён аргументов и в них ищет функцию.
 
 Что же будет, если подходящих вариантов несколько?
 ```cpp
 namespace A {
-    struct S1;
+  struct S1;
 }
 
 namespace B {
-    struct S2 {};
-    
-    void call(const A::S1& x, const S2& y) {
-        cout << "1";
-    }
+  struct S2 {};
+  void call(const A::S1& x, const S2& y) {
+    cout << "1";
+  }
 }
 
 namespace A {
-    struct S1 {};
-    
-    void call(const S1& x, const B::S2& y) {
-        cout << "2";
-    }
+  struct S1 {};
+  void call(const S1& x, const B::S2& y) {
+    cout << "2";
+  }
 }
 ...
 A::S1 x;

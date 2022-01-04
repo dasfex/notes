@@ -32,7 +32,7 @@ f(1);
 Логика следующая: если не получается инстанцировать функцию(не тело, а именно сигнатуру),
 компилятор не выдаст ошибку, а просто выкинет её из кандидатов и будет искать заново.
 
-### Некоторые интересные техники
+## Некоторые интересные техники
 
 
 ### Проверка наличия метода в классе
@@ -42,7 +42,8 @@ template <typename T, typename... Args>
 struct has_f {
  private:
   template <typename TT, typename... Aargs>
-  constexpr static auto f(int) -> decltype(std::declval<TT>().f(std::declval<Aargs>()...), int()) {
+  constexpr static auto f(int) -> 
+    decltype(std::declval<TT>().f(std::declval<Aargs>()...), int()) {
     return 1;
   }
   
@@ -71,7 +72,7 @@ std::cout << has_f_v<T, int, int> << std::endl;
 Это делается для того, чтобы был выведен нужный нам тип, но и требуемое выражение
 было проверено.
 Такой способ называется comma trick.
-2. Если не указать отдельные шаблоныне аргументы для ```f```, то в случаях,
+2. Если не указать отдельные шаблонные аргументы для ```f```, то в случаях,
 когда метода нет, мы получим ошибку компиляции, т.к. инстанцирование произойдёт
 во время инстанцирования класса, а не функции.
 3. ```std::declval``` используем для случая, 
@@ -181,10 +182,10 @@ template <class T>
 std::enable_if_t<std::is_integral_v<T>, long long int> f(T val) {...}
 
 template <class T>
-std::enable_if_t<std::is_floating_point_v<T>, long long int> f(T val) {}
+std::enable_if_t<std::is_floating_point_v<T>, double> f(T val) {}
 ```
 
-### Заметки о том, как это было раньше
+### Как это было раньше
 
 Во времена, когда не существовало ключевого слова ```constexpr```,
 писали вот так:
