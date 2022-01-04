@@ -7,9 +7,8 @@
 ```++```(префиксный), ```!=```, ```*```. 
 
 Давайте напишем свой аналог ```range``` из ```python3```:
-```
+```cpp
 class range {
- 
  public:
   range(int l, int r) : l(l), r(r) {}
  
@@ -48,7 +47,7 @@ class range {
 };
 ```
 При запуске:
-```
+```cpp
 for (auto x : range(0, 10)) {
   cout << x << ' ';
 }

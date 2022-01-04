@@ -228,4 +228,8 @@ using rebind::other = allocator<U>;
 > ```deallocate``` ничего не будет делать.
 > И по факту получится в разы быстрее.
 
+### Источники
 
+Можно почитать статьи/посмотреть доклады:
+1. [Базовые концепции аллокаторов](https://habr.com/ru/post/590415/).
+2. [std::allocator](https://www.youtube.com/watch?v=LIb3L4vKZ7U).
