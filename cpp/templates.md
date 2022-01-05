@@ -427,7 +427,7 @@ Node* top = getTop();
 Node* seven = tree_get(top, right, right, left); // 7
 Node* four = tree_get(top, left, right, left); // 4
 ```
-Интересно, что такая свёртка пишется всего во одну строчку:
+Интересно, что такая свёртка пишется всего в одну строчку:
 ```cpp
 template<class T, class... Args>
 Node<T>* tree_get(Node<T>* top, Args... args) {
