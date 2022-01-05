@@ -1,10 +1,6 @@
 # templates
 
----
-
 ## Type deduction notes
-
----
 
 ### User-defined deduction guides(since C++17)
 
@@ -189,6 +185,8 @@ void f(T* const& t) {
 int x = 1;
 f(&x); // на экране int* const
 ```
+Получаем манглированное имя, которое можно обработать с помощью
+```c++filt -t``` и получить результат. 
 Минусы: код должен исполнится, часть информации обрезается.
 
 Используем линкер:
@@ -212,9 +210,31 @@ void f(T* const& t) {
 Раз мы хотим вызвать ошибку компиляции, какая разница, 
 что мы подставим в шаблон :)
 
-## templates notes
+Однако использовать такой способ для выяснения overkill.
 
----
+Приемлемым способ может быть решение с помощью ```boost```:
+```cpp
+#include <boost/type_index.hpp>
+using boost::typeindex::type_id_with_cvr;
+std::cout << type_id_with_cvr<decltype(t)>().pretty_name();
+```
+Эта функция не отбрасывает (что понятно по названию) cv-квалификаторы и ссылку,
+как это делает стандартный ```typeid```.
+
+И всё же, если не хочется тянуть ```boost```, то можно применить следующий способ:
+```cpp
+template <class T>
+class Type {};
+
+template <class T>
+void f(const T& t) {
+  Type<decltype(t)> tt;
+  std::cout << typeid(tt).name(); // c++filt -t
+}
+```
+Шаблон вынуждает ничего не резать. 
+
+## templates notes
 
 ### Non-type template parameters
 
