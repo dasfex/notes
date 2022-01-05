@@ -365,6 +365,16 @@ struct is_homogeneous<T, U> {
 sizeof...(Args);
 sizeof...(args);
 ```
+
+Или вот такой красивый пример:
+```cpp
+template <class... Args, int... N>
+void g(Args (&...args)[N]) {}
+```
+Тут по троеточию раскрывается как пакет с аргументами, так и пакет с размерами,
+потому как аргументы мы получим функцию, принимающую массивы разных размеров
+от разных типов. 
+
 ### Fold expressions(since C++17)
 
 > До C++17: [link](https://articles.emptycrate.com/2016/05/14/folds_in_cpp11_ish.html).
