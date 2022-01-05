@@ -366,15 +366,6 @@ sizeof...(Args);
 sizeof...(args);
 ```
 
-Или вот такой красивый пример:
-```cpp
-template <class... Args, int... N>
-void g(Args (&...args)[N]) {}
-```
-Тут по троеточию раскрывается как пакет с аргументами, так и пакет с размерами,
-потому как аргументы мы получим функцию, принимающую массивы разных размеров
-от разных типов. 
-
 ### Fold expressions(since C++17)
 
 > До C++17: [link](https://articles.emptycrate.com/2016/05/14/folds_in_cpp11_ish.html).
@@ -403,6 +394,50 @@ void print(const Args&... args) {
 (args op ... op x)
 ```
 где ```x``` - некоторый аргумент. 
+
+Ещё вот такой красивый пример:
+```cpp
+template <class... Args, int... N>
+void g(Args (&...args)[N]) {}
+```
+Тут по троеточию раскрывается как пакет с аргументами, так и пакет с размерами,
+потому как аргументы мы получим функцию, принимающую массивы разных размеров
+от разных типов. 
+
+Бывают совсем экзотические свёртки. 
+Например пусть мы имеем бинарное дерево:
+```
+         1
+      /     \
+     2       6
+   /  \       \
+  3    5       8
+      /      /   \
+     4      7     9
+```
+И следующий код:
+```cpp
+template <class T>
+struct Node {
+  T data;
+  Node* left;
+  Node* right;
+};
+Node* top = getTop();
+Node* seven = tree_get(top, right, right, left); // 7
+Node* four = tree_get(top, left, right, left); // 4
+```
+Интересно, что такая свёртка пишется всего во одну строчку:
+```cpp
+template<class T, class... Args>
+Node<T>* tree_get(Node<T>* top, Args... args) {
+    return (top ->* ... ->* args);
+}
+
+Node<int> t;
+auto left = &Node<int>::left;
+auto right = &Node<int>::right;
+```
 
 ### Управление инстанцированием шаблона функций
 
