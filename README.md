@@ -87,6 +87,7 @@ C++:
 2. Первая часть классного 
 [плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h)
 про advanced плюсы.
+3. [Продвинутый](https://www.youtube.com/playlist?list=PL3BR09unfgcgJPQZKaacwzGmcXMtEA-19) курс. 
 И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
 3. Три интересных сервиса:[godbolt.org](https://godbolt.org)(disassemble your code),
 [cppinsights.io](cppinsights.io)(показывает, во что разворачивается ваш код),
