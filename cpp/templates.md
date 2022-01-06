@@ -236,7 +236,7 @@ void f(const T& t) {
 
 ## templates notes
 
-### Non-type template parameters
+### Non-type template parameters(nntp)
 
 Всем известно, что в качестве шаблонов можно использовать также примитивные
 числовые типы: ```int```, ```size_t```, ```bool``` и т.д.(в противоположность
