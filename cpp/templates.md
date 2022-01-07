@@ -293,6 +293,16 @@ struct stack {
 stack<int> s1;
 stack<bool, std::vector> s2;
 ```
+> ##### Ускорение адаптеров
+>
+> Известный факт, что ```std::stack, std::queue, std::priority_queue``` 
+> являются адаптерами и по дефолту реализованы на деке.
+> Однако часто можно использовать ```std::vector``` 
+> и получить прирост эффективности. Например:
+> ```cpp
+> std::stack<int, std::vector<int>> st;
+> ```
+
 Обратим внимание, что до C++17 мы обязаны писать именно слово ```class```, а не ```typename```.
 После уже не принципиально.
 
@@ -517,4 +527,13 @@ f(&x, &x);
 Специализации, как и перегрузки, можно явно запрещать:
 ```cpp
 template <> void f<char>() = delete;
+```
+
+### template using
+
+Можно писать вот так:
+```cpp
+template <typename T>
+using mi = map<int, T>;
+mi<string> map_from_int_to_string;
 ```
