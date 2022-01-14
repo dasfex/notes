@@ -234,6 +234,16 @@ void f(const T& t) {
 ```
 Шаблон вынуждает ничего не резать. 
 
+Если требуется только проверка типов на равенство, можно сделать так:
+```cpp
+constexpr const int i = 0;
+constexpr int j = 0;
+using T = const int;
+using T = decltype(i);
+using T = decltype(j);
+```
+Если скомпилируется, то типы равны, иначе получаем redefenition error.
+
 ## templates notes
 
 ### Non-type template parameters(nntp)
