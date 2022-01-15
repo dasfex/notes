@@ -556,3 +556,36 @@ template <typename T>
 using mi = map<int, T>;
 mi<string> map_from_int_to_string;
 ```
+  
+## Metaprogramming notes
+
+### Сложность вычислений на компиляции
+
+Интересно, что вычисления на компиляции в силу механизма работы шаблонов 
+часто работают, как будто кешируя результат. 
+Рассмотрим следующий код:
+```cpp
+// runtime
+int fib(int n) {
+  return n < 2 ? 1 : fib(n - 1) + fib(n - 2);
+}
+             
+// compile time
+template <int N>
+struct Fib {
+  static constexpr int value = Fib<N - 1>::value + Fib<N - 2>::value;
+};
+template <>
+struct Fib<1> {
+  static constexpr int value = 1;
+};
+template <>
+struct Fib<0> : Fib<1> {
+};
+```
+В первом случае каждый вызов функции будет приводить к вычислению,
+что приводит к медленному вычислению результата. 
+
+Во втором же, в силу того, что при наличии инстанцированного шаблона
+повторное инстанцирование происходить не будет, возьмётся сразу вычисленный
+результат, что сокращает время работы от O(n!) до O(n).
