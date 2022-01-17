@@ -14,9 +14,8 @@ Some notes from different programming fields.
 7. [move-semantics](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/move_semantics.md).
 8. [undefined behaviour](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/ub.md).
 9. [some idioms](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/idioms.md).
-10. [advance compositions](https://github.com/dasfex/ProgrammingNotes/tree/master/cpp/advance_compositions.md).
-11. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous.md).
-12. [talks](https://github.com/dasfex/notes/blob/master/cpp/talks.md).
+10. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous.md).
+11. [talks](https://github.com/dasfex/notes/blob/master/cpp/talks.md).
 
 ## Python3
 
