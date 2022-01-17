@@ -8,7 +8,7 @@ Some notes from different programming fields.
 1. [new, delete](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/new_delete.md).
 2. [allocators](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/allocators.md).
 3. [inheritance notes](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/inheritance.md).
-4. [type deduction notes + templates notes](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/templates.md).
+4. [type deduction notes + templates notes + metaprogramming notes](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/templates.md).
 5. [type traits](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/type_traits.md).
 6. [sfinae](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/sfinae.md).
 7. [move-semantics](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/move_semantics.md).
