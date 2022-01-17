@@ -221,4 +221,5 @@ using rebind::other = allocator<U>;
 
 Можно почитать статьи/посмотреть доклады:
 1. [Базовые концепции аллокаторов](https://habr.com/ru/post/590415/).
-2. [std::allocator](https://www.youtube.com/watch?v=LIb3L4vKZ7U).
+2. CppCon 2015. Andrei Alexandrescu.
+[std::allocator](https://www.youtube.com/watch?v=LIb3L4vKZ7U).
