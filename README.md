@@ -3,8 +3,6 @@ Some notes from different programming fields.
 
 ## C++
 
-#### Advanced topics and notes
-
 1. [new, delete](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/new_delete.md).
 2. [allocators](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/allocators.md).
 3. [inheritance notes](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/inheritance.md).
@@ -26,33 +24,8 @@ Some notes from different programming fields.
 ## General
 
 1. [protocols(udp/tcp)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols.md).
-2. [how to write data structure based on hash](https://github.com/dasfex/ProgrammingNotes/blob/master/general/hash_set.md).
-3. [lru-cache conception](https://github.com/dasfex/ProgrammingNotes/blob/master/general/lru_cache.md).
-4. [encodings](https://github.com/dasfex/ProgrammingNotes/blob/master/general/encodings.md).
-
-## Stackoverflow interesting questions
-
-1. [branch prediction](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array).
-2. [C++11 reverse range-based-for loop](https://stackoverflow.com/questions/8542591/c11-reverse-range-based-for-loop).
-3. [why does ```std::reduce``` need commutativity](https://stackoverflow.com/questions/60216261/why-does-stdreduce-need-commutativity).
-4. [about ```std::decay```](https://stackoverflow.com/questions/64092331/is-stddecay-redundant-in-stdis-convertible).
-5. [about ```std::set``` comparator](https://stackoverflow.com/questions/2620862/using-custom-stdset-comparator).
-6. [```auto``` with private type](https://stackoverflow.com/questions/13532784/why-can-i-use-auto-on-a-private-type).
-7. [```sizeof(std::string)```](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
-8. [about #include](https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename#:~:text=For%20%23include%20""%20a%20compiler,search%20the%20current%20file's%20folder).
-9. [recursive lambda with ```auto```](https://stackoverflow.com/questions/2067988/recursive-lambda-functions-in-c11).
-10. [using private member of derived class form base](https://stackoverflow.com/questions/65001923/can-i-forbid-calling-private-member-of-derived-class-from-base).
-11. [about self-asignment operator](https://stackoverflow.com/questions/12015156/what-is-wrong-with-checking-for-self-assignment-and-what-does-it-mean).
-12. [member function partial specialization](https://stackoverflow.com/questions/5688355/partial-specialisation-of-member-function-with-non-type-parameter).
-13. [hidden Python features](https://stackoverflow.com/questions/101268/hidden-features-of-python).
-14. [type declaration - pointer asterisk position](https://stackoverflow.com/questions/2704167/type-declaration-pointer-asterisk-position).
-15. [std::forward_list::size](https://stackoverflow.com/questions/31822494/c-stl-why-stdforward-list-has-no-size-method#:~:text=A%20std%3A%3Aforward_list%20does,a%20handwritten%20singly%20linked%20list.)
-16. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11).
-17. [```std:::shared_ptr``` for C-style arrays](https://stackoverflow.com/questions/3266443/can-you-use-a-shared-ptr-for-raii-of-c-style-arrays).
-18. [about self-move assignment](https://stackoverflow.com/questions/13127455/what-does-the-standard-library-guarantee-about-self-move-assignment).
-19. [why does std::stack use std::deque by default](https://stackoverflow.com/questions/102459/why-does-stdstack-use-stddeque-by-default).
-20. [range based for loop or ```std::for_each```](https://stackoverflow.com/questions/9994421/preferred-standard-use-range-based-for-or-stdfor-each).
-21. [constexpr error at ct but no overhead at rt](https://stackoverflow.com/questions/20461121/constexpr-error-at-compile-time-but-no-overhead-at-run-time).
+2. [encodings](https://github.com/dasfex/ProgrammingNotes/blob/master/general/encodings.md).
+3. [miscellanious](https://github.com/dasfex/ProgrammingNotes/blob/master/general/miscellanious.md).
 
 _______________________________________
 
@@ -63,17 +36,17 @@ _______________________________________
 1. Адитья Бхаргава, "Грокаем алгоритмы". Очень хорошая книга для самого-самого начала.
 2. [e-maxx rus](http://e-maxx.ru/algo/).
 3. [e-maxx eng](https://cp-algorithms.com)(активно дополняется и исправляется, чем русская версия похвастаться не может).
-4. [algorithmica](https://algorithmica.org/ru/).
-5. [codeforces](https://codeforces.com).
-6. [acmp](https://acmp.ru/asp/do/index.asp?main=course&id_course=2).
-7. [dl.gsu.by](http://dl.gsu.by).
-8. [informatics.mccme](https://informatics.mccme.ru).
-9. Визуализаторы: 
+4. [algorithmica](https://algorithmica.org/ru/), 
+[codeforces](https://codeforces.com), 
+[acmp](https://acmp.ru/asp/do/index.asp?main=course&id_course=2), 
+[dl.gsu.by](http://dl.gsu.by), 
+[informatics.mccme](https://informatics.mccme.ru).
+5. Визуализаторы: 
 [1](https://www.cs.usfca.edu/~galles/visualization/Algorithms), 
 [2](https://visualgo.net/en), 
 [3](https://algorithm-visualizer.org) и
 для [алгоритмов кратчайших путей на графах на плоскости](http://qiao.github.io/PathFinding.js/visual/).
-10. [leetcode.com](https://leetcode.com) - норм сервис для подготовки к собесам.
+6. [leetcode.com](https://leetcode.com) - норм сервис для подготовки к собесам.
 
 C++:
 
@@ -85,14 +58,13 @@ C++:
 и 
 [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
 2. Первая часть классного 
-[плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h)
-про advanced плюсы.
+[плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h).
 И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
 3. [Продвинутый](https://www.youtube.com/playlist?list=PL3BR09unfgcgJPQZKaacwzGmcXMtEA-19) курс 
 в магистратуре МФТИ на базе Intel. 
-5. Три интересных сервиса:[godbolt.org](https://godbolt.org)(disassemble your code),
-[cppinsights.io](cppinsights.io)(показывает, во что разворачивается ваш код),
-[build-bench.com](build-bench.com)(можно померять время компиляции).
+5. Три интересных сервиса: [godbolt.org](https://godbolt.org) (disassemble your code),
+[cppinsights.io](cppinsights.io) (показывает, во что разворачивается ваш код),
+[build-bench.com](build-bench.com) (можно померять время компиляции).
 3. Blogs: [cppstories](https://www.cppstories.com), [fluentcpp](fluentcpp.com/posts/),
 [simplifyc++](arne-mertz.de), [belaycpp](https://belaycpp.com).
 4. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
@@ -106,8 +78,7 @@ Python3:
 
 Go:
 1. [Официальный курс](https://go-tour-ru-ru.appspot.com/welcome/1) в язык.
-2. Довольно понятный [курс](https://stepik.org/course/54403/syllabus) на [stepik](https://stepik.org).
-3. Какая-то [презентация](https://speakerdeck.com/majek04/golang-sucks) про приколы языка.
+2. Какая-то [презентация](https://speakerdeck.com/majek04/golang-sucks) про приколы языка.
 
 Git:
 
@@ -133,7 +104,6 @@ Git:
 5. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
 6. Что такое [машинное обучение](https://vas3k.ru/blog/machine_learning/) простыми словами.
 7. [vas3k.ru](https://vas3k.ru).
-8. [Implementing reader-writes lock](https://eli.thegreenplace.net/2019/implementing-reader-writer-locks/).
 
 Всякие удобные онлайн-сервисы:
 

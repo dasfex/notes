@@ -65,7 +65,7 @@ ASCII-часть кодируется одним байтом, причём ко
 
 ### Литература
 
-+ [The absolute minimum every software absolutely positively must 
+1. [The absolute minimum every software absolutely positively must 
 know about unicode and character sets no excuses.](
 https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
 ).
