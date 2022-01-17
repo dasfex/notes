@@ -16,6 +16,7 @@ Some notes from different programming fields.
 9. [some idioms](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/idioms.md).
 10. [advance compositions](https://github.com/dasfex/ProgrammingNotes/tree/master/cpp/advance_compositions.md).
 11. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/cpp/miscellaneous.md).
+12. [talks](https://github.com/dasfex/notes/blob/master/cpp/talks.md).
 
 ## Python3
 
