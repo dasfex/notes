@@ -19,7 +19,10 @@ https://www.youtube.com/watch?v=ncHmEUmJZf4).
 6. CppCon 2018. Andrei Alexandrescu.
 [“Expect the expected”](
 https://www.youtube.com/watch?v=PH4WBuE1BHI).
-7. Михаил Матросов. 
+7. CppCon 2019. Timur Doumler.
+[“Type punning in modern C++”](
+https://www.youtube.com/watch?v=_qzMpk-22cc).
+8. Михаил Матросов. 
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
 

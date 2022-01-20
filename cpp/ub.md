@@ -154,3 +154,8 @@ bool operator<(A& rhs, A& lhs) {
 является неопределённым поведением.
 
 ![mem](img/mem1.jpg)
+
+### Ссылки
+1. CppCon 2019. Timur Doumler.
+[“Type punning in modern C++”](
+https://www.youtube.com/watch?v=_qzMpk-22cc).
