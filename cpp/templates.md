@@ -605,3 +605,6 @@ struct Fib<0> : Fib<1> {
 1. [Boost MPL](https://www.boost.org/doc/libs/1_63_0/libs/mpl/doc/index.html). 
 2. [Boost fusion](https://www.boost.org/doc/libs/1_78_0/libs/fusion/doc/html/index.html). 
 3. [Boost Hana](https://www.boost.org/doc/libs/1_61_0/libs/hana/doc/html/index.html).
+4. CppCon 2021. Jason Turner.
+[Your New Mental Model of constexpr](
+https://www.youtube.com/watch?v=MdrfPSUtMVM). 
