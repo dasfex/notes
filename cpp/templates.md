@@ -609,3 +609,6 @@ struct Fib<0> : Fib<1> {
 [“C++ Function Templates: How Do They Really Work?”](
 https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s
 ).
+5. CppCon 2021. Jason Turner.
+[Your New Mental Model of constexpr](
+https://www.youtube.com/watch?v=MdrfPSUtMVM). 

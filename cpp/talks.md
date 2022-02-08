@@ -26,7 +26,10 @@ https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s
 8. CppCon 2019. Timur Doumler.
 [“Type punning in modern C++”](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
-9. Михаил Матросов. 
+9. CppCon 2021. Jason Turner.
+[Your New Mental Model of constexpr](
+https://www.youtube.com/watch?v=MdrfPSUtMVM). 
+10. Михаил Матросов. 
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
 
