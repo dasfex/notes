@@ -605,10 +605,15 @@ struct Fib<0> : Fib<1> {
 1. [Boost MPL](https://www.boost.org/doc/libs/1_63_0/libs/mpl/doc/index.html). 
 2. [Boost fusion](https://www.boost.org/doc/libs/1_78_0/libs/fusion/doc/html/index.html). 
 3. [Boost Hana](https://www.boost.org/doc/libs/1_61_0/libs/hana/doc/html/index.html).
-4. CppCon 2018. Walter E. Brown.
+4. CppCon 2017: Arthur O'Dwyer. 
+[“A Soupçon of SFINAE”](
+https://www.youtube.com/watch?v=ybaE9qlhHvw).
+5. CppCon 2018. Walter E. Brown.
 [“C++ Function Templates: How Do They Really Work?”](
-https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s
-).
-5. CppCon 2021. Jason Turner.
+https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s).
+6. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM). 
+7. CppCon 2021. Jody Hagins.
+[Template Metaprogramming: Practical Application](
+https://www.youtube.com/watch?v=4YC6_77-iEY).

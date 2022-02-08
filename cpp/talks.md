@@ -16,20 +16,26 @@ https://www.youtube.com/watch?v=bSkpMdDe4g4).
 5. CppCon 2017. Matt Kulukundis.
 [“Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step”](
 https://www.youtube.com/watch?v=ncHmEUmJZf4).
-6. CppCon 2018. Andrei Alexandrescu.
+6. CppCon 2017: Arthur O'Dwyer.
+[“A Soupçon of SFINAE”](
+https://www.youtube.com/watch?v=ybaE9qlhHvw).
+7. CppCon 2018. Andrei Alexandrescu.
 [“Expect the expected”](
 https://www.youtube.com/watch?v=PH4WBuE1BHI).
-7. CppCon 2018. Walter E. Brown. 
+8. CppCon 2018. Walter E. Brown. 
 [“C++ Function Templates: How Do They Really Work?”](
 https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s
 ).
-8. CppCon 2019. Timur Doumler.
+9. CppCon 2019. Timur Doumler.
 [“Type punning in modern C++”](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
-9. CppCon 2021. Jason Turner.
+10. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM). 
-10. Михаил Матросов. 
+11. CppCon 2021. Jody Hagins. 
+[Template Metaprogramming: Practical Application](
+https://www.youtube.com/watch?v=4YC6_77-iEY).
+12. Михаил Матросов. 
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
 
