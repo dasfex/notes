@@ -15,32 +15,35 @@ https://www.youtube.com/watch?v=WjTrfoiB0MQ).
 4. CppCon 2016. Nicholas Ormrod.
 [“The strange details of std::string at Facebook"](
 https://www.youtube.com/watch?v=kPR8h4-qZdk).
-5. CppCon 2017. Matt Godbolt. 
+5. CppCon 2016. Stephan T. Lavavej. 
+[“tuple＜＞: What's New and How it Works"](
+https://www.youtube.com/watch?v=JhgWFYfdIho).
+6. CppCon 2017. Matt Godbolt. 
 [“What Has My Compiler Done for Me Lately? Unbolting the Compiler's Lid”](
 https://www.youtube.com/watch?v=bSkpMdDe4g4).
-6. CppCon 2017. Matt Kulukundis.
+7. CppCon 2017. Matt Kulukundis.
 [“Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step”](
 https://www.youtube.com/watch?v=ncHmEUmJZf4).
-7. CppCon 2017: Arthur O'Dwyer.
+8. CppCon 2017: Arthur O'Dwyer.
 [“A Soupçon of SFINAE”](
 https://www.youtube.com/watch?v=ybaE9qlhHvw).
-8. CppCon 2018. Andrei Alexandrescu.
+9. CppCon 2018. Andrei Alexandrescu.
 [“Expect the expected”](
 https://www.youtube.com/watch?v=PH4WBuE1BHI).
-9. CppCon 2018. Walter E. Brown. 
+10. CppCon 2018. Walter E. Brown. 
 [“C++ Function Templates: How Do They Really Work?”](
 https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s
 ).
-10. CppCon 2019. Timur Doumler.
+11. CppCon 2019. Timur Doumler.
 [“Type punning in modern C++”](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
-11. CppCon 2021. Jason Turner.
+12. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM). 
-12. CppCon 2021. Jody Hagins. 
+13. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-13. Михаил Матросов. 
+14. Михаил Матросов. 
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
 
