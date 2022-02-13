@@ -1,6 +1,5 @@
-# Talks
+# Additional C++
 
-## C++
 ### talks
 1. CppCon 2014: Walter E. Brown.
 [Modern Template Metaprogramming: A Compendium, Part I](
@@ -32,8 +31,7 @@ https://www.youtube.com/watch?v=ybaE9qlhHvw).
 https://www.youtube.com/watch?v=PH4WBuE1BHI).
 10. CppCon 2018. Walter E. Brown. 
 [“C++ Function Templates: How Do They Really Work?”](
-https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s
-).
+https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s).
 11. CppCon 2019. Timur Doumler.
 [“Type punning in modern C++”](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
@@ -69,6 +67,24 @@ https://www.youtube.com/watch?v=G_jcBrrYPAs).
 19. [range based for loop or ```std::for_each```](https://stackoverflow.com/questions/9994421/preferred-standard-use-range-based-for-or-stdfor-each).
 20. [constexpr error at ct but no overhead at rt](https://stackoverflow.com/questions/20461121/constexpr-error-at-compile-time-but-no-overhead-at-run-time).
 
-## Python
-### stackoverflow questions
-1. [hidden Python features](https://stackoverflow.com/questions/101268/hidden-features-of-python).
+### Дополнительные источники
+0. Очень базовый 
+   [источник](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w) 
+   для начинающих.
+1. Видео на youtube про
+   [C++11](https://www.youtube.com/watch?v=ZOmZCj5ijck),
+   [C++14](https://www.youtube.com/watch?v=5TTS9zr9PGk),
+   [C++17](https://www.youtube.com/watch?v=rRMgJEZVY04)([+1](https://ps-group.github.io/cxx/cxx17#wow0))
+   и
+   [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
+2. Первая часть классного
+   [плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h).
+   И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
+3. [Продвинутый](https://www.youtube.com/playlist?list=PL3BR09unfgcgJPQZKaacwzGmcXMtEA-19) курс
+   в магистратуре МФТИ на базе Intel.
+4. Три интересных сервиса: [godbolt.org](https://godbolt.org) (disassemble your code),
+   [cppinsights.io](cppinsights.io) (показывает, во что разворачивается ваш код),
+   [build-bench.com](build-bench.com) (можно померять время компиляции).
+5. Blogs: [cppstories](https://www.cppstories.com), [fluentcpp](fluentcpp.com/posts/),
+   [simplifyc++](arne-mertz.de), [belaycpp](https://belaycpp.com).
+6. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
