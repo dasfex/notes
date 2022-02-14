@@ -22,15 +22,14 @@ Some notes from different programming fields.
 3. [miscellaneous](https://github.com/dasfex/ProgrammingNotes/blob/master/python3/miscellaneous.md).
 4. [additional](https://github.com/dasfex/notes/blob/master/python3/additional.md): more info.
 
+## Golang
+
+1. [advices](https://github.com/dasfex/notes/blob/master/golang/advices.md).
+2. [additional](https://github.com/dasfex/notes/blob/master/golang/additional.md): more info.
+
 ## General
 
 1. [protocols(udp/tcp)](https://github.com/dasfex/ProgrammingNotes/blob/master/general/protocols.md).
 2. [encodings](https://github.com/dasfex/ProgrammingNotes/blob/master/general/encodings.md).
 3. [miscellanious](https://github.com/dasfex/ProgrammingNotes/blob/master/general/miscellanious.md).
 4. [additional](https://github.com/dasfex/notes/blob/master/general/additional.md): more info and links.
-
-_______________________________________
-
-### Go
-1. [Официальный курс](https://go-tour-ru-ru.appspot.com/welcome/1) в язык.
-2. Какая-то [презентация](https://speakerdeck.com/majek04/golang-sucks) про приколы языка.
