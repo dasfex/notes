@@ -40,6 +40,8 @@
 4. Блокчейн просто: [раз](https://vas3k.ru/blog/blockchain/) и [два](https://vas3k.ru/blog/ethereum/).
 5. Про [рекомендательные](https://vas3k.ru/blog/355/) системы.
 6. [vas3k.ru](https://vas3k.ru).
+7. Записи [школы бекенд разработки](https://academy.yandex.ru/posts/15-lektsiy-po-bekend-razrabotke)
+от Яндекса. 
 
 ##### Всякие удобные онлайн-сервисы
 
