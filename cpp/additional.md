@@ -33,17 +33,20 @@ https://www.youtube.com/watch?v=ybaE9qlhHvw).
 https://www.youtube.com/watch?v=PH4WBuE1BHI).
 11. CppCon 2018. Walter E. Brown. 
 [“C++ Function Templates: How Do They Really Work?”](
-https://www.youtube.com/watch?v=NIDEjY5ywqU&t=1960s).
-12. CppCon 2019. Timur Doumler.
-[“Type punning in modern C++”](
+https://www.youtube.com/watch?v=NIDEjY5ywqU).
+12. CppCon 2018. Jason Turner.
+[Surprises in Object Lifetime](
+https://www.youtube.com/watch?v=uQyT-5iWUow)
+13. CppCon 2019. Timur Doumler.
+[Type punning in modern C++](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
-13. CppCon 2021. Jason Turner.
+14. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM). 
-14. CppCon 2021. Jody Hagins. 
+15. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-15. Михаил Матросов. 
+16. Михаил Матросов. 
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
 
