@@ -21,6 +21,8 @@ Some notes from different programming fields.
 2. [encodings](https://github.com/dasfex/ProgrammingNotes/blob/master/general/encodings.md).
 3. [miscellanious](https://github.com/dasfex/ProgrammingNotes/blob/master/general/miscellanious.md).
 4. [additional](https://github.com/dasfex/notes/blob/master/general/additional.md): more info and links.
-5. [python additional](https://github.com/dasfex/notes/blob/master/langs/py_add.md): more info.
-6. [golang additional](https://github.com/dasfex/notes/blob/master/langs/go_add.md): more info.
-7. [highload additional](https://github.com/dasfex/notes/blob/master/general/highload.md).
+
+## Additional for some fields
+1. [python](https://github.com/dasfex/notes/blob/master/langs/py_add.md).
+2. [golang](https://github.com/dasfex/notes/blob/master/langs/go_add.md).
+3. [highload](https://github.com/dasfex/notes/blob/master/general/highload.md).
