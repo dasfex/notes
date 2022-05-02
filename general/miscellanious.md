@@ -50,8 +50,7 @@ max_load_factor = кол-во элементов / кол-во бакетов
 
 Однако можно немного модифицировать нашу структуру,
 чтобы обход всех элементов происходил на за время от кол-ва бакетов,
-а за время от кол-ва самих элементов, используя идею из
-[LRU-кеша](https://github.com/dasfex/ProgrammingNotes/blob/master/general/lru_cache.md).
+а за время от кол-ва самих элементов, используя идею из LRU-кеша.
 
 Будет параллельно хранить двунаправленный лист, в котором будем собственно хранить
 сами элементы, а в бакете будем хранить не элемент,
@@ -68,6 +67,7 @@ max_load_factor = кол-во элементов / кол-во бакетов
 
 ## Источники
 1. [Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step](
-   https://www.youtube.com/watch?v=ncHmEUmJZf4
-   ).
+https://www.youtube.com/watch?v=ncHmEUmJZf4).
+2. [Ускорение LRU-cache](
+https://www.youtube.com/watch?v=60XhYzkXu1M).
 
