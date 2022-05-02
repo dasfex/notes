@@ -23,3 +23,4 @@ Some notes from different programming fields.
 4. [additional](https://github.com/dasfex/notes/blob/master/general/additional.md): more info and links.
 5. [python additional](https://github.com/dasfex/notes/blob/master/langs/py_add.md): more info.
 6. [golang additional](https://github.com/dasfex/notes/blob/master/langs/go_add.md): more info.
+7. [highload additional](https://github.com/dasfex/notes/blob/master/general/highload.md).
