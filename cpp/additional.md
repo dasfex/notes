@@ -20,15 +20,18 @@ https://www.youtube.com/watch?v=kPR8h4-qZdk).
 [“tuple＜＞: What's New and How it Works"](
 https://www.youtube.com/watch?v=JhgWFYfdIho).
 7. CppCon 2017. Matt Godbolt. 
-[“What Has My Compiler Done for Me Lately? Unbolting the Compiler's Lid”](
+[What Has My Compiler Done for Me Lately? Unbolting the Compiler's Lid](
 https://www.youtube.com/watch?v=bSkpMdDe4g4).
 8. CppCon 2017. Matt Kulukundis.
-[“Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step”](
+[Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step](
 https://www.youtube.com/watch?v=ncHmEUmJZf4).
-9. CppCon 2017: Arthur O'Dwyer.
-[“A Soupçon of SFINAE”](
+9. CppCon 2017. Arthur O'Dwyer.
+[A Soupçon of SFINAE](
 https://www.youtube.com/watch?v=ybaE9qlhHvw).
-10. CppCon 2018. Andrei Alexandrescu.
+10. St. Petersburg C++ User Group 2018. Тимур Думлер и Дмитрий Кожевников. 
+[Парсинг C++](
+https://www.youtube.com/watch?v=7co2tZ4tMfs).
+12. CppCon 2018. Andrei Alexandrescu.
 [“Expect the expected”](
 https://www.youtube.com/watch?v=PH4WBuE1BHI).
 11. CppCon 2018. Walter E. Brown. 
