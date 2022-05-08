@@ -10,9 +10,15 @@ https://www.youtube.com/watch?v=UGbLNJiJmQo).
 2. Highload++ 2017. Андрей Аксёнов (Sphinx). 
 [Почему оно не находится](
 https://www.youtube.com/watch?v=wCGBTjHikwA).
-3. Highload++ 2017. Андрей Аксенов (Sphinx).
+3. Highload++ 2017. Андрей Аксёнов (Sphinx).
 [Sphinx 3.0, поиск 15 лет спустя](
 https://www.youtube.com/watch?v=uKlGypo8hFY).
+4. Highload++ 2017. Андрей Аксёнов (Sphinx).
+[Хочу всё сжать](
+https://www.youtube.com/watch?v=wDgD4gokEis).
+5. Highload++ 2021. Андрей Аксёнов (Avito, Sphinx).
+[Прикладная эзотерика](
+https://www.youtube.com/watch?v=OQASAuuZvS8).
 
 
 ### Статьи
