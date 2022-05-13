@@ -93,9 +93,11 @@ https://www.youtube.com/watch?v=4YC6_77-iEY).
    И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
 3. [Продвинутый](https://www.youtube.com/playlist?list=PL3BR09unfgcgJPQZKaacwzGmcXMtEA-19) курс
    в магистратуре МФТИ на базе Intel.
-4. Три интересных сервиса: [godbolt.org](https://godbolt.org) (disassemble your code),
+4. Огненный [курс](https://cpp-school.unigine.com/#video-lectures) Андрея Аксёнова про базу структур данных.
+5. Три интересных сервиса: [godbolt.org](https://godbolt.org) (disassemble your code),
    [cppinsights.io](cppinsights.io) (показывает, во что разворачивается ваш код),
    [build-bench.com](build-bench.com) (можно померять время компиляции).
-5. Blogs: [cppstories](https://www.cppstories.com), [fluentcpp](fluentcpp.com/posts/),
+6. Blogs: [cppstories](https://www.cppstories.com), [fluentcpp](fluentcpp.com/posts/),
    [simplifyc++](arne-mertz.de), [belaycpp](https://belaycpp.com).
-6. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
+7. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
+8. [Стандарт](https://eel.is/c++draft/). 
