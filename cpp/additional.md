@@ -49,12 +49,15 @@ https://www.youtube.com/watch?v=G_jcBrrYPAs).
 15. Антон Полухин.
 [Ускорение LRU-cache](
 https://www.youtube.com/watch?v=60XhYzkXu1M)
-16. CppCon 2021. Jason Turner.
-[Your New Mental Model of constexpr](
-https://www.youtube.com/watch?v=MdrfPSUtMVM). 
-17. CppCon 2021. Jody Hagins. 
+16. C++ Zero Cost Conf 2021. Timur Doumler. 
+[Использование стандартной библиотеки С++ для обработки сигналов в real-time](
+https://www.youtube.com/watch?v=8GlwkWxf3hk&t=3496s).
+18. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
+18. CppCon 2021. Jason Turner.
+[Your New Mental Model of constexpr](
+https://www.youtube.com/watch?v=MdrfPSUtMVM).
 
 ### stackoverflow questions
 1. [branch prediction](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array).
