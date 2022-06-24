@@ -60,17 +60,6 @@ https://www.youtube.com/watch?v=4YC6_77-iEY).
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
 
 ### stackoverflow questions
-1. [branch prediction](https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array).
-2. [C++11 reverse range-based-for loop](https://stackoverflow.com/questions/8542591/c11-reverse-range-based-for-loop).
-3. [why does ```std::reduce``` need commutativity](https://stackoverflow.com/questions/60216261/why-does-stdreduce-need-commutativity).
-4. [about ```std::decay```](https://stackoverflow.com/questions/64092331/is-stddecay-redundant-in-stdis-convertible).
-5. [about ```std::set``` comparator](https://stackoverflow.com/questions/2620862/using-custom-stdset-comparator).
-6. [```auto``` with private type](https://stackoverflow.com/questions/13532784/why-can-i-use-auto-on-a-private-type).
-7. [```sizeof(std::string)```](https://stackoverflow.com/questions/3770781/why-is-sizeofstring-32).
-8. [about #include](https://stackoverflow.com/questions/21593/what-is-the-difference-between-include-filename-and-include-filename#:~:text=For%20%23include%20""%20a%20compiler,search%20the%20current%20file's%20folder).
-9. [recursive lambda with ```auto```](https://stackoverflow.com/questions/2067988/recursive-lambda-functions-in-c11).
-10. [using private member of derived class form base](https://stackoverflow.com/questions/65001923/can-i-forbid-calling-private-member-of-derived-class-from-base).
-11. [about self-asignment operator](https://stackoverflow.com/questions/12015156/what-is-wrong-with-checking-for-self-assignment-and-what-does-it-mean).
 12. [member function partial specialization](https://stackoverflow.com/questions/5688355/partial-specialisation-of-member-function-with-non-type-parameter).
 13. [type declaration - pointer asterisk position](https://stackoverflow.com/questions/2704167/type-declaration-pointer-asterisk-position).
 14. [std::forward_list::size](https://stackoverflow.com/questions/31822494/c-stl-why-stdforward-list-has-no-size-method#:~:text=A%20std%3A%3Aforward_list%20does,a%20handwritten%20singly%20linked%20list.)
