@@ -62,7 +62,6 @@ https://www.youtube.com/watch?v=MdrfPSUtMVM).
 ### stackoverflow questions
 12. [member function partial specialization](https://stackoverflow.com/questions/5688355/partial-specialisation-of-member-function-with-non-type-parameter).
 13. [type declaration - pointer asterisk position](https://stackoverflow.com/questions/2704167/type-declaration-pointer-asterisk-position).
-14. [std::forward_list::size](https://stackoverflow.com/questions/31822494/c-stl-why-stdforward-list-has-no-size-method#:~:text=A%20std%3A%3Aforward_list%20does,a%20handwritten%20singly%20linked%20list.)
 15. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11).
 16. [```std:::shared_ptr``` for C-style arrays](https://stackoverflow.com/questions/3266443/can-you-use-a-shared-ptr-for-raii-of-c-style-arrays).
 17. [about self-move assignment](https://stackoverflow.com/questions/13127455/what-does-the-standard-library-guarantee-about-self-move-assignment).
