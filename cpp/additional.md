@@ -60,13 +60,8 @@ https://www.youtube.com/watch?v=4YC6_77-iEY).
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
 
 ### stackoverflow questions
-12. [member function partial specialization](https://stackoverflow.com/questions/5688355/partial-specialisation-of-member-function-with-non-type-parameter).
-13. [type declaration - pointer asterisk position](https://stackoverflow.com/questions/2704167/type-declaration-pointer-asterisk-position).
-15. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11).
-16. [```std:::shared_ptr``` for C-style arrays](https://stackoverflow.com/questions/3266443/can-you-use-a-shared-ptr-for-raii-of-c-style-arrays).
+15. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11)
 17. [about self-move assignment](https://stackoverflow.com/questions/13127455/what-does-the-standard-library-guarantee-about-self-move-assignment).
-18. [why does std::stack use std::deque by default](https://stackoverflow.com/questions/102459/why-does-stdstack-use-stddeque-by-default).
-19. [range based for loop or ```std::for_each```](https://stackoverflow.com/questions/9994421/preferred-standard-use-range-based-for-or-stdfor-each).
 20. [constexpr error at ct but no overhead at rt](https://stackoverflow.com/questions/20461121/constexpr-error-at-compile-time-but-no-overhead-at-run-time).
 
 ### Дополнительные источники
