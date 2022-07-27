@@ -48,14 +48,17 @@ https://www.youtube.com/watch?v=_qzMpk-22cc).
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
 15. Антон Полухин.
 [Ускорение LRU-cache](
-https://www.youtube.com/watch?v=60XhYzkXu1M)
-16. C++ Zero Cost Conf 2021. Timur Doumler. 
+https://www.youtube.com/watch?v=60XhYzkXu1M).
+16. Михаил Матросов.
+[Как объявить константу в C++?](
+https://www.youtube.com/watch?v=GPAGiXNVED4).
+17. C++ Zero Cost Conf 2021. Timur Doumler. 
 [Использование стандартной библиотеки С++ для обработки сигналов в real-time](
 https://www.youtube.com/watch?v=8GlwkWxf3hk&t=3496s).
 18. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-18. CppCon 2021. Jason Turner.
+19. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
 
