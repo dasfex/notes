@@ -49,6 +49,8 @@ struct der: base {
 
 4. [Copy elision](https://en.m.wikipedia.org/wiki/Copy_elision).
 
+5. [Strlen elision](https://stackoverflow.com/questions/49714284/what-is-strlen-elision).
+
 ### Macros tricks
 
 ##### Полезные макросы
