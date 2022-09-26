@@ -64,6 +64,9 @@ https://www.youtube.com/watch?v=4YC6_77-iEY).
 21. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
+22. CppCon 2022. Herb Sutter. 
+[Can C++ be 10x Simpler & Safer?](
+https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
 
 ### stackoverflow questions
 15. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11)
