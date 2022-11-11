@@ -67,6 +67,9 @@ https://www.youtube.com/watch?v=MdrfPSUtMVM).
 22. CppCon 2022. Herb Sutter. 
 [Can C++ be 10x Simpler & Safer?](
 https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
+23. CppCon 2022. Timur Doumler.
+[C++ Lambda Idioms](
+https://www.youtube.com/watch?v=xBAduq0RGes).
 
 ### stackoverflow questions
 15. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11)
