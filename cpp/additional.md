@@ -40,7 +40,7 @@ https://www.youtube.com/watch?v=NIDEjY5ywqU).
 13. CppCon 2018. Jason Turner.
 [Surprises in Object Lifetime](
 https://www.youtube.com/watch?v=uQyT-5iWUow)
-14. CppCon2018. Timur Doumler.
+14. CppCon 2018. Timur Doumler.
 [Can I has grammar?](
 https://www.youtube.com/watch?v=tsG95Y-C14k).
 15. CppCon 2019. Timur Doumler.
