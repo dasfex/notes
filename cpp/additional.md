@@ -77,11 +77,6 @@ https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
 
-### stackoverflow questions
-15. [extern template](https://stackoverflow.com/questions/8130602/using-extern-template-c11)
-17. [about self-move assignment](https://stackoverflow.com/questions/13127455/what-does-the-standard-library-guarantee-about-self-move-assignment).
-20. [constexpr error at ct but no overhead at rt](https://stackoverflow.com/questions/20461121/constexpr-error-at-compile-time-but-no-overhead-at-run-time).
-
 ### Дополнительные источники
 0. Очень базовый 
    [источник](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w) 
