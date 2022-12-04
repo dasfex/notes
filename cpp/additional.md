@@ -61,19 +61,21 @@ https://www.youtube.com/watch?v=60XhYzkXu1M).
 20. Михаил Матросов.
 [Как объявить константу в C++?](
 https://www.youtube.com/watch?v=GPAGiXNVED4).
-21. C++ Zero Cost Conf 2021. Timur Doumler. 
+21. Сергей Фёдоров.
+[Шаблоны C++ и базы данных](https://www.youtube.com/watch?v=7qCtCXxpgfw).
+22. C++ Zero Cost Conf 2021. Timur Doumler. 
 [Использование стандартной библиотеки С++ для обработки сигналов в real-time](
 https://www.youtube.com/watch?v=8GlwkWxf3hk&t=3496s).
-22. CppCon 2021. Jody Hagins. 
+23. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-23. CppCon 2021. Jason Turner.
+24. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
-24. CppCon 2022. Herb Sutter. 
+25. CppCon 2022. Herb Sutter. 
 [Can C++ be 10x Simpler & Safer?](
 https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
-25. CppCon 2022. Timur Doumler.
+26. CppCon 2022. Timur Doumler.
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
 
