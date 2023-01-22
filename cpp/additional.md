@@ -72,10 +72,13 @@ https://www.youtube.com/watch?v=4YC6_77-iEY).
 24. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
-25. CppCon 2022. Herb Sutter. 
+25. CppCon 2021. Andrei Alexandrescu.
+[Embracing (and also Destroying) Variant Types Safely](
+https://www.youtube.com/watch?v=va9I2qivBOA).
+26. CppCon 2022. Herb Sutter. 
 [Can C++ be 10x Simpler & Safer?](
 https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
-26. CppCon 2022. Timur Doumler.
+27. CppCon 2022. Timur Doumler.
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
 
