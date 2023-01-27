@@ -19,66 +19,69 @@ https://www.youtube.com/watch?v=kPR8h4-qZdk).
 6. CppCon 2016. Stephan T. Lavavej. 
 [“tuple＜＞: What's New and How it Works"](
 https://www.youtube.com/watch?v=JhgWFYfdIho).
-7. CppCon 2017. Matt Godbolt. 
+7. CppCon 2016. Antony Polukhin.
+[C++14 Reflections Without Macros, Markup nor External Tooling..](
+https://www.youtube.com/watch?v=abdeAew3gmQ).
+8. CppCon 2017. Matt Godbolt. 
 [What Has My Compiler Done for Me Lately? Unbolting the Compiler's Lid](
 https://www.youtube.com/watch?v=bSkpMdDe4g4).
-8. CppCon 2017. Matt Kulukundis.
+9. CppCon 2017. Matt Kulukundis.
 [Designing a Fast, Efficient, Cache-friendly Hash Table, Step by Step](
 https://www.youtube.com/watch?v=ncHmEUmJZf4).
-9. CppCon 2017. Arthur O'Dwyer.
+10. CppCon 2017. Arthur O'Dwyer.
 [A Soupçon of SFINAE](
 https://www.youtube.com/watch?v=ybaE9qlhHvw).
-10. St. Petersburg C++ User Group 2018. Тимур Думлер и Дмитрий Кожевников. 
+11. St. Petersburg C++ User Group 2018. Тимур Думлер и Дмитрий Кожевников. 
 [Парсинг C++](
 https://www.youtube.com/watch?v=7co2tZ4tMfs).
-11. C++ Russia 2018. Фёдор Короткий. 
+12. C++ Russia 2018. Фёдор Короткий. 
 [Память -- идеальная абстракция](
 https://www.youtube.com/watch?v=i87W3KyZgPw)
-12. CppCon 2018. Andrei Alexandrescu.
+13. CppCon 2018. Andrei Alexandrescu.
 [“Expect the expected”](
 https://www.youtube.com/watch?v=PH4WBuE1BHI).
-13. CppCon 2018. Walter E. Brown. 
+14. CppCon 2018. Walter E. Brown. 
 [“C++ Function Templates: How Do They Really Work?”](
 https://www.youtube.com/watch?v=NIDEjY5ywqU).
-14. CppCon 2018. Jason Turner.
+15. CppCon 2018. Jason Turner.
 [Surprises in Object Lifetime](
 https://www.youtube.com/watch?v=uQyT-5iWUow)
-15. CppCon 2018. Timur Doumler.
+16. CppCon 2018. Timur Doumler.
 [Can I has grammar?](
 https://www.youtube.com/watch?v=tsG95Y-C14k).
-16. CppCon 2019. Timur Doumler.
+17. CppCon 2019. Timur Doumler.
 [Type punning in modern C++](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
-17. Олег Фатхиев. 
+18. Олег Фатхиев. 
 [Эволюция метапрограммирования: как правильно работать со списками типов](
 https://www.youtube.com/watch?v=ZUmc45Njs9U).
-18. Михаил Матросов.
+19. Михаил Матросов.
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
-19. Антон Полухин.
+20. Антон Полухин.
 [Ускорение LRU-cache](
 https://www.youtube.com/watch?v=60XhYzkXu1M).
-20. Михаил Матросов.
+21. Михаил Матросов.
 [Как объявить константу в C++?](
 https://www.youtube.com/watch?v=GPAGiXNVED4).
-21. Сергей Фёдоров.
+22. Сергей Фёдоров.
 [Шаблоны C++ и базы данных](https://www.youtube.com/watch?v=7qCtCXxpgfw).
-22. C++ Zero Cost Conf 2021. Timur Doumler. 
+23. C++ Zero Cost Conf 2021. Timur Doumler. 
 [Использование стандартной библиотеки С++ для обработки сигналов в real-time](
 https://www.youtube.com/watch?v=8GlwkWxf3hk&t=3496s).
-23. CppCon 2021. Jody Hagins. 
+24. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-24. CppCon 2021. Jason Turner.
+25. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
-25. CppCon 2021. Andrei Alexandrescu.
+26. CppCon 2021. Andrei Alexandrescu.
 [Embracing (and also Destroying) Variant Types Safely](
 https://www.youtube.com/watch?v=va9I2qivBOA).
-26. CppCon 2022. Herb Sutter. 
+27. CppCon 2022. Herb Sutter. 
 [Can C++ be 10x Simpler & Safer?](
 https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
-27. CppCon 2022. Timur Doumler.
+28. CppCon 2022. Timur Doumler.
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
 
