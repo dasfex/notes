@@ -28,6 +28,9 @@ https://www.youtube.com/watch?v=6JIfhShK3Zc).
 8. Highload++ Foundation 2022. Денис Исаев (Яндекс Go).
 [Как мы ускорили Яндекс Go на несколько секунд](
 https://www.youtube.com/watch?v=229RE8fwMNs).
+9. Highload++ Foundation 2022. Иван Максимов (Delivery Club). 
+[Как мы готовили поиск в Delivery Club](
+https://www.youtube.com/watch?v=0M0gDXBauD4).
 
 
 ### Статьи
