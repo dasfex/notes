@@ -84,6 +84,9 @@ https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
 28. CppCon 2022. Timur Doumler.
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
+29. Highload++ Foundation 2022. Никита Старичков.
+[Как мы устроили переезд 10+млн строк С++ кода на новый стандарт](
+https://www.youtube.com/watch?v=R_HdlLuGk40).
 
 ### Дополнительные источники
 0. Очень базовый 
