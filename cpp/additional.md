@@ -49,42 +49,45 @@ https://www.youtube.com/watch?v=uQyT-5iWUow)
 16. CppCon 2018. Timur Doumler.
 [Can I has grammar?](
 https://www.youtube.com/watch?v=tsG95Y-C14k).
-17. CppCon 2019. Timur Doumler.
+17. CppCon 2018. Nicolai Josuttis.
+[The Nightmare of Initialization in C++](
+https://www.youtube.com/watch?v=7DTlWPgX6zs).
+18. CppCon 2019. Timur Doumler.
 [Type punning in modern C++](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
-18. Олег Фатхиев. 
+19. Олег Фатхиев. 
 [Эволюция метапрограммирования: как правильно работать со списками типов](
 https://www.youtube.com/watch?v=ZUmc45Njs9U).
-19. Михаил Матросов.
+20. Михаил Матросов.
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
-20. Антон Полухин.
+21. Антон Полухин.
 [Ускорение LRU-cache](
 https://www.youtube.com/watch?v=60XhYzkXu1M).
-21. Михаил Матросов.
+22. Михаил Матросов.
 [Как объявить константу в C++?](
 https://www.youtube.com/watch?v=GPAGiXNVED4).
-22. Сергей Фёдоров.
+23. Сергей Фёдоров.
 [Шаблоны C++ и базы данных](https://www.youtube.com/watch?v=7qCtCXxpgfw).
-23. C++ Zero Cost Conf 2021. Timur Doumler. 
+24. C++ Zero Cost Conf 2021. Timur Doumler. 
 [Использование стандартной библиотеки С++ для обработки сигналов в real-time](
 https://www.youtube.com/watch?v=8GlwkWxf3hk&t=3496s).
-24. CppCon 2021. Jody Hagins. 
+25. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-25. CppCon 2021. Jason Turner.
+26. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
-26. CppCon 2021. Andrei Alexandrescu.
+27. CppCon 2021. Andrei Alexandrescu.
 [Embracing (and also Destroying) Variant Types Safely](
 https://www.youtube.com/watch?v=va9I2qivBOA).
-27. CppCon 2022. Herb Sutter. 
+28. CppCon 2022. Herb Sutter. 
 [Can C++ be 10x Simpler & Safer?](
 https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
-28. CppCon 2022. Timur Doumler.
+29. CppCon 2022. Timur Doumler.
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
-29. Highload++ Foundation 2022. Никита Старичков.
+30. Highload++ Foundation 2022. Никита Старичков.
 [Как мы устроили переезд 10+млн строк С++ кода на новый стандарт](
 https://www.youtube.com/watch?v=R_HdlLuGk40).
 
