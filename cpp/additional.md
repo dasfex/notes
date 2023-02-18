@@ -55,39 +55,42 @@ https://www.youtube.com/watch?v=7DTlWPgX6zs).
 18. CppCon 2019. Timur Doumler.
 [Type punning in modern C++](
 https://www.youtube.com/watch?v=_qzMpk-22cc).
-19. Олег Фатхиев. 
+19. C++ Russia 2019. Timur Doumler.
+[Initialisation in modern C++](
+https://www.youtube.com/watch?v=2jJumNzcp6Y).
+20. Олег Фатхиев. 
 [Эволюция метапрограммирования: как правильно работать со списками типов](
 https://www.youtube.com/watch?v=ZUmc45Njs9U).
-20. Михаил Матросов.
+21. Михаил Матросов.
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
-21. Антон Полухин.
+22. Антон Полухин.
 [Ускорение LRU-cache](
 https://www.youtube.com/watch?v=60XhYzkXu1M).
-22. Михаил Матросов.
+23. Михаил Матросов.
 [Как объявить константу в C++?](
 https://www.youtube.com/watch?v=GPAGiXNVED4).
-23. Сергей Фёдоров.
+24. Сергей Фёдоров.
 [Шаблоны C++ и базы данных](https://www.youtube.com/watch?v=7qCtCXxpgfw).
-24. C++ Zero Cost Conf 2021. Timur Doumler. 
+25. C++ Zero Cost Conf 2021. Timur Doumler. 
 [Использование стандартной библиотеки С++ для обработки сигналов в real-time](
 https://www.youtube.com/watch?v=8GlwkWxf3hk&t=3496s).
-25. CppCon 2021. Jody Hagins. 
+26. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-26. CppCon 2021. Jason Turner.
+27. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
-27. CppCon 2021. Andrei Alexandrescu.
+28. CppCon 2021. Andrei Alexandrescu.
 [Embracing (and also Destroying) Variant Types Safely](
 https://www.youtube.com/watch?v=va9I2qivBOA).
-28. CppCon 2022. Herb Sutter. 
+29. CppCon 2022. Herb Sutter. 
 [Can C++ be 10x Simpler & Safer?](
 https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
-29. CppCon 2022. Timur Doumler.
+30. CppCon 2022. Timur Doumler.
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
-30. Highload++ Foundation 2022. Никита Старичков.
+31. Highload++ Foundation 2022. Никита Старичков.
 [Как мы устроили переезд 10+млн строк С++ кода на новый стандарт](
 https://www.youtube.com/watch?v=R_HdlLuGk40).
 
