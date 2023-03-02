@@ -84,15 +84,18 @@ https://www.youtube.com/watch?v=MdrfPSUtMVM).
 28. CppCon 2021. Andrei Alexandrescu.
 [Embracing (and also Destroying) Variant Types Safely](
 https://www.youtube.com/watch?v=va9I2qivBOA).
-29. CppCon 2022. Herb Sutter. 
-[Can C++ be 10x Simpler & Safer?](
-https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
-30. CppCon 2022. Timur Doumler.
-[C++ Lambda Idioms](
-https://www.youtube.com/watch?v=xBAduq0RGes).
-31. Highload++ Foundation 2022. Никита Старичков.
+29. Highload++ Foundation 2022. Никита Старичков.
 [Как мы устроили переезд 10+млн строк С++ кода на новый стандарт](
 https://www.youtube.com/watch?v=R_HdlLuGk40).
+30. CppCon 2022. Herb Sutter. 
+[Can C++ be 10x Simpler & Safer?](
+https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
+31. CppCon 2022. Timur Doumler.
+[C++ Lambda Idioms](
+https://www.youtube.com/watch?v=xBAduq0RGes).
+32. CppCon 2022. Andrei Alexandrescu.
+[Reflection in C++ - Past, Present, and Hopeful Future](
+https://www.youtube.com/watch?v=YXIVw6QFgAI).
 
 ### Дополнительные источники
 0. Очень базовый 
