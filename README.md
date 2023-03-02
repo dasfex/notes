@@ -18,11 +18,11 @@ Some notes from different programming fields.
 ## General
 
 1. [protocols(udp/tcp)](https://github.com/dasfex/notes/blob/master/general/protocols.md).
-2. [encodings](https://github.com/dasfex/ProgrammingNotes/blob/master/general/encodings.md).
-3. [miscellanious](https://github.com/dasfex/ProgrammingNotes/blob/master/general/miscellanious.md).
-4. [additional](https://github.com/dasfex/notes/blob/master/general/additional.md): more info and links.
+2. [miscellanious](https://github.com/dasfex/ProgrammingNotes/blob/master/general/miscellanious.md).
+3. [additional](https://github.com/dasfex/notes/blob/master/general/additional.md): more info and links.
 
 ## Additional for some fields
+
 1. [python](https://github.com/dasfex/notes/blob/master/langs/py_add.md).
 2. [golang](https://github.com/dasfex/notes/blob/master/langs/go_add.md).
 3. [highload](https://github.com/dasfex/notes/blob/master/general/highload.md).
