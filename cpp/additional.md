@@ -85,7 +85,7 @@ https://www.youtube.com/watch?v=MdrfPSUtMVM).
 [Embracing (and also Destroying) Variant Types Safely](
 https://www.youtube.com/watch?v=va9I2qivBOA).
 29. CppCon 2021. Daisy Hollman.
-[https://www.youtube.com/watch?v=15etE6WcvBY](
+[Why You Should Write Code That You Should Never Write](
 https://www.youtube.com/watch?v=15etE6WcvBY).
 30. Highload++ Foundation 2022. Никита Старичков.
 [Как мы устроили переезд 10+млн строк С++ кода на новый стандарт](
