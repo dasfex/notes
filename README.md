@@ -12,7 +12,7 @@ Some notes from different programming fields.
 7. [move-semantics](https://github.com/dasfex/notes/blob/master/cpp/move_semantics.md).
 8. [undefined behaviour](https://github.com/dasfex/notes/blob/master/cpp/ub.md).
 9. [some idioms](https://github.com/dasfex/notes/blob/master/cpp/idioms.md).
-10. [expetions topics](https://github.com/dasfex/notes/blob/master/cpp/exceptions.md).
+10. [exceptions topics](https://github.com/dasfex/notes/blob/master/cpp/exceptions.md).
 10. [miscellaneous](https://github.com/dasfex/notes/blob/master/cpp/miscellaneous.md).
 11. [additional](https://github.com/dasfex/notes/blob/master/cpp/additional.md): talks and more info.
 
