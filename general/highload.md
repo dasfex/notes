@@ -40,6 +40,9 @@ https://www.youtube.com/watch?v=mNgUwoAbnJ4).
 12. Saint Highload++ 2022. Даниил Подольский.
 [Под красным флагом: как инженер может понять, что в проекте происходит что-то не то](
 https://www.youtube.com/watch?v=TcpdQKqZ_zo).
+13. Saint Highload++ 2022. Екатерина Белозёрова.
+[Как понять, что проекту плохо, если ты инженер](
+https://www.youtube.com/watch?v=1jGROVPKRtU).
 
 
 ### Статьи
