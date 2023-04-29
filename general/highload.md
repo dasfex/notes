@@ -34,6 +34,9 @@ https://www.youtube.com/watch?v=229RE8fwMNs).
 10. Highload++ Foundation 2022. Иван Максимов (Delivery Club). 
 [Как мы готовили поиск в Delivery Club](
 https://www.youtube.com/watch?v=0M0gDXBauD4).
+11. Saint Highload++ 2022. Андрей Аксёнов (Avito, Sphinx).
+[Про историю и будущее поиска](
+https://www.youtube.com/watch?v=mNgUwoAbnJ4).
 
 
 ### Статьи
