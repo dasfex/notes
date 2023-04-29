@@ -43,6 +43,9 @@ https://www.youtube.com/watch?v=TcpdQKqZ_zo).
 13. Saint Highload++ 2022. Екатерина Белозёрова.
 [Как понять, что проекту плохо, если ты инженер](
 https://www.youtube.com/watch?v=1jGROVPKRtU).
+14. Saint Highload++ 2022. Артур Филатенков.
+[Векторный поиск в ClickHouse](
+https://www.youtube.com/watch?v=0fT9uMV8tr0).
 
 
 ### Статьи
