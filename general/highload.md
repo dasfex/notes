@@ -1,42 +1,45 @@
 # Проектирование высоконагруженных систем и около
 
 ### talks
-0. Highload++ 2014. Андрей Аксёнов (Sphinx).
+0. Highload++ 2014. Андрей Аксёнов.
 [Выбираем поиск умом головы](
 https://www.youtube.com/watch?v=gJXWqkf6CX8).
 1. Highload++ 2015. Константин Осипов.
 [Что особенного в СУБД для данных в оперативной памяти](
 https://www.youtube.com/watch?v=yrTF3qH8ey8).
-2. Highload++ 2017. Дмитрий Егоров (ВКонтакте).
+2. Highload++ 2017. Дмитрий Егоров.
 [Как переписать с нуля базу данных личных сообщений ВКонтакте](
 https://www.youtube.com/watch?v=UGbLNJiJmQo).
-3. Highload++ 2017. Андрей Аксёнов (Sphinx). 
+3. Highload++ 2017. Андрей Аксёнов. 
 [Почему оно не находится](
 https://www.youtube.com/watch?v=wCGBTjHikwA).
-4. Highload++ 2017. Андрей Аксёнов (Sphinx).
+4. Highload++ 2017. Андрей Аксёнов.
 [Sphinx 3.0, поиск 15 лет спустя](
 https://www.youtube.com/watch?v=uKlGypo8hFY).
-5. Highload++ 2017. Андрей Аксёнов (Sphinx).
+5. Highload++ 2017. Андрей Аксёнов.
 [Хочу всё сжать](
 https://www.youtube.com/watch?v=wDgD4gokEis).
-6. Highload++ 2021. Андрей Аксёнов (Avito, Sphinx).
+6. Highload++ 2021. Андрей Аксёнов.
 [Прикладная эзотерика](
 https://www.youtube.com/watch?v=OQASAuuZvS8).
-7. Highload++ Foundation 2022. Андрей Аксёнов (Avito, Sphinx).
+7. Highload++ Foundation 2022. Андрей Аксёнов.
 [Как выжать 1 000 000 RPS](
 https://www.youtube.com/watch?v=UyRBouT6vZQ).
-8. Highload++ Foundation 2022. Александр Царьков (Яндекс Go).
+8. Highload++ Foundation 2022. Александр Царьков.
 [Поиск GPS-аномалий среди сотен тысяч водителей](
 https://www.youtube.com/watch?v=6JIfhShK3Zc).
-9. Highload++ Foundation 2022. Денис Исаев (Яндекс Go).
+9. Highload++ Foundation 2022. Денис Исаев.
 [Как мы ускорили Яндекс Go на несколько секунд](
 https://www.youtube.com/watch?v=229RE8fwMNs).
-10. Highload++ Foundation 2022. Иван Максимов (Delivery Club). 
+10. Highload++ Foundation 2022. Иван Максимов. 
 [Как мы готовили поиск в Delivery Club](
 https://www.youtube.com/watch?v=0M0gDXBauD4).
-11. Saint Highload++ 2022. Андрей Аксёнов (Avito, Sphinx).
+11. Saint Highload++ 2022. Андрей Аксёнов.
 [Про историю и будущее поиска](
 https://www.youtube.com/watch?v=mNgUwoAbnJ4).
+12. Saint Highload++ 2022. Даниил Подольский.
+[Под красным флагом: как инженер может понять, что в проекте происходит что-то не то](
+https://www.youtube.com/watch?v=TcpdQKqZ_zo).
 
 
 ### Статьи
