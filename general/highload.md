@@ -53,3 +53,4 @@ https://www.youtube.com/watch?v=0fT9uMV8tr0).
 https://habr.com/ru/company/yandex/blog/522164/).
 2. [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](
 https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/).
+3. [Proper Documentation](https://members.vadimkravcenko.com/proper-documentation/?ref=cto-newsletter).
