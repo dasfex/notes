@@ -52,5 +52,5 @@ https://www.youtube.com/watch?v=0fT9uMV8tr0).
 1. [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](
 https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/).
 2. [Proper Documentation](https://vadimkravcenko.com/shorts/proper-documentation/?ref=members.vadimkravcenko.com).
-3. [Better Software Engineering teams — Structures, roles, responsibilities and comparison with common approaches.]([https://habr.com/ru/articles/738452/](https://medium.com/geekculture/better-software-engineering-teams-structures-roles-responsibilities-and-comparison-with-common-fb5c3161c13d)).
+3. [Better Software Engineering teams — Structures, roles, responsibilities and comparison with common approaches.](https://habr.com/ru/articles/738452/](https://medium.com/geekculture/better-software-engineering-teams-structures-roles-responsibilities-and-comparison-with-common-fb5c3161c13d).
 4. [Backend side architecture evolution](https://medium.com/@iamprovidence/backend-side-architecture-evolution-n-layered-ddd-hexagon-onion-clean-architecture-643d72444ce4).
