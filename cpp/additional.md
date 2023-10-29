@@ -110,22 +110,14 @@ https://www.youtube.com/watch?v=J48YTbdJNNc&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qz
 0. Очень базовый 
    [источник](https://www.youtube.com/channel/UCtLKO1Cb2GVNrbU7Fi0pM0w) 
    для начинающих.
-1. Видео на youtube про
-   [C++11](https://www.youtube.com/watch?v=ZOmZCj5ijck),
-   [C++14](https://www.youtube.com/watch?v=5TTS9zr9PGk),
-   [C++17](https://www.youtube.com/watch?v=rRMgJEZVY04)([+1](https://ps-group.github.io/cxx/cxx17#wow0))
-   и
-   [C++20](https://www.youtube.com/watch?v=KPuYn_fUdxc).
-2. Первая часть классного
+1. Первая часть классного
    [плейлиста](https://www.youtube.com/playlist?list=PL4_hYwCyhAvazfCDGyS0wx_hvBmnAAf4h).
    И [вторая](https://www.youtube.com/playlist?list=PL4_hYwCyhAvYTzwME4vQoDO8ZINM5trra).
-3. [Продвинутый](https://www.youtube.com/playlist?list=PL3BR09unfgcgJPQZKaacwzGmcXMtEA-19) курс
+2. [Продвинутый](https://www.youtube.com/playlist?list=PL3BR09unfgcgJPQZKaacwzGmcXMtEA-19) курс
    в магистратуре МФТИ на базе Intel.
-4. Огненный [курс](https://cpp-school.unigine.com/#video-lectures) Андрея Аксёнова про базу структур данных.
-5. Три интересных сервиса: [godbolt.org](https://godbolt.org) (disassemble your code),
+3. Огненный [курс](https://cpp-school.unigine.com/#video-lectures) Андрея Аксёнова про базу структур данных.
+4. Три интересных сервиса: [godbolt.org](https://godbolt.org) (disassemble your code),
    [cppinsights.io](cppinsights.io) (показывает, во что разворачивается ваш код),
    [build-bench.com](build-bench.com) (можно померять время компиляции).
-6. Blogs: [cppstories](https://www.cppstories.com), [fluentcpp](fluentcpp.com/posts/),
-   [simplifyc++](arne-mertz.de), [belaycpp](https://belaycpp.com).
-7. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
-8. [Стандарт](https://eel.is/c++draft/). 
+5. [Proposals](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/).
+6. [Стандарт](https://eel.is/c++draft/). 
