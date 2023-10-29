@@ -102,7 +102,7 @@ https://www.youtube.com/watch?v=YXIVw6QFgAI).
 34. CppCon 2022. Daisy Hollman.
 [Cute C++ Tricks, Part 2.5 of N](
 https://www.youtube.com/watch?v=gOdcNko2xc8).
-35. CppCon 2023. Andrei Alexandrescu  
+35. CppCon 2023. Andrei Alexandrescu.
 [Robots Are After Your Job: Exploring Generative AI for C++](
 https://www.youtube.com/watch?v=J48YTbdJNNc&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72&index=5) (about binary search and ChatGPT).
 
