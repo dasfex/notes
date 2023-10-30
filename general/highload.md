@@ -55,3 +55,4 @@ https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-de
 3. [Proper Documentation](https://vadimkravcenko.com/shorts/proper-documentation/?ref=members.vadimkravcenko.com).
 4. [Better Software Engineering teams — Structures, roles, responsibilities and comparison with common approaches](https://medium.com/geekculture/better-software-engineering-teams-structures-roles-responsibilities-and-comparison-with-common-fb5c3161c13d).
 5. [Backend side architecture evolution](https://medium.com/@iamprovidence/backend-side-architecture-evolution-n-layered-ddd-hexagon-onion-clean-architecture-643d72444ce4).
+6. [Заблуждения программистов о времени](https://habr.com/ru/articles/703360/).
