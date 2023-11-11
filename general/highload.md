@@ -19,31 +19,34 @@ https://www.youtube.com/watch?v=uKlGypo8hFY).
 5. Highload++ 2017. Андрей Аксёнов.
 [Хочу всё сжать](
 https://www.youtube.com/watch?v=wDgD4gokEis).
-6. Highload++ 2021. Андрей Аксёнов.
+6. SREcon 2019. Simon Eskildsen.
+[Advanced Napkin Math](
+https://www.youtube.com/watch?v=IxkSlnrRFqc).
+7. Highload++ 2021. Андрей Аксёнов.
 [Прикладная эзотерика](
 https://www.youtube.com/watch?v=OQASAuuZvS8). И моя [статья на хабре](https://habr.com/ru/articles/673776/) на аналогичную тему.
-7. Highload++ Foundation 2022. Андрей Аксёнов.
+8. Highload++ Foundation 2022. Андрей Аксёнов.
 [Как выжать 1 000 000 RPS](
 https://www.youtube.com/watch?v=UyRBouT6vZQ).
-8. Highload++ Foundation 2022. Александр Царьков.
+9. Highload++ Foundation 2022. Александр Царьков.
 [Поиск GPS-аномалий среди сотен тысяч водителей](
 https://www.youtube.com/watch?v=6JIfhShK3Zc).
-9. Highload++ Foundation 2022. Денис Исаев.
+10. Highload++ Foundation 2022. Денис Исаев.
 [Как мы ускорили Яндекс Go на несколько секунд](
 https://www.youtube.com/watch?v=229RE8fwMNs).
-10. Highload++ Foundation 2022. Иван Максимов. 
+11. Highload++ Foundation 2022. Иван Максимов. 
 [Как мы готовили поиск в Delivery Club](
 https://www.youtube.com/watch?v=0M0gDXBauD4).
-11. Saint Highload++ 2022. Андрей Аксёнов.
+12. Saint Highload++ 2022. Андрей Аксёнов.
 [Про историю и будущее поиска](
 https://www.youtube.com/watch?v=mNgUwoAbnJ4).
-12. Saint Highload++ 2022. Даниил Подольский.
+13. Saint Highload++ 2022. Даниил Подольский.
 [Под красным флагом: как инженер может понять, что в проекте происходит что-то не то](
 https://www.youtube.com/watch?v=TcpdQKqZ_zo).
-13. Saint Highload++ 2022. Юлия Белозёрова.
+14. Saint Highload++ 2022. Юлия Белозёрова.
 [Как понять, что проекту плохо, если ты инженер](
 https://www.youtube.com/watch?v=1jGROVPKRtU).
-14. Saint Highload++ 2022. Артур Филатенков.
+15. Saint Highload++ 2022. Артур Филатенков.
 [Векторный поиск в ClickHouse](
 https://www.youtube.com/watch?v=0fT9uMV8tr0).
 
