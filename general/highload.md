@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=uKlGypo8hFY).
 https://www.youtube.com/watch?v=wDgD4gokEis).
 6. Highload++ 2021. Андрей Аксёнов.
 [Прикладная эзотерика](
-https://www.youtube.com/watch?v=OQASAuuZvS8).
+https://www.youtube.com/watch?v=OQASAuuZvS8). И моя [статья на хабре](https://habr.com/ru/articles/673776/) на аналогичную тему.
 7. Highload++ Foundation 2022. Андрей Аксёнов.
 [Как выжать 1 000 000 RPS](
 https://www.youtube.com/watch?v=UyRBouT6vZQ).
