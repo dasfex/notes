@@ -49,7 +49,9 @@ https://www.youtube.com/watch?v=1jGROVPKRtU).
 15. Saint Highload++ 2022. Артур Филатенков.
 [Векторный поиск в ClickHouse](
 https://www.youtube.com/watch?v=0fT9uMV8tr0).
-
+16. Highload++ 2022. Илья Кучумов.
+[Как достать всё что угодно со всего интернета](
+https://www.youtube.com/watch?v=05jGuGT_nkY&list=PLH-XmS0lSi_ygFVuLJdoFcDRSjeGTbFvO&index=12).
 
 ### Статьи
 1. [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](
