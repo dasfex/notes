@@ -62,4 +62,5 @@ https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-de
 5. [Backend side architecture evolution](https://medium.com/@iamprovidence/backend-side-architecture-evolution-n-layered-ddd-hexagon-onion-clean-architecture-643d72444ce4).
 6. [Заблуждения программистов о времени](https://habr.com/ru/articles/703360/).
 7. [A tour of metaprogramming models for generics](https://thume.ca/2019/07/14/a-tour-of-metaprogramming-models-for-generics/) и [перевод на русский](https://habr.com/ru/companies/vk/articles/461321/).
-8. [Про ретраи](https://habr.com/ru/companies/yandex/articles/762678/).
+8. [Про succinct data structures](https://habr.com/ru/companies/vk/articles/479822/).
+9. [Про ретраи](https://habr.com/ru/companies/yandex/articles/762678/).
