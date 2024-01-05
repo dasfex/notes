@@ -105,7 +105,10 @@ https://www.youtube.com/watch?v=gOdcNko2xc8).
 35. CppCon 2023. Andrei Alexandrescu.
 [Robots Are After Your Job: Exploring Generative AI for C++](
 https://www.youtube.com/watch?v=J48YTbdJNNc&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72&index=5) (about binary search and ChatGPT).
-36. Meeting C++ 2023. Björn Fahller.
+36. CppCon 2023. Danila Kutenin.
+[A Long Journey of Changing std::sort Implementation at Scale](
+https://www.youtube.com/watch?v=cMRyQkrjEeI).
+37. Meeting C++ 2023. Björn Fahller.
 [My favourite memory leak](
 https://www.youtube.com/watch?v=LKKmPAQFNgE).
 
