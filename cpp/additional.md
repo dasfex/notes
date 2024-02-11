@@ -102,13 +102,16 @@ https://www.youtube.com/watch?v=YXIVw6QFgAI).
 34. CppCon 2022. Daisy Hollman.
 [Cute C++ Tricks, Part 2.5 of N](
 https://www.youtube.com/watch?v=gOdcNko2xc8).
-35. CppCon 2023. Andrei Alexandrescu.
+35. CppCon 2022. David Stone.
+[Lightning Talk: How to Win at Coding Interviews](
+https://www.youtube.com/watch?v=y872bCqQ_P0&list=PLHTh1InhhwT6U_8ehqxpB7-O1KF_5WwC4&index=2).
+36. CppCon 2023. Andrei Alexandrescu.
 [Robots Are After Your Job: Exploring Generative AI for C++](
 https://www.youtube.com/watch?v=J48YTbdJNNc&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72&index=5) (about binary search and ChatGPT).
-36. CppCon 2023. Danila Kutenin.
+37. CppCon 2023. Danila Kutenin.
 [A Long Journey of Changing std::sort Implementation at Scale](
 https://www.youtube.com/watch?v=cMRyQkrjEeI).
-37. Meeting C++ 2023. Björn Fahller.
+38. Meeting C++ 2023. Björn Fahller.
 [My favourite memory leak](
 https://www.youtube.com/watch?v=LKKmPAQFNgE).
 
