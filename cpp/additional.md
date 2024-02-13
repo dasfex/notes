@@ -58,62 +58,64 @@ https://www.youtube.com/watch?v=_qzMpk-22cc).
 19. C++ Russia 2019. Timur Doumler.
 [Initialisation in modern C++](
 https://www.youtube.com/watch?v=2jJumNzcp6Y).
-20. Олег Фатхиев. 
+20. CppCon 2019. Marshall Clow.
+[std::midpoint? How Hard Could it Be?](https://www.youtube.com/watch?v=sBtAGxBh-XI).
+21. Олег Фатхиев. 
 [Эволюция метапрограммирования: как правильно работать со списками типов](
 https://www.youtube.com/watch?v=ZUmc45Njs9U).
-21. Михаил Матросов.
+22. Михаил Матросов.
 [Спецификаторы, квалификаторы и шаблоны](
 https://www.youtube.com/watch?v=G_jcBrrYPAs).
-22. Антон Полухин.
+23. Антон Полухин.
 [Ускорение LRU-cache](
 https://www.youtube.com/watch?v=60XhYzkXu1M).
-23. Михаил Матросов.
+24. Михаил Матросов.
 [Как объявить константу в C++?](
 https://www.youtube.com/watch?v=GPAGiXNVED4).
-24. Сергей Фёдоров.
+25. Сергей Фёдоров.
 [Шаблоны C++ и базы данных](https://www.youtube.com/watch?v=7qCtCXxpgfw).
-25. C++ Zero Cost Conf 2021. Timur Doumler. 
+26. C++ Zero Cost Conf 2021. Timur Doumler. 
 [Использование стандартной библиотеки С++ для обработки сигналов в real-time](
 https://www.youtube.com/watch?v=8GlwkWxf3hk&t=3496s).
-26. CppCon 2021. Jody Hagins. 
+27. CppCon 2021. Jody Hagins. 
 [Template Metaprogramming: Practical Application](
 https://www.youtube.com/watch?v=4YC6_77-iEY).
-27. CppCon 2021. Jason Turner.
+28. CppCon 2021. Jason Turner.
 [Your New Mental Model of constexpr](
 https://www.youtube.com/watch?v=MdrfPSUtMVM).
-28. CppCon 2021. Andrei Alexandrescu.
+29. CppCon 2021. Andrei Alexandrescu.
 [Embracing (and also Destroying) Variant Types Safely](
 https://www.youtube.com/watch?v=va9I2qivBOA).
-29. CppCon 2021. Daisy Hollman.
+30. CppCon 2021. Daisy Hollman.
 [Why You Should Write Code That You Should Never Write](
 https://www.youtube.com/watch?v=15etE6WcvBY).
-30. Highload++ Foundation 2022. Никита Старичков.
+31. Highload++ Foundation 2022. Никита Старичков.
 [Как мы устроили переезд 10+млн строк С++ кода на новый стандарт](
 https://www.youtube.com/watch?v=R_HdlLuGk40).
-31. CppCon 2022. Herb Sutter. 
+32. CppCon 2022. Herb Sutter. 
 [Can C++ be 10x Simpler & Safer?](
 https://www.youtube.com/watch?v=ELeZAKCN4tY) (about cpp2).
-32. CppCon 2022. Timur Doumler.
+33. CppCon 2022. Timur Doumler.
 [C++ Lambda Idioms](
 https://www.youtube.com/watch?v=xBAduq0RGes).
-33. CppCon 2022. Andrei Alexandrescu.
+34. CppCon 2022. Andrei Alexandrescu.
 [Reflection in C++ - Past, Present, and Hopeful Future](
 https://www.youtube.com/watch?v=YXIVw6QFgAI).
-34. CppCon 2022. Daisy Hollman.
+35. CppCon 2022. Daisy Hollman.
 [Cute C++ Tricks, Part 2.5 of N](
 https://www.youtube.com/watch?v=gOdcNko2xc8).
-35. CppCon 2022. David Stone.
+36. CppCon 2022. David Stone.
 [Lightning Talk: How to Win at Coding Interviews](
 https://www.youtube.com/watch?v=y872bCqQ_P0&list=PLHTh1InhhwT6U_8ehqxpB7-O1KF_5WwC4&index=2).
-36. CppCon 2022. Tomer Vromen.
+37. CppCon 2022. Tomer Vromen.
 [Lightning Talk: Finding the Average of 2 Integers](https://www.youtube.com/watch?v=rUt9xcPyKEY&list=PLHTh1InhhwT6U_8ehqxpB7-O1KF_5WwC4&index=9).
-37. CppCon 2023. Andrei Alexandrescu.
+38. CppCon 2023. Andrei Alexandrescu.
 [Robots Are After Your Job: Exploring Generative AI for C++](
 https://www.youtube.com/watch?v=J48YTbdJNNc&list=PLHTh1InhhwT7gQEuYznhhvAYTel0qzl72&index=5) (about binary search and ChatGPT).
-38. CppCon 2023. Danila Kutenin.
+39. CppCon 2023. Danila Kutenin.
 [A Long Journey of Changing std::sort Implementation at Scale](
 https://www.youtube.com/watch?v=cMRyQkrjEeI).
-39. Meeting C++ 2023. Björn Fahller.
+40. Meeting C++ 2023. Björn Fahller.
 [My favourite memory leak](
 https://www.youtube.com/watch?v=LKKmPAQFNgE).
 
