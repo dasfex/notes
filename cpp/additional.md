@@ -118,6 +118,9 @@ https://www.youtube.com/watch?v=cMRyQkrjEeI).
 40. Meeting C++ 2023. Björn Fahller.
 [My favourite memory leak](
 https://www.youtube.com/watch?v=LKKmPAQFNgE).
+41. C++ Russia 2023. Константин Владимиров.
+[Семантические процессы в C++](
+https://www.youtube.com/watch?v=lc3UkIZ4zOY).
 
 ### Дополнительные источники
 0. Очень базовый 
