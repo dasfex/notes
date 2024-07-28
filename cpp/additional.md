@@ -121,6 +121,8 @@ https://www.youtube.com/watch?v=LKKmPAQFNgE).
 41. C++ Russia 2023. Константин Владимиров.
 [Семантические процессы в C++](
 https://www.youtube.com/watch?v=lc3UkIZ4zOY).
+42. C++ Zero Cost Conf 2024. Ваня Ходор (да, я).
+[NRVO: что такое и как не сломать?](https://www.youtube.com/live/DgS9p40-Xfw?si=BnuFJY_gkt1dK43z&t=13190).
 
 ### Дополнительные источники
 0. Очень базовый 
