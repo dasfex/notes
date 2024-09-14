@@ -65,3 +65,4 @@ https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-de
 8. [Про succinct data structures](https://habr.com/ru/companies/vk/articles/479822/).
 9. [Architecture antipatterns](https://architecture-antipatterns.tech/?ref=thisnotes).
 10. [Про ретраи](https://habr.com/ru/companies/yandex/articles/762678/).
+11. [Notes on Distributed Systems for Young Bloods](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/).
