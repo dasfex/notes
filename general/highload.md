@@ -66,3 +66,4 @@ https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-de
 9. [Architecture antipatterns](https://architecture-antipatterns.tech/?ref=thisnotes).
 10. [Про ретраи](https://habr.com/ru/companies/yandex/articles/762678/).
 11. [Notes on Distributed Systems for Young Bloods](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/).
+12. [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78).
