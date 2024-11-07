@@ -52,6 +52,9 @@ https://www.youtube.com/watch?v=0fT9uMV8tr0).
 16. Highload++ 2022. Илья Кучумов.
 [Как достать всё что угодно со всего интернета](
 https://www.youtube.com/watch?v=05jGuGT_nkY&list=PLH-XmS0lSi_ygFVuLJdoFcDRSjeGTbFvO&index=12).
+17. Highload++ 2023. Андрей Ривкин.
+[Как выйти в опенсорс и не сойти с ума: опыт YTsaurus](
+https://www.youtube.com/watch?v=Z7kv8tYVHx0).
 
 ### Статьи
 1. [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](
