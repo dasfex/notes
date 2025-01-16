@@ -127,6 +127,8 @@ https://www.youtube.com/watch?v=lc3UkIZ4zOY).
 [Forbidden C++](https://www.youtube.com/watch?v=6Ux-YaStOtM).
 44. Cpp on Sea 2023. JF Bastien.
 [\*(char\*)0 = 0;](https://www.youtube.com/watch?v=dFIqNZ8VbRY).
+45. С++ Russia 2024. Антон Полухин.
+[Грязные C++ трюки из userver и Boost](https://www.youtube.com/watch?v=-pE3T6wsIrM).
 46. C++ Zero Cost Conf 2024. Ваня Ходор (да, я).
 [NRVO: что такое и как не сломать?](https://www.youtube.com/live/DgS9p40-Xfw?si=BnuFJY_gkt1dK43z&t=13190).
 
