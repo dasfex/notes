@@ -61,6 +61,9 @@ https://www.youtube.com/watch?v=wNpzD_1SRn8).
 19. Highload++ 2023. Александр Кирсанов.
 [Математический хайлоад: большие, очень большие и немыслимо большие числа](
 https://www.youtube.com/watch?v=QQoZrqdvh6g).
+20. Saint Highload++ 2024. Андрей Бородин.
+[Про UUID v.7](
+https://www.youtube.com/watch?v=z4EvhdwHqgc).
 
 ### Статьи
 1. [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](
