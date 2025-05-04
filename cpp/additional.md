@@ -130,7 +130,9 @@ https://www.youtube.com/watch?v=lc3UkIZ4zOY).
 45. С++ Russia 2024. Антон Полухин.
 [Грязные C++ трюки из userver и Boost](https://www.youtube.com/watch?v=-pE3T6wsIrM).
 46. C++ Zero Cost Conf 2024. Ваня Ходор (да, я).
-[NRVO: что такое и как не сломать?](https://www.youtube.com/live/DgS9p40-Xfw?si=BnuFJY_gkt1dK43z&t=13190).
+[NRVO: что такое и как не сломать?](https://www.youtube.com/live/DgS9p40-Xfw?si=BnuFJY_gkt1dK43z&t=13190)
+47. CppCon 2024. Samuel Privett.
+[Why Is My C++ Build So Slow? Compilation Profiling and Visualization](https://www.youtube.com/live/Oih3K-3eZ4Y).
 
 ### Дополнительные источники
 0. Очень базовый 
