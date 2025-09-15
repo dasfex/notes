@@ -80,3 +80,4 @@ https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-de
 11. [Notes on Distributed Systems for Young Bloods](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/).
 12. [Things I Wished More Developers Knew About Databases](https://rakyll.medium.com/things-i-wished-more-developers-knew-about-databases-2d0178464f78).
 13. [Examples of Great URL Design](https://blog.jim-nielsen.com/2023/examples-of-great-urls/).
+14. [A Quick(ish) Introduction to Tuning Postgres](https://byteofdev.com/posts/tuning-postgres-intro/).
